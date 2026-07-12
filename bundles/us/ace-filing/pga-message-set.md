@@ -40,9 +40,17 @@ by entry type and condition per the **flag enforcement matrix**:
 - **[Production table](/sources/pga-flag-enforcement-table.md)** (2021-12-15
   edition, XLSX)
 - **[Draft update](/sources/pga-flag-enforcement-table-draft-2026.md)**
-  (2026-04-27) — **scheduled for production 2026-07-08**, the same
-  deployment that turns on [CPSC eFiling](/ace-filing/cpsc-efiling.md).
-  Verify enforcement behavior against the current table after that date.
+  (2026-04-27, reinserting footnote #4 per CSMS # 68510400) — **deployed to
+  production 2026-07-08**, the same deployment that turned on
+  [CPSC eFiling](/ace-filing/cpsc-efiling.md) and added CPSC flag enforcement.
+  Verify enforcement behavior against the current table on CBP.gov.
+
+The message set and its tables are **living documents**; recent revisions
+(mid-2026): PG60 qualifier codes **LAT/LON** (PG19) and a new PG30 lab/testing
+status **N** (CSMS # 68510144); the CPSC **CP4** component-part qualifier
+(CSMS # 69166973); and a quarterly **PGA Error Code Dictionary** refresh
+adding PHI/PHJ/PHK and DEA/FDA program codes (CSMS # 68770001). Re-verify
+record layouts against the current chapter before relying on a specific field.
 
 # Corrections, Prior Notice, and Status Flow
 
@@ -69,3 +77,5 @@ by entry type and condition per the **flag enforcement matrix**:
 [10] [PGA Status Notification Codes](/sources/catair-pga-status-notification-codes.md)
 [11] [Appendix V — Government Agency Codes](/sources/catair-appendix-v-agency-codes.md)
 [12] [Appendix R — Intended Use Codes](/sources/catair-appendix-r-intended-use-codes.md)
+[13] [CSMS # 68510144 — PG60 LAT/LON, PG30 status N](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/41561c0)
+[14] [CSMS # 68770001 — PGA Error Code Dictionary quarterly update](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/41958d1)

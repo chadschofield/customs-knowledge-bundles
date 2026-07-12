@@ -37,8 +37,22 @@ brokers file against it, and [EO 14411](/enforcement/eo-14411-enforcement.md)
 directs CBP to harden this registry with vetting and beneficial-ownership
 disclosure.
 
+# IOR Deactivation Is Now Active (2026)
+
+Acting under EO 14411, CBP has begun **deactivating IOR numbers** that have
+not filed entry for **one or more years** and have no outstanding post-entry
+transactions (CSMS # 69056621). A deactivated IOR (status "20 – Inactive")
+cannot be used to file; attempting entry triggers **cargo release reject 333**
+and **entry summary error 875** ("IMPORTER INACTIVE FOR ENTRY PURPOSES") —
+see [Entry Summary Filing](/ace-filing/entry-summary-filing.md). Reactivation:
+a broker submits an ABI **Transaction Processing (TP) message, Action Code A**
+(status 20 → 10) with all mandatory 5106 elements, or files a revised CBP Form
+5106 to a Center for manual reactivation. Dormant-account sellers should
+reactivate **before** a shipment is in motion to avoid release delays.
+
 # Citations
 
 [1] [Customs Directive 3530-002A — Right to Make Entry](/sources/customs-directive-3530-002a.md)
 [2] [General notice — Entry Type 13 test (FR 2026-12668)](/sources/notice-entry-type-13.md)
 [3] [EO 14411 — Strengthening Customs Enforcement](/sources/eo-14411.md)
+[4] [CSMS # 69056621 — reactivating a deactivated IOR in ACE](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/41db86d)

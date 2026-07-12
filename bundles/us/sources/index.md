@@ -23,6 +23,11 @@ live in git history and [source-state.json](source-state.json).
 # CSMS Announcements
 
 * [CBP Global Guidance for International Mail + IMDW Template](cbp-global-guidance-international-mail.md) - CSMS # 69183472 (2026-07-08): operational guidance and the official worksheet for the postal informal entry process effective 2026-07-24.
+* [Section 232 Metals Guidance + HTS Lists (Proclamation 11021)](csms-section-232-metals.md) - CSMS # 68253075 / # 68554727: the 10–50% aluminum/steel/copper duties effective 2026-04-06, with covered-HTS lists.
+
+Other operative CSMS messages are cited directly in the concepts they
+support (see [Regulatory Watch](/regulatory-watch.md)); only messages whose
+attachments or standalone guidance are archived locally get a stub here.
 
 # ACE ABI CATAIR — Chapters
 

@@ -50,6 +50,15 @@ notices and CBP CSMS messages for what changed; the
 [current tariff-action context](/tariff/tariff-actions-2025-2026.md) makes
 revisions unusually frequent.
 
+**How changes reach ACE — Harmonized System Updates (HSUs).** CBP loads tariff
+and ABI record changes into ACE as numbered **HSUs**, announced by CSMS
+(2026 ran HSU 2607–2614 across April–July, carrying Section 232 metals, the
+Section 301 Large Civil Aircraft lines, USDA agricultural license flags, the
+Taiwan Section 232 modifications, and the Spring 2026 §484(f) statistical
+update). HSUs are the ACE-side mirror of HTS revisions; the bundle's
+`hts-current.json` weekly refresh absorbs the resulting record changes, so the
+individual HSU notices are operational plumbing rather than separate knowledge.
+
 # Machine-Readable Access (verified endpoints)
 
 | Endpoint | Returns |

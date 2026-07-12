@@ -42,13 +42,20 @@ announces the cutover; both revisions are retained locally for diffing.
   response.
 - **[ACE Error Dictionary — Entry Summary, v49](/sources/catair-entry-summary-error-dictionary.md)**
   (2026-06-25) — ~1,000 condition codes with explanations; what a reject
-  actually means. Rev 49 added error **876** (Section 232 auto-parts duty HTS
-  filed without its paired non-duty HTS — the reject behind the rev 108
-  declaration code above). The
-  **[draft v50](/sources/catair-entry-summary-error-dictionary-v50-draft.md)**
+  actually means. Recent additions tracked through CSMS: **864 – PSC NOT
+  ALLOWED – REFUND REQUESTED** (V44, blocks a PSC while an
+  [IEEPA/CAPE refund](/tariff/ieepa-refunds-cape.md) is in process);
+  **F865 – HTS NOT ALLOWED FOR IMPORTER** (V46); **F60D – LIC/CERT/PERM FOR
+  HTS MISSING** (V48, USDA agricultural license type 14 on sugar/dairy quota
+  HTS); and **876** (V49, Section 232 auto-parts duty HTS filed without its
+  paired non-duty HTS — the reject behind the rev 108 declaration code above).
+  The **[draft v50](/sources/catair-entry-summary-error-dictionary-v50-draft.md)**
   (deploys 2026-07-14) adds error **875 – IMPORTER INACTIVE FOR ENTRY
   PURPOSES**, the entry-summary counterpart of
-  [cargo release reject 333](/ace-filing/cargo-release.md).
+  [cargo release reject 333](/ace-filing/cargo-release.md) (both enforce the
+  [EO 14411 IOR deactivation](/entry/right-to-make-entry.md)).
+- **Entry Summary Query (v26)** returns **Liquidation Reason Code 36 ("CAPE")**
+  on entries refunded through the [CAPE tool](/tariff/ieepa-refunds-cape.md).
 - **[Appendix H — Census Warning Messages and Override Codes](/sources/catair-appendix-h-census-overrides.md)**
   (2008 edition, still posted) — trade-statistics validations fire warnings
   that must be resolved or overridden with the codes listed there.

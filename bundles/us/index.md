@@ -44,7 +44,8 @@ Register before relying on them.
 # Tariff
 
 * [Harmonized Tariff Schedule (HTS)](tariff/hts.md) - Structure, revision cadence, machine-readable access, and why 10-digit classification is now unavoidable.
-* [Tariff Actions 2025–2026](tariff/tariff-actions-2025-2026.md) - IEEPA tariffs struck down, the Section 122 surcharge, and the expected shift to Section 301/232.
+* [Tariff Actions 2025–2026](tariff/tariff-actions-2025-2026.md) - IEEPA tariffs struck down, the Section 122 surcharge, and the live Section 232 metals duties.
+* [IEEPA Duty Refunds & the CAPE Tool](tariff/ieepa-refunds-cape.md) - Claiming refunds of the invalidated IEEPA duties through the ACE Portal.
 
 # Valuation
 
@@ -53,6 +54,7 @@ Register before relying on them.
 # Enforcement
 
 * [EO 14411 Customs Enforcement Overhaul](enforcement/eo-14411-enforcement.md) - Foreign-IOR restrictions, penalty floors, disclosure mandates, and implementation deadlines.
+* [Forced Labor Enforcement](enforcement/forced-labor.md) - 19 U.S.C. 1307, UFLPA, CAATSA, Withhold Release Orders, and CBP's 2026 operational guidance.
 
 # Regulations
 

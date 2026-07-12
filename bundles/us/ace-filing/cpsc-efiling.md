@@ -1,9 +1,9 @@
 ---
 type: Regulatory Change
-title: CPSC eFiling — Mandatory 2026-07-08
-description: CPSC certificate data (eFiling) becomes enforced in ACE production on 2026-07-08 — what must be filed via the PGA Message Set, disclaimers, and registration.
-tags: [cpsc, efiling, pga, certificates, consumer-products, deadline]
-timestamp: 2026-07-03T23:59:00Z
+title: CPSC eFiling — Live 2026-07-08
+description: CPSC certificate data (eFiling) went live in ACE production on 2026-07-08 — what must be filed via the PGA Message Set, disclaimers, registration, and CPSC's advisory-only (no-reject) stance.
+tags: [cpsc, efiling, pga, certificates, consumer-products]
+timestamp: 2026-07-12T20:00:00Z
 ---
 
 **CPSC eFiling** requires importers of consumer products regulated by the
@@ -13,14 +13,21 @@ electronically** with the entry, through the
 records — full message set or a reference to a certificate registered in
 CPSC's **Product Registry**).
 
-# Status at the Time of Writing (2026-07-03)
+# Status: Live in Production (since 2026-07-08)
 
-CBP's CATAIR page lists **CPSC eFiling (IG v2.5) for production deployment
-2026-07-08**, alongside the matching
-[draft PGA flag enforcement table](/sources/pga-flag-enforcement-table-draft-2026.md)
-— i.e. CPSC tariff-flag enforcement and eFiling go live together, **five days
-after this bundle's as-of date**. Filers must be registered (eFiling
-self-registration is open) and able to transmit or disclaim per the guide.
+CPSC's PGA Message Set (IG v2.5) **deployed to ACE production on 2026-07-08**
+(CERT since 2026-04-15), alongside the CPSC flags in the
+[PGA flag enforcement table](/sources/pga-flag-enforcement-table-draft-2026.md).
+
+**Critical operational nuance — CPSC does not reject.** Unlike most PGAs,
+CPSC has chosen **not** to require CBP to reject entries for missing or
+incomplete message-set data (CSMS # 69177694, 2026-07-08). Filers are
+permitted by CPSC regulation to send **no** CPSC message even on an HTS code
+flagged **CP1/CP2**; software should treat CPSC flags as **advisory**, not
+blocking. This does not relieve the underlying certificate-of-compliance
+obligation — it means the ACE tariff flag won't stop release on its own.
+A dedicated **CP4** qualifier (component-part description) was added to the
+PG60 record for CPSC (CSMS # 69166973).
 
 # Why This Bites Parcel Traffic
 
@@ -48,3 +55,5 @@ them to CPSC tariff flags. The IG's own history tracks this shift: **v2.3
 [2] [CPSC eFiling Implementation Guide v2.3 (superseded)](/sources/catair-cpsc-efiling-ig-v2.3.md)
 [3] [PGA Flag Enforcement table — draft deploying 2026-07-08](/sources/pga-flag-enforcement-table-draft-2026.md)
 [4] [CBP CATAIR page — deployment schedule](https://www.cbp.gov/trade/ace/catair)
+[5] [CSMS # 69177694 — CPSC advisory-only (no reject) clarification](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/41f915e)
+[6] [CSMS # 69166973 — CP4 qualifier added for CPSC](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/41f677d)

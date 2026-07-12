@@ -40,6 +40,18 @@ arrives via rulemakings to watch for.
 - **"Good standing" rule**: importers found to have imported fentanyl,
   nitazenes, or precursor chemicals are barred from importing.
 
+# Already in Effect
+
+- **IOR deactivation (2026):** CBP is already deactivating IOR numbers unused
+  for a year or more with no open post-entry transactions (CSMS # 69056621) —
+  the enforcement clean-up ahead of the registry overhaul. Reactivation
+  process and the reject codes it triggers are in
+  [Right to Make Entry](/entry/right-to-make-entry.md).
+- **Forced labor:** CBP's consolidated
+  [forced-labor enforcement guidance](/enforcement/forced-labor.md)
+  (19 U.S.C. 1307 / UFLPA / CAATSA) operationalizes the supply-chain
+  diligence this order presses on importers.
+
 # Practical Reading for Parcel Logistics
 
 - Foreign merchant-of-record models that self-file informal entries stop
