@@ -2,6 +2,8 @@
 
 ## 2026-07-12
 
+* **Update**: Auto-refreshed the eCFR Title 19 XML to point-in-time 2026-07-09 (latest amendment 2026-06-24).
+
 * **Creation**: Built the CSMS ingestion pipeline — `scripts/check_csms.py` polls the self-hosted email→RSS feed weekly, filters titles via `scripts/csms-filters.json` (maintenance/CERT/webinar noise dropped), downloads attachments, and queues survivors privately for triage. Backfilled 50 messages (2026-04 → 2026-07): 2 dropped, 48 queued.
 * **Creation**: Added [Regulatory Watch](/regulatory-watch.md) — a rolling, newest-first record of operative CSMS/regulatory announcements, distinct from this log (world changes vs bundle changes).
 * **Creation**: First CSMS triage — archived [CBP Global Guidance for International Mail + the official IMDW template](/sources/cbp-global-guidance-international-mail.md) (CSMS # 69183472, 2026-07-08) and cited it from [Postal Informal Entry (IMDW)](/entry/postal-informal-entry-imdw.md); ~47 backfill messages remain queued for triage.

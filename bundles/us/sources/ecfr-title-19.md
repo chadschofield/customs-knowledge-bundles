@@ -4,13 +4,13 @@ title: eCFR Title 19 — Customs Duties (full text XML)
 description: Complete point-in-time XML of 19 CFR from the eCFR Versioner API, auto-refreshed weekly — the Point-in-time line below and source-state.json carry the current as-of date.
 resource: https://www.ecfr.gov/current/title-19
 tags: [source, regulations, ecfr, title-19, auto-refreshed]
-timestamp: 2026-07-03T19:00:00Z
+timestamp: 2026-07-12T23:25:16Z
 ---
 
 Complete Title 19 ("Customs Duties") as one XML document from the eCFR
 Versioner API (`https://www.ecfr.gov/api/versioner/v1/full/{date}/title-19.xml`).
 
-**Point-in-time:** 2026-07-01 (latest amendment 2026-06-24; downloaded 2026-07-03)
+**Point-in-time:** 2026-07-09 (latest amendment 2026-06-24; downloaded 2026-07-12)
 
 The line above, the frontmatter timestamp, [source-state.json](source-state.json),
 and the [bundle log](/log.md) are maintained by `scripts/update_sources.py`
