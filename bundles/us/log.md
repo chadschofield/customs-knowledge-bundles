@@ -1,5 +1,11 @@
 # US Bundle Update Log
 
+## 2026-07-12
+
+* **Creation**: Built the CSMS ingestion pipeline — `scripts/check_csms.py` polls the self-hosted email→RSS feed weekly, filters titles via `scripts/csms-filters.json` (maintenance/CERT/webinar noise dropped), downloads attachments, and queues survivors privately for triage. Backfilled 50 messages (2026-04 → 2026-07): 2 dropped, 48 queued.
+* **Creation**: Added [Regulatory Watch](/regulatory-watch.md) — a rolling, newest-first record of operative CSMS/regulatory announcements, distinct from this log (world changes vs bundle changes).
+* **Creation**: First CSMS triage — archived [CBP Global Guidance for International Mail + the official IMDW template](/sources/cbp-global-guidance-international-mail.md) (CSMS # 69183472, 2026-07-08) and cited it from [Postal Informal Entry (IMDW)](/entry/postal-informal-entry-imdw.md); ~47 backfill messages remain queued for triage.
+
 ## 2026-07-03
 
 * **Initialization**: Created the US customs bundle — concepts covering entry pathways, the de minimis suspension, postal informal entry (IMDW), the Entry Type 13 test, entry summary in ACE, right to make entry, bonds, HTS, 2025–2026 tariff actions, customs valuation, EO 14411 enforcement, and 19 CFR.

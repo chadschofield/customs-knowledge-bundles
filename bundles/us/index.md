@@ -6,7 +6,7 @@ okf_version: "0.1"
 
 United States customs (CBP) regulations and operational knowledge for
 cross-border ecommerce and parcel logistics. Knowledge is current as of
-**2026-07-03**; the 2025–2026 de minimis suspension and its successor entry
+**2026-07-12**; the 2025–2026 de minimis suspension and its successor entry
 processes are interim rules that change quickly — check
 [log.md](log.md) for update history and verify dates against the Federal
 Register before relying on them.
@@ -14,6 +14,7 @@ Register before relying on them.
 # Start Here
 
 * [US Import System Overview](overview.md) - Orientation: agencies, entry lifecycle, systems, and the 2025–2026 low-value entry upheaval.
+* [Regulatory Watch](regulatory-watch.md) - Recent operative CBP/CSMS announcements affecting this bundle, newest first.
 
 # Entry
 

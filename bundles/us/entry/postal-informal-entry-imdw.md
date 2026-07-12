@@ -3,7 +3,7 @@ type: Process
 title: Postal Informal Entry (IMDW)
 description: The mandatory postal informal entry process effective 2026-07-24 — broker-filed 14-field International Mail Duty Worksheet, bonds, monthly email filing, and Pay.gov payment.
 tags: [postal, mail, imdw, informal-entry, process]
-timestamp: 2026-07-03T19:00:00Z
+timestamp: 2026-07-12T19:30:00Z
 ---
 
 From **2026-07-24**, international mail shipments valued at **$2,500 or less**
@@ -63,7 +63,10 @@ CBP may require formal entry of **any** mail shipment regardless of value.
   **licensed US customs broker** (filer code validates the license). Foreign
   postal operators, USPS, forwarders, and carriers must engage a broker — see
   [Right to Make Entry](/entry/right-to-make-entry.md).
-- **Where**: email the Excel IMDW to **CBPDM@cbp.dhs.gov**.
+- **Where**: email the Excel IMDW to **CBPDM@cbp.dhs.gov** — use the
+  **official template and CBP's operational guidance**, both in this bundle:
+  [CBP Global Guidance for International Mail + IMDW template](/sources/cbp-global-guidance-international-mail.md)
+  (CSMS # 69183472, 2026-07-08).
 - **When**: by the **7th day of the month following the month of arrival**
   (arrived 2026-08-15 → file and pay by 2026-09-07).
 - **Payment**: **Pay.gov**, same 7th-of-month deadline.
@@ -80,3 +83,4 @@ CBP may require formal entry of **any** mail shipment regardless of value.
 
 [1] [IFR — mail de minimis suspension & postal informal entry (FR 2026-12669)](/sources/ifr-mail-de-minimis.md)
 [2] [EO 14324 — original interim postal process](/sources/eo-14324.md)
+[3] [CBP Global Guidance for International Mail + official IMDW template (CSMS # 69183472)](/sources/cbp-global-guidance-international-mail.md)

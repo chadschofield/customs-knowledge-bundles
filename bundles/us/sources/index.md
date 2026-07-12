@@ -20,6 +20,10 @@ live in git history and [source-state.json](source-state.json).
 * [ACE Entry Summary Business Rules & Process v11.0](ace-esbp-v11.md) - Superseded edition, retained for diffing.
 * [ACE Entry Summary Instructions v2.4a](ace-entry-summary-instructions.md) - Field-level 7501-in-ACE guidance, 2016.
 
+# CSMS Announcements
+
+* [CBP Global Guidance for International Mail + IMDW Template](cbp-global-guidance-international-mail.md) - CSMS # 69183472 (2026-07-08): operational guidance and the official worksheet for the postal informal entry process effective 2026-07-24.
+
 # ACE ABI CATAIR — Chapters
 
 * [Cargo Release (SE), v40](catair-cargo-release-se.md) - Release record formats incl. the combined ISF + release dataset, 2025-07-01.
