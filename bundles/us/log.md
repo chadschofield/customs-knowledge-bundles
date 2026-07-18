@@ -1,5 +1,10 @@
 # US Bundle Update Log
 
+## 2026-07-18
+
+* **Triage**: Worked the 7-message CSMS queue from the repaired feed (2026-07-13 → 07-17). IOR auto-deactivation reconciled to its actual deployment — "Inactive for Entry Purposes" live **2026-07-16** (366-day rule, 19 CFR 24.5(e); non-entry functions unaffected) — in [Right to Make Entry](/entry/right-to-make-entry.md) and [EO 14411](/enforcement/eo-14411-enforcement.md). [Entry Summary Filing](/ace-filing/entry-summary-filing.md) gains the **copper smelt & cast reporting** requirement (effective 2026-07-30) and the **F866/F861** auto-parts offset-license validations (2026-07-18); [CPSC eFiling](/ace-filing/cpsc-efiling.md) notes its CP1/CP2 flags loaded via HSU 2615. Dismissed: FWS shellfish flag relaxation (out of scope), deployment-schedule pointer (link added to [ABI & CATAIR overview](/ace-filing/abi-catair-overview.md) instead).
+* **Update**: Rolled the entry summary **ACE Error Dictionary to v51** (2026-07-17, fetched from cbp.gov) — v50 marked deployed 2026-07-16 and superseded; version history table added to the [source stub](/sources/catair-entry-summary-error-dictionary.md).
+
 ## 2026-07-12
 
 * **Update**: Auto-refreshed the eCFR Title 19 XML to point-in-time 2026-07-09 (latest amendment 2026-06-24).

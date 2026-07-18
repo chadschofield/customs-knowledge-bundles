@@ -27,7 +27,9 @@ flagged **CP1/CP2**; software should treat CPSC flags as **advisory**, not
 blocking. This does not relieve the underlying certificate-of-compliance
 obligation — it means the ACE tariff flag won't stop release on its own.
 A dedicated **CP4** qualifier (component-part description) was added to the
-PG60 record for CPSC (CSMS # 69166973).
+PG60 record for CPSC (CSMS # 69166973), and the **CP1/CP2 tariff flags** were
+loaded into ACE via Harmonized System Update 2615 (created 2026-07-10,
+CSMS # 69239974).
 
 # Why This Bites Parcel Traffic
 

@@ -3,7 +3,7 @@ type: Process
 title: Entry Summary Filing (AE/AX)
 description: The technical side of filing CBP Form 7501 data — AE/AX record formats, the rev 108/109 version split, UC status notifications, and census warning overrides.
 tags: [entry-summary, ae, ax, abi, catair, 7501, process]
-timestamp: 2026-07-03T23:59:00Z
+timestamp: 2026-07-18T20:15:00Z
 ---
 
 The **Entry Summary Create/Update (AE/AX)** CATAIR chapter defines the record
@@ -29,7 +29,14 @@ announces the cutover; both revisions are retained locally for diffing.
   Parts Offset License**) — conditionally required on applicable auto-parts
   HTS lines; see [Tariff Actions 2025–2026](/tariff/tariff-actions-2025-2026.md)
   for the Section 232 context. Deployed to production 2025-09-11 per the
-  chapter's change table.
+  chapter's change table. From **2026-07-18** the license is actively
+  validated (errors F866/F861 below).
+- **Copper smelt & cast reporting** (Proclamation 11021, CSMS # 69252300):
+  effective **2026-07-30** (CERT 2026-07-16), entry summary lines for copper
+  articles under HTS **8544.42.10 / .20 / .90 and 8544.49.10** (insulated
+  wire and cable) from all non-US origins must report the **primary country
+  of smelt and country of cast** (secondary smelt optional; **"OTH"**
+  permitted when unknown).
 - **Rev 106–107** (2025) carried the FY26 customs user-fee adjustments and
   Global Business Identifier "Test" renaming.
 
@@ -40,20 +47,22 @@ announces the cutover; both revisions are retained locally for diffing.
   conditions change (additional information required, rejections, CBP review
   statuses). Filers need to consume these, not just the synchronous AX
   response.
-- **[ACE Error Dictionary — Entry Summary, v49](/sources/catair-entry-summary-error-dictionary.md)**
-  (2026-06-25) — ~1,000 condition codes with explanations; what a reject
+- **[ACE Error Dictionary — Entry Summary, v51 current](/sources/catair-entry-summary-error-dictionary.md)**
+  (2026-07-17) — ~1,000 condition codes with explanations; what a reject
   actually means. Recent additions tracked through CSMS: **864 – PSC NOT
   ALLOWED – REFUND REQUESTED** (V44, blocks a PSC while an
   [IEEPA/CAPE refund](/tariff/ieepa-refunds-cape.md) is in process);
   **F865 – HTS NOT ALLOWED FOR IMPORTER** (V46); **F60D – LIC/CERT/PERM FOR
   HTS MISSING** (V48, USDA agricultural license type 14 on sugar/dairy quota
-  HTS); and **876** (V49, Section 232 auto-parts duty HTS filed without its
-  paired non-duty HTS — the reject behind the rev 108 declaration code above).
-  The **[draft v50](/sources/catair-entry-summary-error-dictionary-v50-draft.md)**
-  (deploys 2026-07-14) adds error **875 – IMPORTER INACTIVE FOR ENTRY
-  PURPOSES**, the entry-summary counterpart of
+  HTS); **876** (V49, Section 232 auto-parts duty HTS filed without its
+  paired non-duty HTS — the reject behind the rev 108 declaration code above);
+  **F875 – IMPORTER INACTIVE FOR ENTRY PURPOSES** (v50, **live in production
+  since 2026-07-16**), the entry-summary counterpart of
   [cargo release reject 333](/ace-filing/cargo-release.md) (both enforce the
-  [EO 14411 IOR deactivation](/entry/right-to-make-entry.md)).
+  [EO 14411 IOR deactivation](/entry/right-to-make-entry.md)); and **F866 /
+  F861** (v51, enforced from **2026-07-18**) — the auto-parts offset-license
+  validations (license present → the paired Ch. 99 duty must be zero; the
+  license balance must cover the claimed offset).
 - **Entry Summary Query (v26)** returns **Liquidation Reason Code 36 ("CAPE")**
   on entries refunded through the [CAPE tool](/tariff/ieepa-refunds-cape.md).
 - **[Appendix H — Census Warning Messages and Override Codes](/sources/catair-appendix-h-census-overrides.md)**
@@ -74,5 +83,8 @@ number construction and duty computation formulas are in the
 [2] [Entry Summary Create/Update (AE/AX), rev 109 — pending](/sources/catair-entry-summary-ae-ax-rev-109.md)
 [3] [Entry Summary Status Notification (UC), v30](/sources/catair-entry-summary-status-notification-uc.md)
 [4] [Appendix H — Census Warning Override Codes](/sources/catair-appendix-h-census-overrides.md)
-[5] [ACE Error Dictionary — Entry Summary, v49](/sources/catair-entry-summary-error-dictionary.md)
-[6] [ACE Error Dictionary — Entry Summary, v50 draft](/sources/catair-entry-summary-error-dictionary-v50-draft.md)
+[5] [ACE Error Dictionary — Entry Summary, v51 current](/sources/catair-entry-summary-error-dictionary.md)
+[6] [ACE Error Dictionary — Entry Summary, v50 draft (superseded)](/sources/catair-entry-summary-error-dictionary-v50-draft.md)
+[7] [CSMS # 69268077 — F875 deployed to production 2026-07-16](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/420f26d)
+[8] [CSMS # 69271650 — F866/F861 offset-license validations, 2026-07-18](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/41e30a7)
+[9] [CSMS # 69252300 — copper smelt & cast reporting, effective 2026-07-30](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/420b4cc)

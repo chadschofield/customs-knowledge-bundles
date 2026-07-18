@@ -42,7 +42,11 @@ CATAIR documents that matter for that traffic and distills what each governs.
   revisions** with target production dates. A newer PDF being posted does not
   mean ACE accepts it yet — see the
   [rev 108 vs rev 109 situation](/ace-filing/entry-summary-filing.md) for the
-  entry summary chapter.
+  entry summary chapter. CBP also posts a notional
+  [ACE Development and Deployment Schedule](https://www.cbp.gov/document/guidance/ace-development-and-deployment-schedule),
+  refreshed periodically and announced via CSMS — target dates there slip
+  (the "Inactive for Entry Purposes" status moved 07-14 → 07-16), so treat
+  deployment CSMS messages, not the schedule, as the ground truth.
 - **Point-in-time copies:** the local files here are snapshots with "as of"
   dates in their [source stubs](/sources/index.md); CBP revises in place, so
   verify against the CATAIR page before relying on record-level details.

@@ -42,11 +42,12 @@ arrives via rulemakings to watch for.
 
 # Already in Effect
 
-- **IOR deactivation (2026):** CBP is already deactivating IOR numbers unused
-  for a year or more with no open post-entry transactions (CSMS # 69056621) —
-  the enforcement clean-up ahead of the registry overhaul. Reactivation
-  process and the reject codes it triggers are in
-  [Right to Make Entry](/entry/right-to-make-entry.md).
+- **IOR deactivation (2026):** CBP deactivates dormant IOR numbers, and since
+  **2026-07-16** ACE does it automatically — no entry filed within 366 days
+  (19 CFR 24.5(e)) flips the account to "Inactive for Entry Purposes"
+  (CSMS # 69056621, # 69241265) — the enforcement clean-up ahead of the
+  registry overhaul. Reactivation process and the reject codes it triggers
+  are in [Right to Make Entry](/entry/right-to-make-entry.md).
 - **Forced labor:** CBP's consolidated
   [forced-labor enforcement guidance](/enforcement/forced-labor.md)
   (19 U.S.C. 1307 / UFLPA / CAATSA) operationalizes the supply-chain

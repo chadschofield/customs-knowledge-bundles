@@ -3,7 +3,7 @@ type: Reference
 title: Right to Make Entry
 description: Only the owner, purchaser, or a licensed customs broker may file entry (19 U.S.C. 1484) — nominal consignees must appoint brokers, and foreign IORs face new restrictions.
 tags: [right-to-make-entry, importer-of-record, broker, section-484]
-timestamp: 2026-07-03T19:00:00Z
+timestamp: 2026-07-18T20:15:00Z
 ---
 
 Section 484 of the Tariff Act (19 U.S.C. 1484) restricts who may make entry:
@@ -39,16 +39,25 @@ disclosure.
 
 # IOR Deactivation Is Now Active (2026)
 
-Acting under EO 14411, CBP has begun **deactivating IOR numbers** that have
-not filed entry for **one or more years** and have no outstanding post-entry
-transactions (CSMS # 69056621). A deactivated IOR (status "20 – Inactive")
-cannot be used to file; attempting entry triggers **cargo release reject 333**
-and **entry summary error 875** ("IMPORTER INACTIVE FOR ENTRY PURPOSES") —
-see [Entry Summary Filing](/ace-filing/entry-summary-filing.md). Reactivation:
-a broker submits an ABI **Transaction Processing (TP) message, Action Code A**
-(status 20 → 10) with all mandatory 5106 elements, or files a revised CBP Form
-5106 to a Center for manual reactivation. Dormant-account sellers should
-reactivate **before** a shipment is in motion to avoid release delays.
+Acting under EO 14411, CBP deactivates dormant IOR numbers — and since
+**2026-07-16** ACE does it **automatically**: the "Inactive for Entry
+Purposes" status deploys to any IOR that has not filed an entry within
+**366 days** (19 CFR 24.5(e); CSMS # 69241265). Scope matters:
+
+- An inactive IOR is **ineligible to transmit ACE Cargo Release and Entry
+  Summary** — attempts reject with **cargo release 333** and **entry summary
+  F875** ("IMPORTER INACTIVE FOR ENTRY PURPOSES", live in production since
+  2026-07-16) — see [Entry Summary Filing](/ace-filing/entry-summary-filing.md).
+- **Non-entry functions are unaffected**: acting as consignee, drawback
+  claims, reconciliation, securing bonds, and ISF transmission all continue
+  to work on an inactive IOR.
+
+Reactivation: a broker submits an ABI **Transaction Processing (TP) message,
+Action Code A** (status 20 → 10) with all mandatory 5106 elements, or files a
+revised CBP Form 5106 to a Center for manual reactivation (CSMS # 69056621).
+Dormant-account sellers should reactivate **before** a shipment is in motion
+to avoid release delays — with automation live, any account quiet for a year
+should be presumed inactive until checked.
 
 # Citations
 
@@ -56,3 +65,4 @@ reactivate **before** a shipment is in motion to avoid release delays.
 [2] [General notice — Entry Type 13 test (FR 2026-12668)](/sources/notice-entry-type-13.md)
 [3] [EO 14411 — Strengthening Customs Enforcement](/sources/eo-14411.md)
 [4] [CSMS # 69056621 — reactivating a deactivated IOR in ACE](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/41db86d)
+[5] [CSMS # 69241265 — "Inactive for Entry Purposes" status live 2026-07-16](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42089b1)

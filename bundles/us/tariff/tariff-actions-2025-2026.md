@@ -40,6 +40,10 @@ classifications**, not as a flat surcharge, so 10-digit
   certain **Taiwan** aircraft/auto/wood products (Trade & Security Agreement,
   effective 2026-05-01). Covered HTS lists and filing detail:
   [Section 232 metals source](/sources/csms-section-232-metals.md).
+  Filing mechanics keep tightening: **copper smelt & cast country reporting**
+  becomes mandatory **2026-07-30** for insulated wire/cable HTS lines, and the
+  **auto-parts offset license** is actively validated from **2026-07-18** —
+  both detailed in [Entry Summary Filing](/ace-filing/entry-summary-filing.md).
 - **Section 301** (unfair trade practices) — country/product-specific lists,
   historically China-focused; Large Civil Aircraft lines refreshed in 2026
   HSUs.

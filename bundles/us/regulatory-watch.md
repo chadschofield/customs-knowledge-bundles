@@ -3,7 +3,7 @@ type: Regulatory Change
 title: Regulatory Watch
 description: Rolling record of recent operative CBP/CSMS announcements affecting this bundle — newest first; entries leave the list once fully absorbed into concepts and no longer time-critical.
 tags: [watch, csms, monitoring]
-timestamp: 2026-07-12T20:00:00Z
+timestamp: 2026-07-18T20:20:00Z
 ---
 
 Dated one-liners of recent regulatory and operational announcements — mostly
@@ -15,6 +15,25 @@ Messages are cited as `CSMS # <number>` with their public GovDelivery
 bulletin.
 
 # Watch List
+
+## 2026-07-30 — Copper smelt & cast reporting becomes mandatory
+
+Per Proclamation 11021, entry summary lines for copper articles under HTS
+8544.42.10/.20/.90 and 8544.49.10 must report primary country of smelt and
+country of cast from **2026-07-30** (CSMS # 69252300). Reflected in
+[Entry Summary Filing](/ace-filing/entry-summary-filing.md). Status:
+**upcoming** — prune after the effective date.
+
+## 2026-07-16/18 — IOR auto-deactivation live; offset-license validations live
+
+ACE now auto-deactivates IORs with no entry in 366 days ("Inactive for Entry
+Purposes", 2026-07-16; CSMS # 69241265) and rejects their filings (cargo
+release 333 / entry summary F875, error dictionary v50; CSMS # 69268077).
+The Section 232 auto-parts offset license is validated from 2026-07-18
+(F866/F861, v51; CSMS # 69271650). Reflected in
+[Right to Make Entry](/entry/right-to-make-entry.md) and
+[Entry Summary Filing](/ace-filing/entry-summary-filing.md). Status:
+**absorbed**.
 
 ## 2026-07 — CPSC eFiling live; CPSC is advisory-only
 
@@ -29,13 +48,6 @@ CBP's operational guidance and the **official IMDW template** for the postal
 informal entry process effective **2026-07-24**. Archived as a
 [source](/sources/cbp-global-guidance-international-mail.md); reflected in
 [Postal Informal Entry (IMDW)](/entry/postal-informal-entry-imdw.md).
-
-## 2026-06 — IOR deactivation underway (EO 14411)
-
-CBP is deactivating IOR numbers unused for a year+ (CSMS # 69056621); reject
-codes cargo-release 333 / entry-summary 875 enforce it. Reflected in
-[Right to Make Entry](/entry/right-to-make-entry.md) and
-[EO 14411](/enforcement/eo-14411-enforcement.md).
 
 ## 2026-06 — Forced-labor operational guidance + Jordan WROs
 
@@ -59,10 +71,10 @@ lists archived as a [source](/sources/csms-section-232-metals.md).
 
 ## Ongoing — recurring feeds folded into concepts
 
-- **Harmonized System Updates (HSU 2607–2614):** ACE tariff-record loads,
+- **Harmonized System Updates (HSU 2607–2615):** ACE tariff-record loads,
   absorbed by the [HTS](/tariff/hts.md) JSON refresh.
-- **Entry-summary error dictionary additions** (864, F865, F60D, 876; 875
-  pending): [Entry Summary Filing](/ace-filing/entry-summary-filing.md).
+- **Entry-summary error dictionary additions** (864, F865, F60D, 876, F875,
+  F866/F861 — v51 current): [Entry Summary Filing](/ace-filing/entry-summary-filing.md).
 - **PGA Message Set / flag-enforcement / error-dictionary revisions:**
   [PGA Message Set](/ace-filing/pga-message-set.md).
 
