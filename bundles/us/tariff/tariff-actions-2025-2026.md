@@ -3,14 +3,16 @@ type: Regulatory Change
 title: Tariff Actions 2025–2026
 description: IEEPA tariffs struck down (Feb 2026) and now being refunded via CAPE, the temporary 10% Section 122 surcharge expiring ~2026-07-24, and the live Section 232 metals duties (Proclamation 11021).
 tags: [tariffs, ieepa, section-122, section-301, section-232, regulatory-change]
-timestamp: 2026-07-12T20:00:00Z
+timestamp: 2026-07-23T18:15:00Z
 ---
 
-> **Volatility warning (as of 2026-07-12).** This is the fastest-moving topic
-> in the bundle. The Section 122 surcharge expires ~2026-07-24, Section 232
-> metals duties are live and still being adjusted, and IEEPA refunds are mid-
-> rollout. Verify against current Federal Register notices, CBP CSMS messages,
-> and the latest [HTS revision](/tariff/hts.md) before quoting rates.
+> **Volatility warning (as of 2026-07-23).** This is the fastest-moving topic
+> in the bundle. The Section 122 surcharge expires ~2026-07-24 (imminent),
+> Section 232 metals duties are live and still being adjusted, Section 301
+> country actions have begun (Brazil, 2026-07-22), and IEEPA refunds are
+> mid-rollout. Verify against current Federal Register notices, CBP CSMS
+> messages, and the latest [HTS revision](/tariff/hts.md) before quoting
+> rates.
 
 # How We Got Here
 
@@ -44,9 +46,13 @@ classifications**, not as a flat surcharge, so 10-digit
   becomes mandatory **2026-07-30** for insulated wire/cable HTS lines, and the
   **auto-parts offset license** is actively validated from **2026-07-18** —
   both detailed in [Entry Summary Filing](/ace-filing/entry-summary-filing.md).
-- **Section 301** (unfair trade practices) — country/product-specific lists,
-  historically China-focused; Large Civil Aircraft lines refreshed in 2026
-  HSUs.
+- **Section 301** (unfair trade practices) — **live**. USTR imposed **25% on
+  all products of Brazil** effective **2026-07-22** (91 FR 45516; heading
+  9903.05.01, exemptions 9903.05.02–.09 including an in-transit window for
+  entries through 2026-07-29) — details and the exemption HTS list in the
+  [Section 301 Brazil source](/sources/csms-section-301-brazil.md).
+  Historically China-focused lists continue; Large Civil Aircraft lines
+  refreshed in 2026 HSUs.
 - **Section 201** (safeguards) — product-specific, time-limited.
 
 These changes reach ACE through **Harmonized System Updates (HSUs)** — see
@@ -75,3 +81,4 @@ see [IEEPA Duty Refunds & the CAPE Tool](/tariff/ieepa-refunds-cape.md).
 [3] [EO 14324 — IEEPA-era postal duty methods (superseded)](/sources/eo-14324.md)
 [4] [Section 232 Metals Guidance + HTS Lists (Proclamation 11021)](/sources/csms-section-232-metals.md)
 [5] [IEEPA Duty Refunds & the CAPE Tool](/tariff/ieepa-refunds-cape.md)
+[6] [Section 301 Brazil Guidance + Exemption HTS List (CSMS # 69302472)](/sources/csms-section-301-brazil.md)

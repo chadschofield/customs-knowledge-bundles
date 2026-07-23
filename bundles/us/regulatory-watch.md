@@ -3,7 +3,7 @@ type: Regulatory Change
 title: Regulatory Watch
 description: Rolling record of recent operative CBP/CSMS announcements affecting this bundle — newest first; entries leave the list once fully absorbed into concepts and no longer time-critical.
 tags: [watch, csms, monitoring]
-timestamp: 2026-07-18T20:20:00Z
+timestamp: 2026-07-23T18:20:00Z
 ---
 
 Dated one-liners of recent regulatory and operational announcements — mostly
@@ -15,6 +15,24 @@ Messages are cited as `CSMS # <number>` with their public GovDelivery
 bulletin.
 
 # Watch List
+
+## 2026-07-22 — Section 301: 25% on products of Brazil
+
+USTR's first big Section 301 country action of the successor regime
+(91 FR 45516): 25% on all Brazil products via heading 9903.05.01, exemptions
+9903.05.02–.09 — including an **in-transit window that closes with entries on
+2026-07-29**. Reflected in
+[Tariff Actions 2025–2026](/tariff/tariff-actions-2025-2026.md); exemption
+HTS list archived as a [source](/sources/csms-section-301-brazil.md). Status:
+**absorbed**; the in-transit deadline is the time-critical part.
+
+## 2026-07-24 / 09-22 — Entry Type 13 lands in ACE (CERT, then PROD)
+
+The ET13 build (INT-057/CBP-290) deploys to Certification **2026-07-24** and
+Production **2026-09-22**, confirming the test start; draft implementation
+guides are posted (CSMS # 69289734, # 69298180). Reflected in
+[Entry Type 13 Test](/entry/entry-type-13-test.md). Status: **absorbed** —
+watch for revised IGs and the production go-live.
 
 ## 2026-07-30 — Copper smelt & cast reporting becomes mandatory
 
@@ -71,8 +89,10 @@ lists archived as a [source](/sources/csms-section-232-metals.md).
 
 ## Ongoing — recurring feeds folded into concepts
 
-- **Harmonized System Updates (HSU 2607–2615):** ACE tariff-record loads,
+- **Harmonized System Updates (HSU 2607–2616):** ACE tariff-record loads,
   absorbed by the [HTS](/tariff/hts.md) JSON refresh.
+- **Commodity quota bulletins** (cotton TRQ openings, etc.): out of scope
+  for parcel traffic; now dropped by the feed filter.
 - **Entry-summary error dictionary additions** (864, F865, F60D, 876, F875,
   F866/F861 — v51 current): [Entry Summary Filing](/ace-filing/entry-summary-filing.md).
 - **PGA Message Set / flag-enforcement / error-dictionary revisions:**
