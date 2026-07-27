@@ -1,13 +1,13 @@
 {
   "ecfr_title_19": {
-    "up_to_date_as_of": "2026-07-16",
+    "up_to_date_as_of": "2026-07-23",
     "latest_amended_on": "2026-06-24",
-    "downloaded_at": "2026-07-20T08:38:50Z"
+    "downloaded_at": "2026-07-27T09:28:56Z"
   },
   "hts": {
-    "current_release": "2026HTSRev11",
-    "title": "Revision 11 (2026)",
-    "records": 35669,
-    "downloaded_at": "2026-07-03T18:57:00Z"
+    "current_release": "2026HTSRev12",
+    "title": "Revision 12 (2026)",
+    "records": 35678,
+    "downloaded_at": "2026-07-27T09:28:59Z"
   }
 }

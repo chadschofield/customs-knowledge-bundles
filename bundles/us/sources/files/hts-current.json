@@ -392827,7 +392827,7 @@
   "indent" : "6",
   "description" : "Of copper or copper alloys",
   "superior" : null,
-  "units" : [ "kg" ],
+  "units" : [ "No.", "kg" ],
   "general" : "",
   "special" : "",
   "other" : "",
@@ -392840,7 +392840,7 @@
   "indent" : "6",
   "description" : "Other",
   "superior" : null,
-  "units" : [ "kg" ],
+  "units" : [ "No.", "kg" ],
   "general" : "",
   "special" : "",
   "other" : "",
@@ -392866,7 +392866,7 @@
   "indent" : "6",
   "description" : "Of copper or copper alloys",
   "superior" : null,
-  "units" : [ "kg" ],
+  "units" : [ "No.", "kg" ],
   "general" : "",
   "special" : "",
   "other" : "",
@@ -392879,7 +392879,7 @@
   "indent" : "6",
   "description" : "Other",
   "superior" : null,
-  "units" : [ "kg" ],
+  "units" : [ "No.", "kg" ],
   "general" : "",
   "special" : "",
   "other" : "",
@@ -503416,6 +503416,168 @@
   } ],
   "quotaQuantity" : null,
   "additionalDuties" : null,
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.05.01",
+  "indent" : "0",
+  "description" : "Except for products described in headings 9903.05.02–9903.05.09, articles the product of Brazil, as provided for in subdivision (a) of U.S. note 50 to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading + 25%",
+  "special" : "The duty provided in the applicable subheading + 25%",
+  "other" : "The duty provided in the applicable subheading",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.05.02",
+  "indent" : "0",
+  "description" : "Articles the product of Brazil that (1) were loaded onto a vessel at the port of loading and in transit on the final mode of transit prior to entry into the United States before 12:01 a.m. eastern time on July 22, 2026; and (2) are entered for consumption, or withdrawn from warehouse for consumption, before 12:01 a.m. eastern time on July 29, 2026",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "The duty provided in the applicable subheading",
+  "other" : "The duty provided in the applicable subheading",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.05.03",
+  "indent" : "0",
+  "description" : "Articles the product of Brazil, as provided for in subdivision (a)(ii) of U.S. note 50 to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "The duty provided in the applicable subheading",
+  "other" : "The duty provided in the applicable subheading",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.05.04",
+  "indent" : "0",
+  "description" : "Articles the product of Brazil, as provided for in subdivision (a)(iii) of U.S. note 50 to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "The duty provided in the applicable subheading",
+  "other" : "The duty provided in the applicable subheading",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.05.05",
+  "indent" : "0",
+  "description" : "Articles of civil aircraft (all aircraft other than military aircraft); their engines, parts and components; their other parts, components and subassemblies; and ground flight simulators and their parts and components of Brazil, as provided for in subdivision (a)(iv) of U.S. note 50 to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "The duty provided in the applicable subheading",
+  "other" : "The duty provided in the applicable subheading",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.05.06",
+  "indent" : "0",
+  "description" : "Articles the product of Brazil that are articles for use in pharmaceutical applications, as provided for in subdivision (a)(v) of U.S. note 50 to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "The duty provided in the applicable subheading",
+  "other" : "The duty provided in the applicable subheading",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.05.07",
+  "indent" : "0",
+  "description" : "Articles of aluminum, of steel, or of copper or derivative aluminum or steel articles; passenger vehicles (sedans, sport utility vehicles, crossover utility vehicles, minivans, and cargo vans) and light trucks; parts of passenger vehicles (sedans, sport utility vehicles, crossover utility vehicles, minivans, and cargo vans) and light trucks; medium- and heavy-duty vehicles; parts of medium- and heavy-duty vehicles; wood products; and semiconductor articles, of Brazil, as provided in subdivision (a)(vi) of U.S. note 50 to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "The duty provided in the applicable subheading",
+  "other" : "The duty provided in the applicable subheading",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.05.08",
+  "indent" : "0",
+  "description" : "Articles the product of Brazil that are donations by persons subject to the jurisdiction of the United States, such as food, clothing and medicine, intended to be used to relieve human suffering",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "The duty provided in the applicable subheading",
+  "other" : "The duty provided in the applicable subheading",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.05.09",
+  "indent" : "0",
+  "description" : "Articles the product of Brazil that are informational materials, including but not limited to publications, films, posters, phonograph records, photographs, microfilms, microfiche, tapes, compact disks, CD ROMs, artworks and news wire feeds",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading",
+  "special" : "The duty provided in the applicable subheading",
+  "other" : "The duty provided in the applicable subheading",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
   "addiitionalDuties" : null
 }, {
   "htsno" : "",

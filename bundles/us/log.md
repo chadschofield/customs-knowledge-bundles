@@ -1,5 +1,10 @@
 # US Bundle Update Log
 
+## 2026-07-27
+
+* **Update**: Auto-refreshed the eCFR Title 19 XML to point-in-time 2026-07-23 (latest amendment 2026-06-24).
+* **Update**: Auto-refreshed the HTS JSON export to 2026HTSRev12 (Revision 12 (2026), 35,678 records); official PDF swap from the [USITC archive](https://hts.usitc.gov/download/archive) pending (latest-only policy).
+
 ## 2026-07-23
 
 * **Triage**: Worked the 7-message CSMS queue (2026-07-20 → 07-23). **Section 301 goes live on Brazil**: 25% on all Brazil products effective 2026-07-22 (91 FR 45516; heading 9903.05.01, in-transit exemption window closing with entries 2026-07-29) — [Tariff Actions](/tariff/tariff-actions-2025-2026.md) updated and the exemption HTS list archived as a [source](/sources/csms-section-301-brazil.md). **ET13 implementation confirmed**: INT-057/CBP-290 deploy to CERT 2026-07-24 and PROD 2026-09-22, with draft implementation guides posted — new "Implementation in ACE" section in [Entry Type 13 Test](/entry/entry-type-13-test.md). HSU 2616 absorbed (carries the Brazil records). Dismissed three cotton TRQ quota bulletins and added "quota bulletin" to the feed deny list.
