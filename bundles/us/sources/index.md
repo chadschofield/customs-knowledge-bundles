@@ -25,6 +25,8 @@ live in git history and [source-state.json](source-state.json).
 * [CBP Global Guidance for International Mail + IMDW Template](cbp-global-guidance-international-mail.md) - CSMS # 69183472 (2026-07-08): operational guidance and the official worksheet for the postal informal entry process effective 2026-07-24.
 * [Section 232 Metals Guidance + HTS Lists (Proclamation 11021)](csms-section-232-metals.md) - CSMS # 68253075 / # 68554727: the 10–50% aluminum/steel/copper duties effective 2026-04-06, with covered-HTS lists.
 * [Section 301 Brazil Guidance + Exemption HTS List](csms-section-301-brazil.md) - CSMS # 69302472: 25% on products of Brazil effective 2026-07-22, with the exempted-classifications list.
+* [Section 301 Forced Labor Guidance + HTS List](csms-section-301-forced-labor.md) - CSMS # 69326983: 10%–12.5% on imports from 60 economies effective 2026-07-24, with the covered-classifications list.
+* [Section 232 Pharmaceuticals Guidance + HTS List](csms-section-232-pharmaceuticals.md) - CSMS # 69395344 / # 69415934: up to 100% on patented pharmaceuticals from 2026-07-31 (all other companies 2026-09-29), with the covered-classifications list.
 
 Other operative CSMS messages are cited directly in the concepts they
 support (see [Regulatory Watch](/regulatory-watch.md)); only messages whose
