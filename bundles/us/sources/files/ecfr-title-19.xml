@@ -55607,10 +55607,12 @@ warehouse at the option of the proprietor.
 <HED>Authority:</HED><PSPACE>19 U.S.C. 66, 1202 (General Note 3(i)), Harmonized Tariff Schedule of the United States, 1624.
 
 
-</PSPACE>
-<XREF ID="20260624" REFID="8" AMDINSN="1">Link to an amendment published at 91 FR 37820, June 24, 2026.</XREF><PSPACE>Section 145.4 also issued under 18 U.S.C. 545, 19 U.S.C. 1618;
-</PSPACE><P>Section 145.11 also issued under 19 U.S.C. 1481, 1485, 1498;
+
+
+</PSPACE><P>Section 145.4 also issued under 18 U.S.C. 545, 19 U.S.C. 1618;
+</P><P>Section 145.11 also issued under 19 U.S.C. 1481, 1485, 1498;
 </P><P>Section 145.12 also issued under 19 U.S.C. 1315, 1484, 1498;
+</P><P>Section 145.15 is also issued under 19 U.S.C. 1623;
 </P><P>Sections 145.22 through 145.23 also issued under 19 U.S.C. 1501, 1514;
 </P><P>Section 145.31 also issued under 19 U.S.C. 1321;
 </P><P>Section 145.32 also issued under 19 U.S.C. 1321, 1498;
@@ -55764,18 +55766,61 @@ warehouse at the option of the proprietor.
 
 <DIV8 N="145.12" TYPE="SECTION" VOLUME="2">
 <HEAD>§ 145.12   Entry of merchandise.</HEAD>
-<XREF ID="20260624" REFID="9" AMDINSN="2">Link to an amendment published at 91 FR 37820, June 24, 2026.</XREF>
-<P>(a) <I>Formal entries</I>—(1) <I>Discretionary.</I> CBP may require formal entry of any mail shipment regardless of value if it is necessary to protect the revenue. 
+<P>(a) <I>Formal entries</I>—(1) <I>Discretionary.</I> CBP may require formal entry of any mail shipment regardless of value if it is necessary to protect the revenue.
 </P>
-<P>(2) <I>Required.</I> Formal entry at the customhouse will be required for every importation in the mails which exceeds $2,500 in value, except for special classes of merchandise which can be released without entry (see subpart D of this part), and except as provided in subparts B and C of part 143 and § 10.1 of this chapter. 
+<P>(2) <I>Required.</I> Formal entry will be required as follows:
 </P>
-<P>(3) <I>Separate shipments.</I> Separate shipments not exceeding $2,500 in value, if mailed abroad at different times (as shown by the declaration or other mailing indicia), cannot be combined for the purpose of requiring formal entry, even though they reach CBP at the same time and are covered by a single order or contract in excess of $2,500, unless there was a splitting of shipments in order to avoid the payment of customs duty. 
+<P>(i) Formal entry is required for every mail importation which exceeds $2,500 in value, except for special classes of merchandise which can be released without entry (see subpart D of this part), and except as provided in subparts B and C of part 143 and § 10.1 of this chapter.
 </P>
-<P>(4) <I>Notice of formal entry requirement.</I> When a formal entry is required, the addressee will be notified of the arrival of the shipment and of the place at which entry is to be made. If the shipment is addressed to a point which is not a CBP port or customs station, the port of entry specified in the notice will be the port nearest the destination of the shipment. When a formal entry is filed, it must contain all the statistical information as provided in § 141.61(e) of this chapter. 
+<P>(ii) Formal entry is required for any merchandise of a class or kind provided for in any absolute or tariff-rate quota, whether the quota is open or closed. In the case of merchandise of a class or kind provided for in a tariff-rate quota, the merchandise is subject to the rate of duty in effect on the date of entry.
 </P>
-<P>(b) <I>Mail and informal entries</I>—(1) <I>Preparation of entry form.</I> Except as provided in paragraphs (c) and (e) of this section, CBP officers will prepare and attach a mail entry (CBP Form 3419 or 3419A) for each shipment not exceeding $2,500 in value which is to be delivered by the Postal Service, and return the shipment to the Postal Service for delivery and collection of duty. If the addressee has arranged to pick up such a shipment at the CBP office where it is being processed, the CBP officer will prepare an informal entry (CBP Form 368 or 368A (serially numbered), or an entry summary, CBP Form 7501, or its electronic equivalent and collect the duty in accordance with subpart C of part 143 of this chapter. 
+<P>(iii) Formal entry is required for merchandise subject to any antidumping or countervailing duty determination, instruction, or order issued by the Department of Commerce; or any other merchandise otherwise precluded by law from eligibility for informal entry.
 </P>
-<P>(2) <I>Rates of duty.</I> Merchandise released under a mail or informal entry will be dutiable at the rates of duty in effect when the preparation of the entry is completed by a CBP employee, ready for transmittal with the merchandise to the addressee. 
+<P>(iv) Formal entry is required for alcoholic beverages, cigars (including cheroots and cigarillos) and cigarettes containing tobacco, cigarette tubes, cigarette papers, smoking tobacco (including water pipe tobacco, pipe tobacco, and roll-your-own tobacco), snuff, or chewing tobacco.
+</P>
+<P>(v) Formal entry is required for any mail shipment subject to the requirements of another government agency.
+</P>
+<P>(vi) Formal entry is required for any merchandise subject to duties under Chapter 98 or Chapter 99 of the Harmonized Tariff Schedule of the United States (HTSUS), or for which duty-free treatment is claimed under Chapter 98 of the HTSUS or pursuant to a Free Trade Agreement.
+</P>
+<P>(3) <I>Separate shipments.</I> Separate shipments not exceeding $2,500 in value, if mailed abroad at different times (as shown by the declaration or other mailing indicia), cannot be combined for the purpose of requiring formal entry, even though they reach CBP at the same time and are covered by a single order or contract in excess of $2,500, unless there was a splitting of shipments in order to avoid the payment of customs duty.
+</P>
+<P>(4) <I>Notice of formal entry requirement.</I> When a formal entry is required, the addressee will be notified of the arrival of the shipment and of the method by which entry is to be made. If the shipment is addressed to a point which is not a CBP port or customs station, the port of entry specified in the notice will be the port nearest the destination of the shipment. When a formal entry is filed, it must contain all the statistical information as provided in § 141.61(e) of this chapter.
+</P>
+<P>(b) <I>Mail and informal entries</I>—(1) <I>Preparation of entry form.</I> Except as provided in paragraphs (a), (c), (d), and (e) of this section, for each eligible shipment not exceeding $2,500 in value which is to be delivered by the Postal Service, a party with the right to make entry under § 143.26(a) of this chapter must transmit the informal mail entry, as provided in paragraph (b)(3) of this section, and pay the applicable rate of duty as provided for in paragraph (b)(2) of this section.
+</P>
+<P>(2) <I>Rates of duty and payment.</I> Merchandise released under a mail informal entry will be dutiable at the rates of duty in effect when the preparation of the entry is completed. Preparation of the entry is completed when the entry is properly transmitted to CBP. Payment must be transmitted via <I>Pay.gov</I> no later than the 7th day of the month following the arrival of the shipment.
+</P>
+<P>(3) <I>Postal informal entry process.</I> The following data elements are required to be transmitted to CBP via email no later than the 7th day of the month following the arrival of the shipment(s):
+</P>
+<P>(i) Filer Code;
+</P>
+<P>(ii) Bond Number;
+</P>
+<P>(iii) Description of Merchandise;
+</P>
+<P>(iv) Country of Origin of Merchandise;
+</P>
+<P>(v) All Applicable 10-digit HTSUS Classification(s);
+</P>
+<P>(vi) Quantity/Weight (conditional and required ONLY if using a specific duty rate);
+</P>
+<P>(vii) Duty Rate;
+</P>
+<P>(viii) Value;
+</P>
+<P>(ix) Total Duty Owed;
+</P>
+<P>(x) Carrier;
+</P>
+<P>(xi) Flight/Conveyance Number;
+</P>
+<P>(xii) Tracking Number (generated by the foreign post operator);
+</P>
+<P>(xiii) Arrival Port; and
+</P>
+<P>(xiv) Arrival Date.
+
+ 
 </P>
 <P>(c) <I>Dutiable shipments not over $2,500 for Government agencies.</I> When a dutiable shipment not exceeding $2,500 in value is addressed to a U.S. Government department or agency, the port director may release the merchandise prior to the payment of duties under an entry on CBP Form 368 or 368A (serially numbered) or CBP Form 7501, or its electronic equivalent upon the receipt of a stipulation in the form set forth in § 141.102(d) of this chapter. If the stipulation does not accompany the shipment, the port director will notify the Government department or agency of the arrival of the shipment and request the stipulation. Upon receipt of the completed stipulation and preparation of the entry form, the port director will stamp all mail articles in the shipment to show that they have received customs treatment and will return the shipment to the Postal Service for delivery, unless the addressee has arranged to pick up the shipment at the CBP office where it is being processed. The proper Government department or agency will be billed later for any duties and taxes due. 
 </P>
@@ -55821,8 +55866,17 @@ warehouse at the option of the proprietor.
 
 
 <DIV8 N="145.15" TYPE="SECTION" VOLUME="2">
-<HEAD>§ 145.15   xxx</HEAD>
-<XREF ID="20260624" REFID="10" AMDINSN="3">Link to an amendment published at 91 FR 37821, June 24, 2026.</XREF>
+<HEAD>§ 145.15   Bonding requirements for informal mail entries.</HEAD>
+<P>Each shipment valued at $2,500 or less which is to be delivered by the United States Postal Service, pursuant to § 145.12(b), will not be released from CBP custody unless a single transaction or continuous bond containing or meeting the bond conditions set forth in § 113.62 of this chapter has been transmitted to CBP pursuant to part 113 of this chapter, and has been secured by an approved corporate surety, or cash deposits as provided for in § 113.40 of this chapter.
+</P>
+<CITA TYPE="N">[91 FR 37821, June 24, 2026]
+
+
+
+
+
+
+</CITA>
 </DIV8>
 
 </DIV6>
