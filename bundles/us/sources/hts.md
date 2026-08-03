@@ -27,8 +27,10 @@ prior versions live in git history and in the
   `quotaQuantity`, `additionalDuties`.
 - [files/hts-current.pdf](files/hts-current.pdf) — official full PDF (GRIs,
   General Notes, chapters 1–99, statistical annexes), **manual swap** per
-  revision from the archive. Current copy: 2026 Revision 11, USITC
-  Publication 5758 (July 2026) — if this lags the Current release line above,
-  the swap is pending.
+  revision — the "Download Full Revision" button on
+  [hts.usitc.gov/download](https://hts.usitc.gov/download), i.e.
+  `reststop/file?release=currentRelease&filename=finalCopy`. Current copy:
+  2026 Revision 14, USITC Publication 5772 (July 2026) — if this lags the
+  Current release line above, the swap is pending.
 
 **Distilled into:** [Harmonized Tariff Schedule](/tariff/hts.md)

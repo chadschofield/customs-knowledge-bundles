@@ -85,7 +85,7 @@ attachments or standalone guidance are archived locally get a stub here.
 
 # Tariff, Valuation & Regulations
 
-* [HTS — current edition](hts.md) - 2026 Revision 11 (USITC Pub. 5758, July 2026); latest-only PDF + JSON export under stable filenames.
+* [HTS — current edition](hts.md) - Latest-only PDF + JSON export under stable filenames; the stub names the current release and PDF publication number.
 * [CBP Valuation Encyclopedia (1980–2021)](valuation-encyclopedia.md) - Compendium of valuation rulings and policy.
 * [eCFR Title 19 — full text XML](ecfr-title-19.md) - Point-in-time 2026-07-01, refreshed by script.
 
