@@ -4,11 +4,11 @@ title: Harmonized Tariff Schedule — current edition
 description: The current HTS edition, kept latest-only under stable filenames and auto-refreshed weekly — the Current release and Current PDF lines below, with source-state.json, name the edition.
 resource: https://hts.usitc.gov/
 tags: [source, hts, tariff, usitc, auto-refreshed]
-timestamp: 2026-08-03T14:23:05Z
+timestamp: 2026-08-10T07:09:11Z
 ---
 
-**Current release:** 2026HTSRev14 — Revision 14 (2026); 35,789 records; downloaded 2026-08-03
-**Current PDF:** Revision 14 (2026) — USITC Publication 5772; 18,768,585 bytes; downloaded 2026-08-03
+**Current release:** 2026HTSRev15 — Revision 15 (2026); 35,789 records; downloaded 2026-08-10
+**Current PDF:** Revision 15 (2026); 16,995,727 bytes; downloaded 2026-08-10
 
 The two lines above, the frontmatter timestamp, [source-state.json](source-state.json),
 and the [bundle log](/log.md) are maintained by `scripts/update_sources.py`
