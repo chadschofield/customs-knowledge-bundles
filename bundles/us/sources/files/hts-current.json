@@ -280069,7 +280069,7 @@
   "indent" : "1",
   "description" : "Other",
   "superior" : null,
-  "units" : [ "No." ],
+  "units" : [ "No.", "m2" ],
   "general" : "5%",
   "special" : "Free (A,AU,BH,CL,CO,D,E,IL,JO,KR,MA,OM,P,PA,PE,S,SG)",
   "other" : "55%",
@@ -465535,6 +465535,42 @@
   "general" : "No change",
   "special" : "No change",
   "other" : "No change",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.45.30",
+  "indent" : "0",
+  "description" : "Quartz surface products, as defined in U.S. note 41(a) to this subchapter, when the product of any country not exempt under U.S. note 41(c) to this subchapter, if entered in an aggregate quantity not exceeding the quantity defined in U.S. note 41(d) to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "25%",
+  "special" : "",
+  "other" : "25%",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.45.31",
+  "indent" : "0",
+  "description" : "Quartz surface products, as defined in U.S. note 41(a) to this subchapter, when the product of any country not exempt under U.S. note 41(c) to this subchapter, if entered in an aggregate quantity exceeding the quantity defined in note 41(d) to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "50%",
+  "special" : "",
+  "other" : "50%",
   "footnotes" : [ {
     "columns" : [ "stat", "units" ],
     "marker" : "1",

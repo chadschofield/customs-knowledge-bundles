@@ -1,5 +1,10 @@
 # US Bundle Update Log
 
+## 2026-08-17
+
+* **Update**: Auto-refreshed the eCFR Title 19 XML to point-in-time 2026-08-13 (latest amendment 2026-08-12).
+* **Update**: Auto-refreshed the HTS JSON export to 2026HTSRev16 (Revision 16 (2026), 35,791 records). Official full-revision PDF refreshed to Revision 16 (2026) (Publication 5780).
+
 ## 2026-08-10
 
 * **Update**: Auto-refreshed the eCFR Title 19 XML to point-in-time 2026-08-06 (latest amendment 2026-07-24).
