@@ -327822,7 +327822,7 @@
 }, {
   "htsno" : "",
   "indent" : "3",
-  "description" : "Hydraulic fluid power pumps",
+  "description" : "Hydraulic fluid power pumps:",
   "superior" : "true",
   "units" : [ ],
   "general" : "",
@@ -461437,6 +461437,96 @@
   "general" : "The duty provided in the applicable subheading",
   "special" : "The duty provided in the applicable subheading",
   "other" : "The duty provided in the applicable subheading",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.03.12",
+  "indent" : "0",
+  "description" : "Articles the product of Canada as provided in subdivision (b)(1) of U.S. note 51 to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading + 50%",
+  "special" : "The duty provided in the applicable subheading + 50%",
+  "other" : "No change",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.03.13",
+  "indent" : "0",
+  "description" : "Articles the product of Canada as provided in subdivision (b)(2) of U.S. note 51 to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading + 50%",
+  "special" : "The duty provided in the applicable subheading + 50%",
+  "other" : "No change",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.03.14",
+  "indent" : "0",
+  "description" : "Articles the product of Canada as provided in subdivision (b)(3) of U.S. note 51 to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading + 50%",
+  "special" : "The duty provided in the applicable subheading + 50%",
+  "other" : "No change",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.03.15",
+  "indent" : "0",
+  "description" : "Articles of aluminum, of steel or of copper or derivative aluminum or steel articles; passenger vehicles (sedans, sport utility vehicles, crossover utility vehicles, minivans and cargo vans) and light trucks; parts of passenger vehicles (sedans, sport utility vehicles, crossover utility vehicles, minivans and cargo vans) and light trucks; medium- and heavy-duty vehicles; parts of medium- and heavy-duty vehicles; wood products; semiconductor articles; and patented pharmaceutical articles, as provided in subdivision (c) of U.S. note 51 to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "No change",
+  "special" : "No change",
+  "other" : "No change",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
+  "htsno" : "9903.03.16",
+  "indent" : "0",
+  "description" : "Articles of civil aircraft (all aircraft other than military aircraft and unmanned aircraft); their engines, parts and components; their other parts, components and subassemblies; and ground flight simulators and their parts and components the product of Canada, as provided for in subdivision (d) of U.S. note 51 to this subchapter",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "No change",
+  "special" : "No change",
+  "other" : "No change",
   "footnotes" : [ {
     "columns" : [ "stat", "units" ],
     "marker" : "1",

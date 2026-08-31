@@ -1,19 +1,19 @@
 {
   "ecfr_title_19": {
-    "up_to_date_as_of": "2026-08-20",
-    "latest_amended_on": "2026-08-12",
-    "downloaded_at": "2026-08-24T06:34:47Z"
+    "up_to_date_as_of": "2026-08-28",
+    "latest_amended_on": "2026-08-26",
+    "downloaded_at": "2026-08-31T23:52:42Z"
   },
   "hts": {
-    "current_release": "2026HTSRev16",
-    "title": "Revision 16 (2026)",
-    "records": 35791,
-    "downloaded_at": "2026-08-17T06:32:32Z"
+    "current_release": "2026HTSRev17",
+    "title": "Revision 17 (2026)",
+    "records": 35796,
+    "downloaded_at": "2026-08-31T23:52:45Z"
   },
   "hts_pdf": {
-    "title": "Revision 16 (2026)",
-    "publication": "5780",
-    "bytes": 18769522,
-    "downloaded_at": "2026-08-17T06:32:36Z"
+    "title": "Revision 17 (2026)",
+    "publication": null,
+    "bytes": 17138167,
+    "downloaded_at": "2026-08-31T23:52:47Z"
   }
 }
