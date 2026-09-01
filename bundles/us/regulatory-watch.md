@@ -3,7 +3,7 @@ type: Regulatory Change
 title: Regulatory Watch
 description: Rolling record of recent operative CBP/CSMS announcements affecting this bundle — newest first; entries leave the list once fully absorbed into concepts and no longer time-critical.
 tags: [watch, csms, monitoring]
-timestamp: 2026-08-03T15:30:00Z
+timestamp: 2026-08-31T21:00:00Z
 ---
 
 Dated one-liners of recent regulatory and operational announcements — mostly
@@ -15,6 +15,49 @@ Messages are cited as `CSMS # <number>` with their public GovDelivery
 bulletin.
 
 # Watch List
+
+## 2026-08-22 — Section 338 duties: 50% on certain goods of Canada
+
+First-ever use of Section 338 (19 U.S.C. 1338). Proclamations 11046–11048
+(2026-07-20; 91 FR 46639/46653/46663) impose **50% additional** duties on
+certain Canada products — alcoholic beverages, dairy, motor vehicles — via
+headings **9903.03.12–.14**, with zero-rate carve-outs for Section 232-covered
+articles (9903.03.15) and civil aircraft (9903.03.16). Proclamation 11056
+suspended the duties 2026-08-19 → 08-22; CBP guidance (CSMS # 69606660)
+applies to entries from **2026-08-22 12:01 a.m. EST**. CBP's reporting-order
+guidance now slots Section 338 between 301 and 232 (CSMS # 69668138).
+Reflected in [Tariff Actions 2025–2026](/tariff/tariff-actions-2025-2026.md)
+and [Entry Summary Filing](/ace-filing/entry-summary-filing.md); HTS list
+archived as a [source](/sources/csms-section-338-canada.md). Status:
+**absorbed** — watch for further suspensions/modifications; the three-day
+suspension suggests active negotiation.
+
+## 2026-08-05 — Section 201 safeguard on quartz surface products
+
+91 FR 50645 ("To Facilitate Positive Adjustment to Competition from Imports
+of Quartz Surface Products") establishes a safeguard **quota**; ACE HTS
+records via HSU 2620 (CSMS # 69578857, detail in # 69509193). Noted in
+[Tariff Actions 2025–2026](/tariff/tariff-actions-2025-2026.md). Status:
+**watch item only** — quota mechanics out of scope for parcel traffic.
+
+## 2026-08-10 — Enhanced ACAS phased enforcement extended to 2027-05-01
+
+The Enhanced Air Cargo Advance Screening IFR's phased enforcement period
+(90 FR 52796; originally 2025-11-21 → 2026-11-21) is extended to
+**2027-05-01** (CSMS # 69486540) — full ACAS enforcement for air carriers and
+eligible filers slips ~6 months. Status: **watch item only** — no ACAS
+concept in the bundle yet; air security filing rides at the carrier level
+(see [Importer Security Filing](/ace-filing/importer-security-filing.md)).
+
+## 2026-11-24 — "Flying Trucks" process terminated
+
+CBP rescinds the legacy process that let express carriers present
+truck-borne border cargo on **air manifests**, as violating 19 CFR 123.92
+(truck eManifest required per actual crossing modality). 90-day transition;
+termination effective **2026-11-24** (CSMS # 69657207). Status: **watch item
+only** — no truck-manifest concept in the bundle, but express-consignment
+routings that air-manifest trucked cargo (e.g. via Canadian airports) must
+move to truck eManifest by the date.
 
 ## 2026-07-31 / 09-29 — Section 232 reaches patented pharmaceuticals
 
@@ -48,15 +91,6 @@ a [source](/sources/csms-section-301-forced-labor.md). Status: **absorbed** —
 the breadth is the story; forced labor is now a duty question as well as an
 admissibility one.
 
-## 2026-08-27 — APHIS Plant Inspection Station filing changes reach production
-
-Category **406** retitled Tissue Culture and now requiring the Growing Media
-(A43) qualifier (**AGAR**/**EXAR**), plus **PG30 status "I"** for PIS-bound
-products; CERT 2026-07-27, **PROD 2026-08-27** (CSMS # 69379587, with the
-matching Appendix PGA draft # 69402038). Reflected in
-[PGA Message Set Filing](/ace-filing/pga-message-set.md). Status:
-**upcoming** — prune after the production date.
-
 ## 2026-07-28/29 — CPSC docs go production; ET13 flags go draft
 
 The CPSC IG and PGA Flag Enforcement Table moved from *Draft Chapters* into the
@@ -89,13 +123,15 @@ guides are posted (CSMS # 69289734, # 69298180). Reflected in
 [Entry Type 13 Test](/entry/entry-type-13-test.md). Status: **absorbed** —
 watch for revised IGs and the production go-live.
 
-## 2026-07-30 — Copper smelt & cast reporting becomes mandatory
+## 2026-07-30 / 09-14 — Copper smelt & cast reporting: mandatory, then enforced
 
 Per Proclamation 11021, entry summary lines for copper articles under HTS
 8544.42.10/.20/.90 and 8544.49.10 must report primary country of smelt and
-country of cast from **2026-07-30** (CSMS # 69252300). Reflected in
+country of cast from **2026-07-30** (CSMS # 69252300). From **2026-09-14**
+ACE rejects summaries missing the copper 54 record with fatal **F794**
+(CSMS # 69711865). Reflected in
 [Entry Summary Filing](/ace-filing/entry-summary-filing.md). Status:
-**upcoming** — prune after the effective date.
+**upcoming** — prune after the enforcement date.
 
 ## 2026-07-16/18 — IOR auto-deactivation live; offset-license validations live
 

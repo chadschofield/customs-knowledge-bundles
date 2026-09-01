@@ -3,7 +3,7 @@ type: Process
 title: Entry Type 13 Test (Informal Mail Entry in ACE)
 description: Voluntary CBP test starting 2026-09-22 of electronic informal entry for international mail — 12 data elements in ACE, PGA and Chapter 98/99 waivers, broker-as-IOR model.
 tags: [postal, mail, et13, ace, informal-entry, test-program]
-timestamp: 2026-08-03T15:30:00Z
+timestamp: 2026-08-31T21:00:00Z
 ---
 
 CBP is testing **Entry Type 13 — Informal Mail Entry**, an electronic informal
@@ -71,6 +71,13 @@ drafts). These are drafts supporting the CERT deployment — expect revisions
 before production, each announced via CSMS; pull the current PDFs from the
 [CATAIR page](https://www.cbp.gov/trade/ace/catair) when coding against them.
 
+The first such revision landed **2026-08-11** (CSMS # 69498185): updated
+drafts of the **ACE Cargo Release CATAIR** (Entry Type 13 changes to SE10
+notes 2/7/11/13, SE15 notes 7/12/13, SE30 note 2, and SE60 note 3) and the
+**Cargo Release Condition Codes** (ET13-related error-code changes; codes
+253 and 331 deleted, 327 updated), both slated for the same production
+deployment on **2026-09-22**.
+
 Two more ET13 drafts followed on **2026-07-29**, both filling in the
 PGA side of the waiver — the reason ET13 can carry goods that would otherwise
 need formal entry:
@@ -104,3 +111,4 @@ Both share 11 core fields. Differences:
 [5] [CSMS # 69379627 — draft flag enforcement table adds the ET13 flag](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/422a62b)
 [6] [CSMS # 69379504 — draft PE/PX prior notice update for ET13](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/422a5b0)
 [7] [PGA Message Set Filing](/ace-filing/pga-message-set.md)
+[8] [CSMS # 69498185 — revised draft Cargo Release CATAIR + condition codes for ET13, PROD 2026-09-22](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4247549)

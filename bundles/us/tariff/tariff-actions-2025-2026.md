@@ -1,20 +1,21 @@
 ---
 type: Regulatory Change
 title: Tariff Actions 2025–2026
-description: IEEPA tariffs struck down (Feb 2026) and now being refunded via CAPE, the expired 10% Section 122 surcharge, and the live successor regime — Section 232 metals and pharmaceuticals, Section 301 Brazil and the 60-economy forced-labor action.
-tags: [tariffs, ieepa, section-122, section-301, section-232, forced-labor, pharmaceuticals, regulatory-change]
-timestamp: 2026-08-03T15:30:00Z
+description: IEEPA tariffs struck down (Feb 2026) and now being refunded via CAPE, the expired 10% Section 122 surcharge, and the live successor regime — Section 232 metals and pharmaceuticals, Section 301 Brazil and the 60-economy forced-labor action, Section 338 Canada, and the Section 201 quartz safeguard.
+tags: [tariffs, ieepa, section-122, section-301, section-232, section-338, section-201, canada, forced-labor, pharmaceuticals, regulatory-change]
+timestamp: 2026-08-31T21:00:00Z
 ---
 
-> **Volatility warning (as of 2026-08-03).** This is the fastest-moving topic
-> in the bundle. The Section 122 surcharge was due to lapse ~2026-07-24;
-> Section 232 duties are live and expanding (metals, and **patented
-> pharmaceuticals** from 2026-07-31 with a second stage 2026-09-29);
-> Section 301 now runs two live actions (Brazil 2026-07-22, and a
-> **60-economy forced-labor action** from 2026-07-24); IEEPA refunds are
-> mid-rollout. Verify against current Federal Register notices, CBP CSMS
-> messages, and the latest [HTS revision](/tariff/hts.md) before quoting
-> rates.
+> **Volatility warning (as of 2026-08-31).** This is the fastest-moving topic
+> in the bundle. Section 232 duties are live and expanding (metals, and
+> **patented pharmaceuticals** from 2026-07-31 with a second stage
+> 2026-09-29); Section 301 runs two live actions (Brazil 2026-07-22, and a
+> **60-economy forced-labor action** from 2026-07-24); **Section 338** duties
+> of 50% on certain goods of Canada apply since 2026-08-22 after a three-day
+> suspension; a **Section 201 safeguard on quartz surface products** started
+> 2026-08-05; IEEPA refunds are mid-rollout. Verify against current Federal
+> Register notices, CBP CSMS messages, and the latest
+> [HTS revision](/tariff/hts.md) before quoting rates.
 
 # How We Got Here
 
@@ -29,6 +30,8 @@ timestamp: 2026-08-03T15:30:00Z
 | ~**2026-07-24** | Section 122 authority lapses | Surcharge expires — the same day the [postal IMDW process](/entry/postal-informal-entry-imdw.md) begins (designed for duty parity when it does). |
 | **2026-07-24** | **Section 301 forced-labor action** (USTR, FLIP investigations) | **10%–12.5% on imports from 60 economies**, headings 9903.05.20–.84 (see below). |
 | **2026-07-31** | **Proclamation 11020** (Section 232) — patented pharmaceuticals | Up to **100% combined** on patented pharmaceuticals and their ingredients, headings 9903.04.60–.69; second stage 2026-09-29 (see below). |
+| **2026-07-20 → 2026-08-22** | **Proclamations 11046/11047/11048** (Section 338, 19 U.S.C. 1338) — Canada | **50% additional** on certain goods of Canada, headings 9903.03.12–.16; suspended 2026-08-19 → 08-22 by Proclamation 11056, applying to entries from **2026-08-22** (see below). |
+| **2026-08-05** | Section 201 safeguard — quartz surface products (91 FR 50645) | Product-specific quota safeguard; ACE records via HSU 2620 (see Section 201 below). |
 
 # The Successor Regime Is Arriving
 
@@ -61,7 +64,53 @@ classifications**, not as a flat surcharge, so 10-digit
   **forced-labor action** followed on **2026-07-24** — see below.
   Historically China-focused lists continue; Large Civil Aircraft lines
   refreshed in 2026 HSUs.
-- **Section 201** (safeguards) — product-specific, time-limited.
+- **Section 338** (discrimination against U.S. commerce, 19 U.S.C. 1338) —
+  **live, first-ever use**. Proclamations 11046–11048 impose **50%
+  additional** duties on certain goods of Canada via headings
+  **9903.03.12–.16** — see below.
+- **Section 201** (safeguards) — product-specific, time-limited. Now **one
+  live action**: a safeguard **quota on quartz surface products**
+  (91 FR 50645, published 2026-08-05); the quota HTS records loaded via
+  HSU 2620 (CSMS # 69578857, with detail in CSMS # 69509193). Watch item
+  only — quota mechanics are out of scope for parcel traffic.
+
+## Section 338: 50% on Certain Goods of Canada (from 2026-08-22)
+
+The first-ever use of **Section 338 of the Tariff Act of 1930** (19 U.S.C.
+1338 — duties to offset a foreign country's discrimination against U.S.
+commerce). Proclamations **11046, 11047, and 11048** (2026-07-20; 91 FR
+46639, 46653, 46663) impose **50% additional ad valorem** duties on certain
+products of Canada — one proclamation each for Canadian discrimination with
+respect to **alcoholic beverages, dairy, and motor vehicles** — declared via
+Chapter 99 headings **9903.03.12–9903.03.14** (scoped by subdivisions (b)(1)–
+(b)(3) of U.S. note 51 to subchapter III).
+
+The rollout wobbled: Proclamation **11056** (91 FR 54789) **suspended** the
+duties from 2026-08-19, and the suspension expired at 12:01 a.m. ET on
+**2026-08-22** — CBP's filing guidance (CSMS # 69606660) applies to goods
+entered for consumption, or withdrawn from warehouse for consumption, on or
+after **2026-08-22 12:01 a.m. EST**.
+
+Two zero-rate carve-out headings prevent stacking on other remedies:
+
+- **9903.03.15** (0%) — articles already covered by the Section 232 programs:
+  aluminum/steel/copper and derivatives, passenger vehicles and light trucks
+  and their parts, medium/heavy-duty vehicles and parts, wood products,
+  semiconductor articles, and patented pharmaceuticals.
+- **9903.03.16** (0%) — civil aircraft, their engines, parts, components and
+  subassemblies, and ground flight simulators.
+
+Goods under these headings remain subject to AD/CVD and all other duties,
+taxes, and fees. All five headings live-verified against 2026HTSRev17
+(2026-08-31). For parcel traffic note the interplay with the Section 301
+forced-labor action: Canada is *also* on that action's 10% tier, with its own
+USMCA carve-out (9903.05.93). Covered-classification list and heading table:
+[Section 338 Canada source](/sources/csms-section-338-canada.md).
+
+**Filing order:** CBP's updated multi-HTS reporting-order guidance
+(CSMS # 69668138) slots Section 338 between Section 301 and Section 232 on
+the entry summary line — see
+[Entry Summary Filing](/ace-filing/entry-summary-filing.md).
 
 ## Section 232: Patented Pharmaceuticals (from 2026-07-31)
 
@@ -85,10 +134,11 @@ The rollout is staged, and the reporting duty starts before the money does:
 Reduced rates by origin: **15% combined** for Japan, EU member states, South
 Korea, Switzerland and Liechtenstein (9903.04.62), and **0% additional** for
 the **United Kingdom** (9903.04.63) — the UK heading was published at 10% and
-cut to 0% effective the same 2026-07-31 start date, so it never took effect
-(CSMS # 69415934). **Caution:** the published HTS still carries the 10% on
-that line (verified 2026-08-03 against 2026HTSRev14) — the reduction is in the
-Commerce notice and in ACE, not yet in the schedule. Onshoring-plan headings (9903.04.64/.65) exist but had **no
+cut to 0% effective the same 2026-07-31 start date, so the 10% never took
+effect (CSMS # 69415934). The ACE tariff records for the reduction loaded via
+HSU 2619 (CSMS # 69440938), and the published schedule now carries the 0%
+(verified 2026-08-31 against 2026HTSRev17 — the earlier caution about the
+schedule lagging at 10% is resolved). Onshoring-plan headings (9903.04.64/.65) exist but had **no
 eligible companies** at the time of writing. Where more than one rate under
 the Proclamation could apply, the **lowest applicable rate** governs; the
 duties otherwise stack on top of FTA special rates. Full heading table, rates,
@@ -163,3 +213,4 @@ see [IEEPA Duty Refunds & the CAPE Tool](/tariff/ieepa-refunds-cape.md).
 [7] [Section 301 Forced Labor Guidance + HTS List (CSMS # 69326983)](/sources/csms-section-301-forced-labor.md)
 [8] [Section 232 Pharmaceuticals Guidance + HTS List (CSMS # 69395344, # 69415934)](/sources/csms-section-232-pharmaceuticals.md)
 [9] [Forced Labor Enforcement](/enforcement/forced-labor.md)
+[10] [Section 338 Canada Guidance + HTS List (CSMS # 69606660)](/sources/csms-section-338-canada.md)

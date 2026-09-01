@@ -3,7 +3,7 @@ type: Process
 title: Entry Summary in ACE
 description: How the detailed duty declaration (CBP Form 7501 data) is filed and processed in ACE — governing documents, statements, post-summary corrections, and liquidation.
 tags: [entry-summary, ace, 7501, abi, process]
-timestamp: 2026-07-03T23:59:00Z
+timestamp: 2026-08-31T21:00:00Z
 ---
 
 The **entry summary** is the detailed declaration behind an entry — the CBP
@@ -36,7 +36,7 @@ de minimis.
 | Filing window | Entry summary + estimated duties generally due within 10 working days of entry/release. |
 | Transmission | Via ABI to ACE — record formats in the AE/AX CATAIR chapter, see [Entry Summary Filing (AE/AX)](/ace-filing/entry-summary-filing.md); non-ABI/manual filing exists but is exceptional. |
 | Duty payment | Via statement processing (daily/periodic monthly statements) and ACH — see [Statements & Duty Payment](/ace-filing/statements-duty-payment.md). |
-| Corrections | **Post-Summary Correction (PSC)** — electronic amendment of an ACE entry summary within time limits before liquidation; some fields are non-correctable. Rejections may also be issued by CBP. |
+| Corrections | **Post-Summary Correction (PSC)** — electronic amendment of an ACE entry summary within time limits before liquidation; some fields are non-correctable. Rejections may also be issued by CBP. From **2026-08-05**, increases in duties/taxes/fees resulting from a PSC must be paid electronically via **ACH** (debit or credit) — check and cash are no longer accepted (91 FR 41053; CSMS # 69428352). |
 | Importer identification | CBP Form 5106 record in ACE (name/address/IOR number) is prerequisite to filing — see [Right to Make Entry](/entry/right-to-make-entry.md). |
 | Liquidation | CBP's final duty computation, typically on a ~314-day cycle unless extended/suspended; remedies afterward run through protest (19 U.S.C. 1514) and 520(d) claims. |
 | Census warnings | ACE validates trade statistics and issues warnings/overrides filers must resolve. |
@@ -64,3 +64,4 @@ notifications, statements, reconciliation) are distilled in the
 [2] [ACE Entry Summary Instructions v2.4a](/sources/ace-entry-summary-instructions.md)
 [3] [CBP entry summary program page](https://www.cbp.gov/trade/programs-administration/entry-summary)
 [4] [Entry Summary Create/Update (AE/AX) CATAIR chapter, rev 108](/sources/catair-entry-summary-ae-ax-rev-108.md)
+[5] [CSMS # 69428352 — PSC modifications: ACH-only payment of PSC increases from 2026-08-05 (91 FR 41053)](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4236480)
