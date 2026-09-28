@@ -41,8 +41,8 @@ CATAIR documents that matter for that traffic and distills what each governs.
   production version, and a separate table of **published-but-not-deployed
   revisions** with target production dates. A newer PDF being posted does not
   mean ACE accepts it yet — see the
-  [rev 108 vs rev 109 situation](/ace-filing/entry-summary-filing.md) for the
-  entry summary chapter. CBP also posts a notional
+  [rev 109 GBI changes](/ace-filing/entry-summary-filing.md) in the entry
+  summary chapter, published in 2025 and still awaiting production. CBP also posts a notional
   [ACE Development and Deployment Schedule](https://www.cbp.gov/document/guidance/ace-development-and-deployment-schedule),
   refreshed periodically and announced via CSMS — target dates there slip
   (the "Inactive for Entry Purposes" status moved 07-14 → 07-16), so treat

@@ -3,7 +3,7 @@ type: Regulatory Change
 title: Regulatory Watch
 description: Rolling record of recent operative CBP/CSMS announcements affecting this bundle — newest first; entries leave the list once fully absorbed into concepts and no longer time-critical.
 tags: [watch, csms, monitoring]
-timestamp: 2026-08-31T21:00:00Z
+timestamp: 2026-09-28T21:00:00Z
 ---
 
 Dated one-liners of recent regulatory and operational announcements — mostly
@@ -16,21 +16,78 @@ bulletin.
 
 # Watch List
 
-## 2026-08-22 — Section 338 duties: 50% on certain goods of Canada
+## 2026-10-01 — FY27 customs user fees
 
-First-ever use of Section 338 (19 U.S.C. 1338). Proclamations 11046–11048
-(2026-07-20; 91 FR 46639/46653/46663) impose **50% additional** duties on
-certain Canada products — alcoholic beverages, dairy, motor vehicles — via
-headings **9903.03.12–.14**, with zero-rate carve-outs for Section 232-covered
-articles (9903.03.15) and civil aircraft (9903.03.16). Proclamation 11056
-suspended the duties 2026-08-19 → 08-22; CBP guidance (CSMS # 69606660)
-applies to entries from **2026-08-22 12:01 a.m. EST**. CBP's reporting-order
-guidance now slots Section 338 between 301 and 232 (CSMS # 69668138).
-Reflected in [Tariff Actions 2025–2026](/tariff/tariff-actions-2025-2026.md)
-and [Entry Summary Filing](/ace-filing/entry-summary-filing.md); HTS list
-archived as a [source](/sources/csms-section-338-canada.md). Status:
-**absorbed** — watch for further suspensions/modifications; the three-day
-suspension suggests active negotiation.
+COBRA user fees are adjusted for inflation (General Notice 91 FR 48398) for
+importations from **2026-10-01**, as carried in Entry Summary CATAIR rev 110
+(CSMS # 69915041): informal MPF (automated) **$2.77**, formal MPF
+**$34.58–$670.86**, **Dutiable Mail Fee $7.61**, and manual surcharge $4.15.
+The broker permit user fee goes from $185.38 to **$190.88**
+(CSMS # 69847323). Reflected in
+[Entry Summary Filing](/ace-filing/entry-summary-filing.md). Status:
+**absorbed** — the FY28 adjustment will land around 2027-07/08.
+
+## 2026-08-22 / 09-15 / 09-29 — Section 338 on Canada: duties, rescope, exclusion
+
+First-ever use of Section 338 (19 U.S.C. 1338), escalating in three steps:
+
+- **2026-08-22:** 50% additional duties on certain Canadian alcoholic
+  beverages, dairy and motor vehicles (Proclamations 11046–11048; headings
+  9903.03.12–.16; CSMS # 69606660), after the 08-19 → 08-22 suspension
+  (Proclamation 11056). Reporting order puts 338 between 301 and 232
+  (CSMS # 69668138).
+- **2026-09-15:** rescoped by Proclamations 11064/11065. The alcohol and
+  motor-vehicle lists gain 122 lines and lose 10, and the 9903.03.15
+  carve-out is limited to dairy goods, enforced by **F884**
+  (CSMS # 69851916, # 69941677; HSU 2624).
+- **2026-09-29 12:01 a.m. ET:** Proclamations 11061–11063 **exclude from
+  importation** packaged alcohol, whey/certain sugars, and motorcycles over
+  800 cc. The goods are barred from FTZs, warehouses and in-bond, and ACE
+  rejects them with **335** (release), **239** (FTZ) and **886**
+  (summary), cancelling unreleased entries (CSMS # 70050970, # 70050117).
+
+Reflected in [Tariff Actions 2025–2026](/tariff/tariff-actions-2025-2026.md),
+[Cargo Release Filing](/ace-filing/cargo-release.md) and
+[Entry Summary Filing](/ace-filing/entry-summary-filing.md); lists archived
+as [Section 338](/sources/csms-section-338-canada.md) and
+[import-exclusion](/sources/csms-canada-import-exclusions.md) sources.
+Status: **absorbed**. Every step so far has escalated rather than eased;
+watch for further annex changes and for 886 to appear in the next error
+dictionary.
+
+## 2026-09-24 → 12-04 — Polysilicon: stockpiling import ban
+
+Commerce's Temporary Final Rule under Section 232 Proclamation 11052
+(91 FR 51975; FR 2026-19537) lets Commerce bar an IOR that it flags for
+importing far above its historic volumes, or a new IOR above the weekly
+limits, from entering covered polysilicon products **until 2026-12-04**.
+Warehousing is allowed, and waivers go through Commerce (CSMS # 69994928).
+Noted in [Tariff Actions 2025–2026](/tariff/tariff-actions-2025-2026.md).
+Status: **watch item only**. It's industrial product, out of scope for
+parcel traffic, but watch for Proclamation 11052 duty headings.
+
+## 2026-09-23 — Section 301 China exclusions re-mapped to new stat lines
+
+USTR's conforming amendment (91 FR 56538) points four 9903.88.69 exclusions
+at the 2026-07-01 statistical lines (8413.91.90xx pump parts, 3926.90.99xx
+plastics). ACE accepts them from 2026-09-23 noon, and entries from 07-01
+through 09-22 that paid 301 duties can be refunded by **PSC on or after
+09-23** (CSMS # 69990649). Reflected in
+[Entry Summary Filing](/ace-filing/entry-summary-filing.md). Status:
+**absorbed**. The refund depends on the PSC window, which is time-critical.
+
+## 2026-09-03 / 2027-02-09 — Section 232 reaches drones
+
+Proclamation 11055 (91 FR 53699) takes effect for drones, docking stations
+and certain parts: **100%** for heavy drones, docking stations and
+thermal-imaging drones, **25%** for other drones, via headings
+**9903.08.20–.26** (CSMS # 69738151; HSU 2623). From **2027-02-09** the 25%
+extends to other drone parts. UK (10%) and EU/Japan/Korea/Swiss/Taiwan
+(15% combined) headings exist but are "do not report until further
+guidance". Reflected in
+[Tariff Actions 2025–2026](/tariff/tariff-actions-2025-2026.md). Status:
+**absorbed**. Watch for the reduced-rate headings to go live and for the
+second stage.
 
 ## 2026-08-05 — Section 201 safeguard on quartz surface products
 
@@ -117,11 +174,16 @@ HTS list archived as a [source](/sources/csms-section-301-brazil.md). Status:
 
 ## 2026-07-24 / 09-22 — Entry Type 13 lands in ACE (CERT, then PROD)
 
-The ET13 build (INT-057/CBP-290) deploys to Certification **2026-07-24** and
-Production **2026-09-22**, confirming the test start; draft implementation
-guides are posted (CSMS # 69289734, # 69298180). Reflected in
-[Entry Type 13 Test](/entry/entry-type-13-test.md). Status: **absorbed** —
-watch for revised IGs and the production go-live.
+The ET13 build (INT-057/CBP-290) deployed to Certification **2026-07-24**,
+with production scheduled for **2026-09-22** (CSMS # 69289734, # 69298180).
+The final pre-production specs followed: Entry Summary CATAIR rev 111
+(CSMS # 69915041), error dictionary v54 with 878–885 (# 69915001), and
+cargo release condition codes 334 added / 325 removed (# 69763204). All
+were posted as current capabilities by 2026-09-24. Reflected in
+[Entry Type 13 Test](/entry/entry-type-13-test.md). Status: **absorbed**.
+No CSMS has yet confirmed the go-live itself; watch for one ahead of the
+2026-10-22 compliance cliff, when PGA and Ch. 98/99 mail has to leave the
+IMDW for formal entry or ET13.
 
 ## 2026-07-30 / 09-14 — Copper smelt & cast reporting: mandatory, then enforced
 
@@ -180,12 +242,15 @@ lists archived as a [source](/sources/csms-section-232-metals.md).
 
 ## Ongoing — recurring feeds folded into concepts
 
-- **Harmonized System Updates (HSU 2607–2616):** ACE tariff-record loads,
-  absorbed by the [HTS](/tariff/hts.md) JSON refresh.
+- **Harmonized System Updates (HSU 2607–2624):** ACE tariff-record loads,
+  absorbed by the [HTS](/tariff/hts.md) JSON refresh. The ones that load a
+  trade action (2621/2624 Section 338, 2623 Section 232 drones) are cited
+  with that action.
 - **Commodity quota bulletins** (cotton TRQ openings, etc.): out of scope
   for parcel traffic; now dropped by the feed filter.
 - **Entry-summary error dictionary additions** (864, F865, F60D, 876, F875,
-  F866/F861 — v51 current): [Entry Summary Filing](/ace-filing/entry-summary-filing.md).
+  F866/F861, F883, F884, the ET13 set — v54 current):
+  [Entry Summary Filing](/ace-filing/entry-summary-filing.md).
 - **PGA Message Set / flag-enforcement / error-dictionary revisions:**
   [PGA Message Set](/ace-filing/pga-message-set.md).
 

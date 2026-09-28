@@ -27,7 +27,8 @@ live in git history and [source-state.json](source-state.json).
 * [Section 301 Brazil Guidance + Exemption HTS List](csms-section-301-brazil.md) - CSMS # 69302472: 25% on products of Brazil effective 2026-07-22, with the exempted-classifications list.
 * [Section 301 Forced Labor Guidance + HTS List](csms-section-301-forced-labor.md) - CSMS # 69326983: 10%–12.5% on imports from 60 economies effective 2026-07-24, with the covered-classifications list.
 * [Section 232 Pharmaceuticals Guidance + HTS List](csms-section-232-pharmaceuticals.md) - CSMS # 69395344 / # 69415934: up to 100% on patented pharmaceuticals from 2026-07-31 (all other companies 2026-09-29), with the covered-classifications list.
-* [Section 338 Canada Guidance + HTS List](csms-section-338-canada.md) - CSMS # 69606660: 50% on certain goods of Canada via 9903.03.12–.16, applying to entries from 2026-08-22, with the covered-classifications list.
+* [Section 338 Canada Guidance + HTS Lists](csms-section-338-canada.md) - CSMS # 69606660 / # 69851916: 50% on certain goods of Canada via 9903.03.12–.16 from 2026-08-22, rescoped 2026-09-15, with both covered-classification lists.
+* [Canada Import Exclusions Guidance + Annexes](csms-canada-import-exclusions.md) - CSMS # 70050970: packaged alcohol, whey/sugars and large motorcycles of Canada excluded from importation from 2026-09-29, with the three HTS annexes.
 
 Other operative CSMS messages are cited directly in the concepts they
 support (see [Regulatory Watch](/regulatory-watch.md)); only messages whose
@@ -38,10 +39,11 @@ attachments or standalone guidance are archived locally get a stub here.
 * [Cargo Release (SE), v40](catair-cargo-release-se.md) - Release record formats incl. the combined ISF + release dataset, 2025-07-01.
 * [Cargo Release Business Rules, draft v4.0](catair-cargo-release-business-rules.md) - Process companion to the SE chapter, 2025-03-17.
 * [Cargo Release (SE) Input Validation Rules](catair-cargo-release-validation-rules.md) - Error/condition codes; 2026-06-24 added the importer-inactive reject.
-* [Entry Summary Create/Update (AE/AX), rev 108](catair-entry-summary-ae-ax-rev-108.md) - Production version at the time of writing, 2025-11-01.
-* [Entry Summary Create/Update (AE/AX), rev 109](catair-entry-summary-ae-ax-rev-109.md) - Published successor, deployment TBD — GBI changes.
+* [Entry Summary Create/Update (AE/AX), rev 111](catair-entry-summary-ae-ax-rev-111.md) - Current-capabilities chapter, September 2026: Entry Type 13, FY27 user fees, copper IAD 12.
+* [Entry Summary Create/Update (AE/AX), rev 108](catair-entry-summary-ae-ax-rev-108.md) - Superseded 2025-11-01 edition, retained for diffing.
+* [Entry Summary Create/Update (AE/AX), rev 109](catair-entry-summary-ae-ax-rev-109.md) - Superseded 2025-11-06 edition; its GBI changes still await production.
 * [Entry Summary Status Notification (UC), v30](catair-entry-summary-status-notification-uc.md) - Unsolicited status output records, 2025-06.
-* [ACE Error Dictionary — Entry Summary, v52 current](catair-entry-summary-error-dictionary.md) - ~1,000 condition codes with explanations; v52 deployed 2026-08-21, earlier editions retained.
+* [ACE Error Dictionary — Entry Summary, v54 current](catair-entry-summary-error-dictionary.md) - ~1,000 condition codes with explanations; v54 posted 2026-09-22 (Entry Type 13 errors), earlier editions retained.
 * [ACE Error Dictionary — Entry Summary, v50 draft](catair-entry-summary-error-dictionary-v50-draft.md) - Adds error 875 (importer inactive); deploys 2026-07-14.
 * [In-Bond, Amendment 51](catair-in-bond.md) - QP in-bond record formats (IT/T&E/IE movements), 2026-04.
 * [Reconciliation Entry Summary Create/Update (RE), v12](catair-reconciliation-re.md) - Entry Type 09 filing, 2025-06.

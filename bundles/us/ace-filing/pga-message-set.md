@@ -3,7 +3,7 @@ type: Process
 title: PGA Message Set Filing
 description: How partner government agency data is filed with entries — PG records, tariff flags and enforcement, corrections, prior notice, status notifications, and the error dictionary.
 tags: [pga, message-set, tariff-flags, fda, cpsc, aphis, abi, catair, process]
-timestamp: 2026-08-03T15:30:00Z
+timestamp: 2026-09-28T21:00:00Z
 ---
 
 The **PGA Message Set** is the single mechanism for submitting partner
@@ -64,13 +64,18 @@ status **N** (CSMS # 68510144); the CPSC **CP4** component-part qualifier
 adding PHI/PHJ/PHK and DEA/FDA program codes (CSMS # 68770001). Re-verify
 record layouts against the current chapter before relying on a specific field.
 
-## APHIS Plant Inspection Station Filings (draft; PROD 2026-08-27)
+## APHIS Plant Inspection Station Filings (PROD 2026-08-27)
 
 APHIS revised the Core Message Set Implementation Guide and Supplemental Trade
 Guide for imports destined for **Plant Inspection Stations (PIS)**, with a
 matching **Appendix PGA** draft (CSMS # 69379587 and # 69402038, both
 2026-07-29/31, in *Draft Chapters: Future Capabilities*). Deployment: **CERT
-2026-07-27**, **PRODUCTION 2026-08-27**.
+2026-07-27**, **PRODUCTION 2026-08-27**. On 2026-09-22 CBP moved the
+documents themselves (Appendix PGA, APHIS Core IG **v6.4**, Supplemental
+Guide Appendix APH-A **v4.2**) out of the draft section into the production
+*PGA Message Set Documents* section (CSMS # 69988954). The local
+[Appendix PGA](/sources/catair-appendix-pga.md) copy (2026-03-02) predates
+that edition.
 
 - **Category code 406** is retitled **Tissue Culture** with a new definition,
   and now requires the **Growing Media (A43)** qualifier — values **AGAR** or
@@ -119,3 +124,4 @@ matching **Appendix PGA** draft (CSMS # 69379587 and # 69402038, both
 [17] [CSMS # 69379504 — draft PE/PX prior notice update for Entry Type 13](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/422a5b0)
 [18] [CSMS # 69379587 — APHIS Plant Inspection Station message set updates](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/422a603)
 [19] [CSMS # 69402038 — updated draft Appendix PGA (AGAR/EXAR, category 406)](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/422fdb6)
+[20] [CSMS # 69988954 — Appendix PGA and APHIS IG v6.4 / APH-A v4.2 moved to production](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42bf25a)

@@ -3,7 +3,7 @@ type: Process
 title: Entry Type 13 Test (Informal Mail Entry in ACE)
 description: Voluntary CBP test starting 2026-09-22 of electronic informal entry for international mail — 12 data elements in ACE, PGA and Chapter 98/99 waivers, broker-as-IOR model.
 tags: [postal, mail, et13, ace, informal-entry, test-program]
-timestamp: 2026-08-31T21:00:00Z
+timestamp: 2026-09-28T21:00:00Z
 ---
 
 CBP is testing **Entry Type 13 — Informal Mail Entry**, an electronic informal
@@ -92,6 +92,35 @@ need formal entry:
 Both sit in the *Draft Chapters* section — see
 [PGA Message Set Filing](/ace-filing/pga-message-set.md).
 
+## Production Specs (from 2026-09-22)
+
+The final pre-production round (CSMS # 69915041, # 69915001, # 69763204)
+moved the ET13 specs into the current documents. By 2026-09-24 they were
+posted as current capabilities: Entry Summary Create/Update
+**[rev 111](/sources/catair-entry-summary-ae-ax-rev-111.md)** and error
+dictionary **[v54](/sources/catair-entry-summary-error-dictionary.md)**.
+What a filer has to get right:
+
+- **Entry type code 13 (Informal – Mail)** in AE Table 2.
+- **Input 23-record (manifest):** Manifest Component Type Code must be **"M"**
+  (master bill) and the Issuer Code must be the **Secure Filing Postal (SFP)**
+  code. The identifier is widened to **50AN** to hold foreign-post tracking
+  numbers. Errors **878–882** police type, issuer, and ID per mode of
+  transport.
+- **Final Delivered To Party** (new header 12/13-records, line 48/49-records):
+  name and address, validated by **867/868** and zip code by **877**.
+- **Dutiable Mail Fee (class 496)** is allowed only with **MOT 50 (mail)** —
+  error **885**, for every entry type. From 2026-10-01 the fee is **$7.61**
+  (FY27; see [Entry Summary Filing](/ace-filing/entry-summary-filing.md)).
+- **No post-summary corrections:** B49 now reads "PSC NOT ALLOWED – CANNOT BE
+  INFORMAL/MAIL" and covers entry types 11, 12 and 13. Fix errors before
+  the summary is accepted.
+- **Cargo release condition codes:** 334 added, 325 removed for ET13
+  ([Cargo Release Filing](/ace-filing/cargo-release.md)).
+
+The PGA side also moved: the Appendix PGA and APHIS Core IG v6.4 left *Draft
+Chapters* for the production PGA section on 2026-09-22 (CSMS # 69988954).
+
 # IMDW vs ET13
 
 Both share 11 core fields. Differences:
@@ -112,3 +141,8 @@ Both share 11 core fields. Differences:
 [6] [CSMS # 69379504 — draft PE/PX prior notice update for ET13](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/422a5b0)
 [7] [PGA Message Set Filing](/ace-filing/pga-message-set.md)
 [8] [CSMS # 69498185 — revised draft Cargo Release CATAIR + condition codes for ET13, PROD 2026-09-22](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4247549)
+[9] [Entry Summary Create/Update (AE/AX), rev 111](/sources/catair-entry-summary-ae-ax-rev-111.md)
+[10] [ACE Error Dictionary — Entry Summary, v54](/sources/catair-entry-summary-error-dictionary.md)
+[11] [CSMS # 69915001 — error dictionary v54 ET13 errors](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42ad179)
+[12] [CSMS # 69763204 — Cargo Release Condition Codes ET13 changes](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4288084)
+[13] [CSMS # 69988954 — Appendix PGA / APHIS IG moved to production](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42bf25a)

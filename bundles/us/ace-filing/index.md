@@ -7,7 +7,7 @@ for entries lives in [Entry](../entry/index.md).
 
 * [ABI & CATAIR Overview](abi-catair-overview.md) - The document set, its quirks (DRAFT footers, pub numbers), and how to track versions and deployments.
 * [Cargo Release Filing (SE)](cargo-release.md) - Release record formats, business rules, validation/error codes — including the 2026 importer-inactive reject.
-* [Entry Summary Filing (AE/AX)](entry-summary-filing.md) - 7501-data record formats; rev 108 in production, rev 109 pending; status notifications, error dictionary, census overrides.
+* [Entry Summary Filing (AE/AX)](entry-summary-filing.md) - 7501-data record formats; rev 111 current (Entry Type 13, FY27 user fees); status notifications, error dictionary, census overrides.
 * [In-Bond Filing (QP)](in-bond-filing.md) - Moving merchandise under bond without entry: IT/T&E/IE transactions and their error dictionary.
 * [Statements & Duty Payment](statements-duty-payment.md) - Daily and periodic monthly statements over ACH, and the de-minimis-driven 2,000-entry cap.
 * [Reconciliation Filing (RE)](reconciliation.md) - Entry Type 09 reconciliation of estimated value/classification/FTA elements.

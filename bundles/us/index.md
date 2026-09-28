@@ -30,7 +30,7 @@ Register before relying on them.
 
 * [ABI & CATAIR Overview](ace-filing/abi-catair-overview.md) - The technical filing layer: how the CATAIR document set works and how to track versions/deployments.
 * [Cargo Release Filing (SE)](ace-filing/cargo-release.md) - Release record formats, business rules, and error codes — including the 2026 importer-inactive reject.
-* [Entry Summary Filing (AE/AX)](ace-filing/entry-summary-filing.md) - 7501-data record formats: rev 108 in production, rev 109 pending; status notifications; error dictionary; census overrides.
+* [Entry Summary Filing (AE/AX)](ace-filing/entry-summary-filing.md) - 7501-data record formats: rev 111 current (Entry Type 13, FY27 user fees); status notifications; error dictionary; census overrides.
 * [In-Bond Filing (QP)](ace-filing/in-bond-filing.md) - Moving merchandise under bond without entry: IT/T&E/IE transactions and their error dictionary.
 * [Statements & Duty Payment](ace-filing/statements-duty-payment.md) - Daily and periodic monthly statements, and the de-minimis-driven 2,000-entry cap.
 * [Reconciliation Filing (RE)](ace-filing/reconciliation.md) - Entry Type 09 reconciliation of estimated value/classification/FTA elements.
@@ -44,7 +44,7 @@ Register before relying on them.
 # Tariff
 
 * [Harmonized Tariff Schedule (HTS)](tariff/hts.md) - Structure, revision cadence, machine-readable access, and why 10-digit classification is now unavoidable.
-* [Tariff Actions 2025–2026](tariff/tariff-actions-2025-2026.md) - IEEPA tariffs struck down, the Section 122 surcharge, and the live Section 232 metals duties.
+* [Tariff Actions 2025–2026](tariff/tariff-actions-2025-2026.md) - IEEPA tariffs struck down, the Section 122 surcharge, and the live successor regime: Section 232 (metals, pharma, drones), Section 301, Section 338 Canada and its 2026-09-29 import exclusions.
 * [IEEPA Duty Refunds & the CAPE Tool](tariff/ieepa-refunds-cape.md) - Claiming refunds of the invalidated IEEPA duties through the ACE Portal.
 
 # Valuation
