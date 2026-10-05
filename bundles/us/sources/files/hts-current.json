@@ -461928,6 +461928,24 @@
   "additionalDuties" : "",
   "addiitionalDuties" : null
 }, {
+  "htsno" : "9903.04.70",
+  "indent" : "0",
+  "description" : "Pharmaceutical articles and associated ingredients provided for in subdivision (c) of U.S. note 40 to this subchapter that are solely for use in clinical trials, research and development, or other non-commercial applications.",
+  "superior" : null,
+  "units" : [ ],
+  "general" : "The duty provided in the applicable subheading + 0%",
+  "special" : "The duty provided in the applicable subheading + 0%",
+  "other" : "The duty provided in the applicable subheading + 0%",
+  "footnotes" : [ {
+    "columns" : [ "stat", "units" ],
+    "marker" : "1",
+    "value" : " See chapter 99 statistical note 1. ",
+    "type" : "footnote"
+  } ],
+  "quotaQuantity" : null,
+  "additionalDuties" : "",
+  "addiitionalDuties" : null
+}, {
   "htsno" : "9903.05.01",
   "indent" : "0",
   "description" : "Except for products described in headings 9903.05.02–9903.05.09, articles the product of Brazil, as provided for in subdivision (a) of U.S. note 50 to this subchapter",
