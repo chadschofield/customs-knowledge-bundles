@@ -1,5 +1,9 @@
 # US Bundle Update Log
 
+## 2026-10-26
+
+* **Update**: Auto-refreshed the eCFR Title 19 XML to point-in-time 2026-10-22 (latest amendment 2026-08-26).
+
 ## 2026-10-19
 
 * **Update**: Auto-refreshed the eCFR Title 19 XML to point-in-time 2026-10-15 (latest amendment 2026-08-26).
