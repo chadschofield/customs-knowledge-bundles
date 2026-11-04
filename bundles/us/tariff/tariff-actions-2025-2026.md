@@ -3,18 +3,18 @@ type: Regulatory Change
 title: Tariff Actions 2025–2026
 description: IEEPA tariffs struck down (Feb 2026) and now being refunded via CAPE, the expired 10% Section 122 surcharge, and the live successor regime — Section 232 metals, pharmaceuticals and drones, Section 301 Brazil and the 60-economy forced-labor action, Section 338 Canada and its escalation to import exclusions, and the Section 201 quartz safeguard.
 tags: [tariffs, ieepa, section-122, section-301, section-232, section-338, section-201, canada, forced-labor, pharmaceuticals, drones, import-exclusion, regulatory-change]
-timestamp: 2026-09-28T21:00:00Z
+timestamp: 2026-11-04T21:00:00Z
 ---
 
-> **Volatility warning (as of 2026-09-28).** This is the fastest-moving topic
+> **Volatility warning (as of 2026-11-04).** This is the fastest-moving topic
 > in the bundle. Section 232 duties are live and expanding (metals;
-> **patented pharmaceuticals** from 2026-07-31 with a second stage
-> 2026-09-29; **drones and drone parts** from 2026-09-03 with a second stage
+> **patented pharmaceuticals** for all companies since 2026-09-29;
+> **drones and drone parts** from 2026-09-03 with a second stage
 > 2027-02-09); Section 301 runs two live actions (Brazil 2026-07-22, and a
 > **60-economy forced-labor action** from 2026-07-24); **Section 338** duties
 > of 50% on certain goods of Canada apply since 2026-08-22, were rescoped
-> 2026-09-15, and from **2026-09-29** part of that scope is **excluded from
-> importation** outright; a **Section 201 safeguard on quartz surface
+> 2026-09-15 and 2026-10-30, and since **2026-09-29** part of that scope is
+> **excluded from importation** outright; a **Section 201 safeguard on quartz surface
 > products** started 2026-08-05; IEEPA refunds are mid-rollout. Verify against current Federal
 > Register notices, CBP CSMS messages, and the latest
 > [HTS revision](/tariff/hts.md) before quoting rates.
@@ -36,7 +36,9 @@ timestamp: 2026-09-28T21:00:00Z
 | **2026-08-05** | Section 201 safeguard — quartz surface products (91 FR 50645) | Product-specific quota safeguard; ACE records via HSU 2620 (see Section 201 below). |
 | **2026-09-03** | **Proclamation 11055** (Section 232) — unmanned aircraft systems | **25%–100% additional** on drones, docking stations and certain drone parts, headings 9903.08.20–.26; second stage 2027-02-09 (see below). |
 | **2026-09-15** | **Proclamations 11064/11065** — Section 338 rescope | 122 classifications added to the Canada alcohol/motor-vehicle lists, 10 removed (see Section 338 below). |
+| **2026-09-29** | **Proclamation 11020 second stage** — patented pharmaceuticals | Duties extend to products of all companies; zero-duty 9903.04.61 closes, and 91 FR 60360 adds 9903.04.70 and corrections (see below). |
 | **2026-09-29** | **Proclamations 11061/11062/11063** — Canada import exclusions | Packaged alcohol, whey and certain sugars, and motorcycles over 800 cc from Canada **excluded from importation**, not just dutiable (see Section 338 below). |
+| **2026-10-30** | Section 338 motor-vehicle rescope (Proclamation of 2026-10-23) | 100 classifications added to 9903.03.14, 22 removed (see Section 338 below). |
 
 # The Successor Regime Is Arriving
 
@@ -76,8 +78,9 @@ classifications**, not as a flat surcharge, so 10-digit
   [Section 301 Brazil source](/sources/csms-section-301-brazil.md). The
   **forced-labor action** followed on **2026-07-24** — see below.
   Historically China-focused lists continue; Large Civil Aircraft lines
-  refreshed in 2026 HSUs. Four China product exclusions under 9903.88.69 were
-  re-mapped to the 2026-07-01 statistical-line changes (91 FR 56538). The
+  refreshed in 2026 HSUs. Five China product exclusions under 9903.88.69 were
+  re-mapped to the 2026-07-01 statistical-line changes (91 FR 56538 and
+  91 FR 64211). The
   PSC refund route for entries in the gap is in
   [Entry Summary Filing](/ace-filing/entry-summary-filing.md).
 - **Section 338** (discrimination against U.S. commerce, 19 U.S.C. 1338) —
@@ -142,6 +145,16 @@ duties are drawback-eligible. The Chapter 98 exception holds, except that
 as of 09-15 is archived in the
 [Section 338 Canada source](/sources/csms-section-338-canada.md). All five
 headings were re-verified against 2026HTSRev19 on 2026-09-28.
+
+**Second rescope from 2026-10-30** (Proclamation of 2026-10-23,
+CSMS # 70314289): the motor-vehicle list (9903.03.14) gains **100
+classifications** and drops **22**, mostly plastic and paper packaging,
+plywood, and some machinery (e.g. 3923.21.00 plastic bags, 4819.10.00
+corrugated boxes, 8422.30.91 packing-machine parts). The alcohol and dairy
+lists are unchanged. The current list, as of 10-30, is archived in the
+[Section 338 Canada source](/sources/csms-section-338-canada.md). The 338
+scope now changes every few weeks, so check the latest list rather than
+relying on any earlier one.
 
 **Escalation: exclusion from importation from 2026-09-29 12:01 a.m. ET**
 (Proclamations 11061–11063, CSMS # 70050970). For the covered subset, the
@@ -219,7 +232,23 @@ The rollout is staged, and the reporting duty starts before the money does:
   nothing but **must still report**, filing the zero-duty heading
   **9903.04.61**. Every entry under a covered Chapter 29/30 classification
   needs a Chapter 99 heading from 2026-07-31, regardless of company.
-- **2026-09-29** — duties begin for products of all other companies.
+- **2026-09-29** — duties begin for products of all other companies, and
+  **9903.04.61 closes** (CSMS # 70054007). Patented articles not covered by
+  a reduced-rate or exempt heading now pay the 100% under 9903.04.60.
+
+Commerce's 2026-09-23 notice (91 FR 60360) adjusted the program just before
+the second stage, as reflected in the updated guidance:
+
+- A new **9903.04.70 (0%)** covers articles solely for clinical trials, R&D,
+  or other non-commercial use.
+- **9903.04.66 (0%, specified uses)** is limited to products of a listed
+  set of jurisdictions: the EU, UK, Japan, Korea, Switzerland/Liechtenstein,
+  Taiwan, India, Vietnam, Thailand, Indonesia, Malaysia and others.
+- **Generics** (9903.04.67) expressly include unpatented animal health
+  products.
+- Five HTS codes leave Annex IV.
+
+All of 9903.04.60–.70 were verified against 2026HTSRev22 on 2026-11-04.
 
 Reduced rates by origin: **15% combined** for Japan, EU member states, South
 Korea, Switzerland and Liechtenstein (9903.04.62), and **0% additional** for
@@ -301,10 +330,11 @@ see [IEEPA Duty Refunds & the CAPE Tool](/tariff/ieepa-refunds-cape.md).
 [5] [IEEPA Duty Refunds & the CAPE Tool](/tariff/ieepa-refunds-cape.md)
 [6] [Section 301 Brazil Guidance + Exemption HTS List (CSMS # 69302472)](/sources/csms-section-301-brazil.md)
 [7] [Section 301 Forced Labor Guidance + HTS List (CSMS # 69326983)](/sources/csms-section-301-forced-labor.md)
-[8] [Section 232 Pharmaceuticals Guidance + HTS List (CSMS # 69395344, # 69415934)](/sources/csms-section-232-pharmaceuticals.md)
+[8] [Section 232 Pharmaceuticals Guidance + HTS Lists (CSMS # 69395344, # 69415934, # 70054007)](/sources/csms-section-232-pharmaceuticals.md)
 [9] [Forced Labor Enforcement](/enforcement/forced-labor.md)
-[10] [Section 338 Canada Guidance + HTS Lists (CSMS # 69606660, # 69851916)](/sources/csms-section-338-canada.md)
+[10] [Section 338 Canada Guidance + HTS Lists (CSMS # 69606660, # 69851916, # 70314289)](/sources/csms-section-338-canada.md)
 [11] [Canada Import Exclusions Guidance + Annexes (CSMS # 70050970)](/sources/csms-canada-import-exclusions.md)
 [12] [CSMS # 69738151 — Section 232 unmanned aircraft systems guidance](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4281ea7)
 [13] [CSMS # 69994928 — polysilicon import ban under Proclamation 11052](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42c09b0)
 [14] [CSMS # 69990649 — Section 301 China conforming amendment](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42bf8f9)
+[15] [CSMS # 70261629 — updated Section 301 China conforming amendment (fifth exclusion)](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4301b7d)

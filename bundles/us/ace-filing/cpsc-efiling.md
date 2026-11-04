@@ -3,7 +3,7 @@ type: Regulatory Change
 title: CPSC eFiling — Live 2026-07-08
 description: CPSC certificate data (eFiling) went live in ACE production on 2026-07-08 — what must be filed via the PGA Message Set, disclaimers, registration, and CPSC's advisory-only (no-reject) stance with SO-message review and retained enforcement.
 tags: [cpsc, efiling, pga, certificates, consumer-products]
-timestamp: 2026-08-03T15:30:00Z
+timestamp: 2026-11-04T21:00:00Z
 ---
 
 **CPSC eFiling** requires importers of consumer products regulated by the
@@ -29,7 +29,13 @@ obligation — it means the ACE tariff flag won't stop release on its own.
 A dedicated **CP4** qualifier (component-part description) was added to the
 PG60 record for CPSC (CSMS # 69166973), and the **CP1/CP2 tariff flags** were
 loaded into ACE via Harmonized System Update 2615 (created 2026-07-10,
-CSMS # 69239974).
+CSMS # 69239974). HSU 2625 (created 2026-09-29, CSMS # 70220191) moved a
+batch of parcel-heavy lines from **CP2 to CP1**: vapes/e-liquids (2404.12),
+fireworks (3604.10.9010), batteries (8506.10/.40/.50/.60/.80), lighters
+(9613.20), and mattresses (9404.21/.29). It also dropped CP2 from
+9613.80.2010. Under the usual ACE flag convention, "1" means data *may be*
+required and "2" means *required*. With CPSC advisory-only either way, this
+matters most for software that keys default prompts off the flag level.
 
 **What "advisory" means for filing software** (CSMS # 69382435, 2026-07-29,
 updating # 69177694). Per CPSC's
@@ -84,3 +90,4 @@ them to CPSC tariff flags. The IG's own history tracks this shift: **v2.3
 [6] [CSMS # 69166973 — CP4 qualifier added for CPSC](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/41f677d)
 [7] [CSMS # 69382435 — CPSC advisory-only mechanics: no SX reject, SO review, retained enforcement](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/422b123)
 [8] [CSMS # 69368723 — CPSC IG and PGA Flag Enforcement Table moved to production documents](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4227b93)
+[9] [CSMS # 70220191 — HSU 2625: Section 232 pharma records; CPSC flags CP2 → CP1](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42f799f)

@@ -3,7 +3,7 @@ type: Regulatory Change
 title: Regulatory Watch
 description: Rolling record of recent operative CBP/CSMS announcements affecting this bundle — newest first; entries leave the list once fully absorbed into concepts and no longer time-critical.
 tags: [watch, csms, monitoring]
-timestamp: 2026-09-28T21:00:00Z
+timestamp: 2026-11-04T21:00:00Z
 ---
 
 Dated one-liners of recent regulatory and operational announcements — mostly
@@ -16,6 +16,28 @@ bulletin.
 
 # Watch List
 
+## 2026-10-26 — Bond conditions gain an outbound-data clause (CBP Dec. 26-15)
+
+The rail export manifest final rule (91 FR 55224 / 55227, published
+2026-08-26) took effect in 19 CFR on **2026-10-26**. New §123.93 requires
+rail export manifest data 24 hours before departure (initial filing) and 2
+hours before (full manifest). The rule also amends **all three bond
+conditions** (§§113.62(k)(3), 113.63(g)(2), 113.64(d)(2)): a principal or
+carrier that transmits advance outbound data agrees to file it correctly
+and on time, with **$5,000 liquidated damages per violation**. The export
+side is out of scope; the bond change is reflected in
+[Customs Bonds](/entry/bonds.md). Status: **absorbed**. Truck export
+manifest is still at the test stage (CSMS # 70005765, dismissed 2026-09-28).
+
+## 2026-09-29 — WROs on Indonesian palm oil
+
+CBP issued WROs against palm oil and derivatives from **Mitra Aneka
+Rezeki** and **Hardaya Inti Plantation**, bringing the total to 60 WROs and
+eight Findings (CSMS # 70061795). Reflected in
+[Forced Labor Enforcement](/enforcement/forced-labor.md). Status:
+**absorbed**. Derivatives reach cosmetics, soaps and food, so supplier
+mapping matters for those categories.
+
 ## 2026-10-01 — FY27 customs user fees
 
 COBRA user fees are adjusted for inflation (General Notice 91 FR 48398) for
@@ -25,11 +47,11 @@ importations from **2026-10-01**, as carried in Entry Summary CATAIR rev 110
 The broker permit user fee goes from $185.38 to **$190.88**
 (CSMS # 69847323). Reflected in
 [Entry Summary Filing](/ace-filing/entry-summary-filing.md). Status:
-**absorbed** — the FY28 adjustment will land around 2027-07/08.
+**absorbed**. The new amounts are live from 2026-10-01, and ES CATAIR with them is in Current Capabilities (CSMS # 70086122). The FY28 adjustment will land around 2027-07/08.
 
-## 2026-08-22 / 09-15 / 09-29 — Section 338 on Canada: duties, rescope, exclusion
+## 2026-08-22 → 10-30 — Section 338 on Canada: duties, rescopes, exclusion
 
-First-ever use of Section 338 (19 U.S.C. 1338), escalating in three steps:
+First-ever use of Section 338 (19 U.S.C. 1338), in four steps so far:
 
 - **2026-08-22:** 50% additional duties on certain Canadian alcoholic
   beverages, dairy and motor vehicles (Proclamations 11046–11048; headings
@@ -45,15 +67,19 @@ First-ever use of Section 338 (19 U.S.C. 1338), escalating in three steps:
   800 cc. The goods are barred from FTZs, warehouses and in-bond, and ACE
   rejects them with **335** (release), **239** (FTZ) and **886**
   (summary), cancelling unreleased entries (CSMS # 70050970, # 70050117).
+- **2026-10-30:** second rescope of the motor-vehicle list (9903.03.14),
+  which gains 100 lines and loses 22, mostly packaging, plywood and some
+  machinery (Proclamation of 2026-10-23, CSMS # 70314289).
 
 Reflected in [Tariff Actions 2025–2026](/tariff/tariff-actions-2025-2026.md),
 [Cargo Release Filing](/ace-filing/cargo-release.md) and
 [Entry Summary Filing](/ace-filing/entry-summary-filing.md); lists archived
 as [Section 338](/sources/csms-section-338-canada.md) and
 [import-exclusion](/sources/csms-canada-import-exclusions.md) sources.
-Status: **absorbed**. Every step so far has escalated rather than eased;
-watch for further annex changes and for 886 to appear in the next error
-dictionary.
+Status: **absorbed**. The scope now shifts every few weeks, mostly by
+expanding, so always use the latest list. 886 had not appeared in a
+published error dictionary as of the last check; cbp.gov blocked the
+2026-11-04 recheck.
 
 ## 2026-09-24 → 12-04 — Polysilicon: stockpiling import ban
 
@@ -68,11 +94,12 @@ parcel traffic, but watch for Proclamation 11052 duty headings.
 
 ## 2026-09-23 — Section 301 China exclusions re-mapped to new stat lines
 
-USTR's conforming amendment (91 FR 56538) points four 9903.88.69 exclusions
-at the 2026-07-01 statistical lines (8413.91.90xx pump parts, 3926.90.99xx
-plastics). ACE accepts them from 2026-09-23 noon, and entries from 07-01
-through 09-22 that paid 301 duties can be refunded by **PSC on or after
-09-23** (CSMS # 69990649). Reflected in
+USTR's conforming amendments (91 FR 56538, then 91 FR 64211) point five
+9903.88.69 exclusions at the 2026-07-01 statistical lines (8413.91.90xx pump
+parts, 3926.90.99xx plastics, and 8479.90.9591). ACE accepted the first four
+from 2026-09-23 noon and the fifth from 2026-10-23 6 p.m. Entries from 07-01
+that paid 301 duties in the meantime can be refunded by **PSC**
+(CSMS # 69990649, # 70261629). Reflected in
 [Entry Summary Filing](/ace-filing/entry-summary-filing.md). Status:
 **absorbed**. The refund depends on the PSC window, which is time-critical.
 
@@ -128,9 +155,12 @@ Liechtenstein, **0% for the UK** (cut from 10% on the start date,
 CSMS # 69415934). Generics excluded. Records loaded via HSU 2618.
 Reflected in [Tariff Actions 2025–2026](/tariff/tariff-actions-2025-2026.md);
 HTS list archived as a [source](/sources/csms-section-232-pharmaceuticals.md).
-Status: **absorbed** — the 2026-09-29 second stage is the live deadline, and
-watch for Annex III amendments and onshoring-plan designations (9903.04.64/.65
-had no eligible companies at the time of writing).
+The **second stage took effect 2026-09-29**. 9903.04.61 is closed, and
+Commerce's 91 FR 60360 added 9903.04.70 (clinical/R&D, 0%), defined the
+9903.04.66 jurisdictions, and corrected Annexes I and IV (CSMS # 70054007;
+HSU 2625). Status: **absorbed**. Watch for Annex III amendments and
+onshoring-plan designations (9903.04.64/.65 had no eligible companies at
+the time of writing).
 
 ## 2026-07-24 — Section 301: 10%–12.5% on 60 economies (forced labor)
 
@@ -179,11 +209,13 @@ with production scheduled for **2026-09-22** (CSMS # 69289734, # 69298180).
 The final pre-production specs followed: Entry Summary CATAIR rev 111
 (CSMS # 69915041), error dictionary v54 with 878–885 (# 69915001), and
 cargo release condition codes 334 added / 325 removed (# 69763204). All
-were posted as current capabilities by 2026-09-24. Reflected in
+were posted as current capabilities by 2026-09-24. CBP **confirmed the
+go-live on 2026-09-22** and moved all the ET13 guides to production sections
+(CSMS # 70076746). From 2026-10-15 cargo release also rejects ET13 filings
+missing the invoice description (**336**, # 70188060). Reflected in
 [Entry Type 13 Test](/entry/entry-type-13-test.md). Status: **absorbed**.
-No CSMS has yet confirmed the go-live itself; watch for one ahead of the
-2026-10-22 compliance cliff, when PGA and Ch. 98/99 mail has to leave the
-IMDW for formal entry or ET13.
+The test is live; watch for volume or scope changes and for the notice
+ending it.
 
 ## 2026-07-30 / 09-14 — Copper smelt & cast reporting: mandatory, then enforced
 
@@ -242,10 +274,13 @@ lists archived as a [source](/sources/csms-section-232-metals.md).
 
 ## Ongoing — recurring feeds folded into concepts
 
-- **Harmonized System Updates (HSU 2607–2624):** ACE tariff-record loads,
+- **Harmonized System Updates (HSU 2607–2626):** ACE tariff-record loads,
   absorbed by the [HTS](/tariff/hts.md) JSON refresh. The ones that load a
-  trade action (2621/2624 Section 338, 2623 Section 232 drones) are cited
-  with that action.
+  trade action (2621/2624 Section 338, 2623 Section 232 drones, 2625
+  Section 232 pharma) are cited with that action. 2625 also moved CPSC
+  flags (see [CPSC eFiling](/ace-filing/cpsc-efiling.md)). 2626 carried
+  Section 232 metals records for producers committing to new U.S. steel or
+  aluminum production (FR 2026-07987).
 - **Commodity quota bulletins** (cotton TRQ openings, etc.): out of scope
   for parcel traffic; now dropped by the feed filter.
 - **Entry-summary error dictionary additions** (864, F865, F60D, 876, F875,

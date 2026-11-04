@@ -26,8 +26,8 @@ live in git history and [source-state.json](source-state.json).
 * [Section 232 Metals Guidance + HTS Lists (Proclamation 11021)](csms-section-232-metals.md) - CSMS # 68253075 / # 68554727: the 10–50% aluminum/steel/copper duties effective 2026-04-06, with covered-HTS lists.
 * [Section 301 Brazil Guidance + Exemption HTS List](csms-section-301-brazil.md) - CSMS # 69302472: 25% on products of Brazil effective 2026-07-22, with the exempted-classifications list.
 * [Section 301 Forced Labor Guidance + HTS List](csms-section-301-forced-labor.md) - CSMS # 69326983: 10%–12.5% on imports from 60 economies effective 2026-07-24, with the covered-classifications list.
-* [Section 232 Pharmaceuticals Guidance + HTS List](csms-section-232-pharmaceuticals.md) - CSMS # 69395344 / # 69415934: up to 100% on patented pharmaceuticals from 2026-07-31 (all other companies 2026-09-29), with the covered-classifications list.
-* [Section 338 Canada Guidance + HTS Lists](csms-section-338-canada.md) - CSMS # 69606660 / # 69851916: 50% on certain goods of Canada via 9903.03.12–.16 from 2026-08-22, rescoped 2026-09-15, with both covered-classification lists.
+* [Section 232 Pharmaceuticals Guidance + HTS Lists](csms-section-232-pharmaceuticals.md) - CSMS # 69395344 / # 69415934 / # 70054007: up to 100% on patented pharmaceuticals from 2026-07-31, all companies from 2026-09-29 (9903.04.60–.70), with the original and updated covered-classification lists.
+* [Section 338 Canada Guidance + HTS Lists](csms-section-338-canada.md) - CSMS # 69606660 / # 69851916 / # 70314289: 50% on certain goods of Canada via 9903.03.12–.16 from 2026-08-22, rescoped 2026-09-15 and 2026-10-30, with all three covered-classification lists.
 * [Canada Import Exclusions Guidance + Annexes](csms-canada-import-exclusions.md) - CSMS # 70050970: packaged alcohol, whey/sugars and large motorcycles of Canada excluded from importation from 2026-09-29, with the three HTS annexes.
 
 Other operative CSMS messages are cited directly in the concepts they

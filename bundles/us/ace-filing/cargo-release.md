@@ -3,7 +3,7 @@ type: Process
 title: Cargo Release Filing (SE)
 description: The ACE Cargo Release (SE) transaction — record formats, business rules, the combined ISF + release dataset, validation/error codes, and disposition codes.
 tags: [cargo-release, se, abi, catair, entry, process]
-timestamp: 2026-09-28T21:00:00Z
+timestamp: 2026-11-04T21:00:00Z
 ---
 
 **ACE Cargo Release** (transaction **SE**, formerly "Simplified Entry") is
@@ -39,12 +39,14 @@ importer-of-record tightening under
 naming a deactivated IOR now rejects at the gate. The same update retired a
 set of dormant codes (098, 119, 207, 209, 223, 242, …).
 
-Two later additions:
+Later additions:
 
 - **Entry Type 13** (production 2026-09-22): the Cargo Release Condition
   Codes document **adds 334 and removes 325** (CSMS # 69763204), after the
-  earlier draft round deleted 253/331 and updated 327. Context in
-  [Entry Type 13 Test](/entry/entry-type-13-test.md).
+  earlier draft round deleted 253/331 and updated 327. From **2026-10-15**,
+  **336 – INVOICE/MERCH DESC REQUIRED FOR ET13** rejects an ET13 release
+  that lacks the SE40 commercial invoice description (CSMS # 70188060).
+  Context in [Entry Type 13 Test](/entry/entry-type-13-test.md).
 - **335 – HTS NOT ALLOWED FOR COUNTRY OF ORIGIN** from **2026-09-29
   12:01 a.m. ET** (CSMS # 70050117, # 70050970). It enforces the
   [Canada import exclusion](/sources/csms-canada-import-exclusions.md): an SE
@@ -75,3 +77,4 @@ Two later additions:
 [5] [CSMS # 69763204 — Cargo Release Condition Codes: ET13 changes (334 added, 325 removed)](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4288084)
 [6] [CSMS # 70050117 — new FTZ (239) and cargo release (335) codes for restricted Canadian products](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42ce145)
 [7] [Canada Import Exclusions Guidance + Annexes (CSMS # 70050970)](/sources/csms-canada-import-exclusions.md)
+[8] [CSMS # 70188060 — error 336 for ET13, PROD 2026-10-15](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42efc1c)

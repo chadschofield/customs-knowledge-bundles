@@ -1,10 +1,10 @@
 ---
 type: Source Document
 title: Section 338 Canada Guidance + HTS List
-description: CBP filing guidance for the Section 338 proclamations imposing 50% additional duties on certain goods of Canada via headings 9903.03.12–.16 — entries from 2026-08-22 (CSMS # 69606660) and the scope modification from 2026-09-15 (CSMS # 69851916), with both covered-classification lists.
+description: CBP filing guidance for the Section 338 proclamations imposing 50% additional duties on certain goods of Canada via headings 9903.03.12–.16 — entries from 2026-08-22 (CSMS # 69606660) and the scope modifications from 2026-09-15 (CSMS # 69851916) and 2026-10-30 (CSMS # 70314289), with all three covered-classification lists.
 resource: https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4261d04
 tags: [source, csms, section-338, tariffs, canada]
-timestamp: 2026-09-28T21:00:00Z
+timestamp: 2026-11-04T21:00:00Z
 ---
 
 CBP filing guidance for the **Section 338 action on Canada** (Tariff Act of
@@ -58,6 +58,22 @@ rescope 9903.03.12 and 9903.03.14 for goods entered or withdrawn on or after
   value-added carve-backs), **privileged foreign status** for FTZ
   admissions, and **drawback eligibility** of the 338 duties.
 
+# Further Rescope from 2026-10-30 (CSMS # 70314289)
+
+A Proclamation of 2026-10-23 ("Further Modifying the Scope of Products of
+Canada Subject to the Additional Duties … With Respect to Motor Vehicles")
+rescopes **9903.03.14** only, for goods entered or withdrawn on or after
+**2026-10-30 12:01 a.m. ET**:
+
+- **100 classifications added** (bold in the attached list).
+- **22 removed:** 1212.21.00 (seaweed); 3920.20.00, 3923.10.90 and 3923.21.00
+  (plastic film and packaging); 4412.33/.34 plywood lines (4412.33.06/.26/.32/.57,
+  4412.34.26/.32/.57); 4811.51.20/.40, 4819.10.00, 4819.40.00, 4823.70.00 and
+  4823.90.10 (paper and packaging); and 8418.69.01, 8419.89.95, 8422.30.91,
+  8422.40.91 and 8433.60.00 (machinery).
+- 9903.03.12 and .13 are unchanged, and the 2026-09-15 rule limiting the
+  9903.03.15 carve-out to 9903.03.13 goods still stands.
+
 ACE records loaded via HSU 2621 (original action, CSMS # 69726413) and
 HSU 2624 (modification, CSMS # 69980710).
 
@@ -65,6 +81,7 @@ HSU 2624 (modification, CSMS # 69980710).
 
 - [files/csms-section-338-canada-hts-list.pdf](files/csms-section-338-canada-hts-list.pdf) — the original Chapter 1–97 classifications for each Chapter 99 heading (entries from 2026-08-22), attached to CSMS # 69606660.
 - [files/csms-section-338-canada-modified-hts-list-2026-09-15.docx](files/csms-section-338-canada-modified-hts-list-2026-09-15.docx) — the complete list as of 2026-09-15, attached to CSMS # 69851916 ([bulletin](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/429db0c)).
+- [files/csms-section-338-canada-modified-hts-list-2026-10-30.pdf](files/csms-section-338-canada-modified-hts-list-2026-10-30.pdf) — **current**: the complete list as of 2026-10-30, attached to CSMS # 70314289 ([bulletin](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/430e931)).
 
 From 2026-09-29 a subset of these goods (packaged alcohol, whey and certain
 sugars, motorcycles over 800 cc) moves from the 50% duty to an outright

@@ -3,7 +3,7 @@ type: Process
 title: Entry Summary Filing (AE/AX)
 description: The technical side of filing CBP Form 7501 data — AE/AX record formats (rev 111 current, with Entry Type 13 and FY27 user fees), UC status notifications, the error dictionary, and census warning overrides.
 tags: [entry-summary, ae, ax, abi, catair, 7501, process]
-timestamp: 2026-09-28T21:00:00Z
+timestamp: 2026-11-04T21:00:00Z
 ---
 
 The **Entry Summary Create/Update (AE/AX)** CATAIR chapter defines the record
@@ -31,7 +31,7 @@ The current-capabilities chapter at the time of writing is the **September
   (automated) **$2.77**, **Dutiable Mail Fee $7.61**, manual surcharge $4.15
   (up from $33.58–$651.50, $2.69, $7.39 and $4.03 in FY26). A summary
   pre-filed before 10-01 takes the new amounts if its entry date is 10-01 or
-  later (CSMS # 69915041).
+  later (CSMS # 69915041; posted to Current Capabilities, CSMS # 70086122).
 - **Rev 111** — **Entry Type 13 (Informal – Mail)**: the Final Delivered To
   Party groupings, SFP issuer code, and "M" manifest component type. See
   [Entry Type 13 Test](/entry/entry-type-13-test.md); CBP scheduled it for
@@ -67,12 +67,15 @@ The current-capabilities chapter at the time of writing is the **September
   reject with **886 – HTS PROHIBITED FOR CO**. The same codes also reject at
   cargo release (335) and FTZ admission (239) — see
   [Cargo Release Filing](/ace-filing/cargo-release.md).
-- **Section 301 China exclusions re-mapped** (91 FR 56538, CSMS # 69990649):
-  four 9903.88.69 exclusions (U.S. notes 20(vvv)(i)(4)–(6) and (iv)(4)) now
-  name the post-2026-07-01 statistical lines 8413.91.9039/9046/9059/9099
-  and 3926.90.9915/9920. ACE accepts them from **2026-09-23 noon**. For
-  entries 07-01 → 09-22 that paid Section 301 China duties, file a **PSC on
-  or after 09-23** to get the refund (protest if the PSC window has closed).
+- **Section 301 China exclusions re-mapped** (91 FR 56538 and 91 FR 64211;
+  CSMS # 69990649, updated by # 70261629): five 9903.88.69 exclusions now
+  name the post-2026-07-01 statistical lines. Notes 20(vvv)(i)(4)–(6) map to
+  8413.91.9039/9046/9059/9099, (iv)(4) to 3926.90.9915/9920, and the fifth,
+  (i)(20), to **8479.90.9591** (formerly 8479.90.9596). ACE accepted the
+  first four from **2026-09-23 noon** and the fifth from **2026-10-23
+  6 p.m.** For entries from 07-01 that paid Section 301 China duties before
+  ACE could accept the exclusion, file a **PSC** to get the refund, or a
+  protest if the PSC window has closed.
 - **Rev 106–107** (2025) carried the FY26 customs user-fee adjustments and
   Global Business Identifier "Test" renaming.
 
@@ -143,3 +146,5 @@ number construction and duty computation formulas are in the
 [16] [CSMS # 69915001 — error dictionary v54, Entry Type 13 errors](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42ad179)
 [17] [Canada Import Exclusions (CSMS # 70050970) — error 886](/sources/csms-canada-import-exclusions.md)
 [18] [CSMS # 69990649 — Section 301 China conforming amendment](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42bf8f9)
+[19] [CSMS # 70261629 — updated Section 301 China conforming amendment (fifth exclusion)](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4301b7d)
+[20] [CSMS # 70086122 — CATAIR ES posted with FY27 user fees, effective 2026-10-01](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42d6dea)

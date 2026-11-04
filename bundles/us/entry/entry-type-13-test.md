@@ -1,14 +1,14 @@
 ---
 type: Process
 title: Entry Type 13 Test (Informal Mail Entry in ACE)
-description: Voluntary CBP test starting 2026-09-22 of electronic informal entry for international mail — 12 data elements in ACE, PGA and Chapter 98/99 waivers, broker-as-IOR model.
+description: Voluntary CBP test, live in ACE since 2026-09-22, of electronic informal entry for international mail — 12 data elements, PGA and Chapter 98/99 waivers, broker-as-IOR model, production record/error specs.
 tags: [postal, mail, et13, ace, informal-entry, test-program]
-timestamp: 2026-09-28T21:00:00Z
+timestamp: 2026-11-04T21:00:00Z
 ---
 
 CBP is testing **Entry Type 13 — Informal Mail Entry**, an electronic informal
 entry filed in ACE for international mail valued at **$2,500 or less**
-(general notice FR 2026-12668, published 2026-06-24; test begins
+(general notice FR 2026-12668, published 2026-06-24; the test began
 **2026-09-22** under 19 CFR 101.9(a) test authority). It is the automated
 alternative to the emailed [IMDW worksheet](/entry/postal-informal-entry-imdw.md)
 and is CBP's stated intended permanent replacement for it. The test runs until
@@ -92,11 +92,17 @@ need formal entry:
 Both sit in the *Draft Chapters* section — see
 [PGA Message Set Filing](/ace-filing/pga-message-set.md).
 
-## Production Specs (from 2026-09-22)
+## Production Specs (live since 2026-09-22)
 
-The final pre-production round (CSMS # 69915041, # 69915001, # 69763204)
-moved the ET13 specs into the current documents. By 2026-09-24 they were
-posted as current capabilities: Entry Summary Create/Update
+CBP confirmed the **ET13 test went live in ACE on 2026-09-22**
+(CSMS # 70076746). All the ET13 implementation guides moved from *Draft
+Chapters* to their production sections: the Cargo Release chapter, Entry
+Summary Create/Update and Query, the error dictionary, the PGA Flag
+Enforcement Table, and the stand-alone Prior Notice (PE/PX) chapter. The
+[Trade Information Notice](https://www.cbp.gov/document/guidance/trade-information-notice-implementation-entry-type-13-test-ace-us-mail-processing)
+carries the deployment detail. The final pre-production round
+(CSMS # 69915041, # 69915001, # 69763204) settled the specs now posted as
+current capabilities: Entry Summary Create/Update
 **[rev 111](/sources/catair-entry-summary-ae-ax-rev-111.md)** and error
 dictionary **[v54](/sources/catair-entry-summary-error-dictionary.md)**.
 What a filer has to get right:
@@ -115,8 +121,10 @@ What a filer has to get right:
 - **No post-summary corrections:** B49 now reads "PSC NOT ALLOWED – CANNOT BE
   INFORMAL/MAIL" and covers entry types 11, 12 and 13. Fix errors before
   the summary is accepted.
-- **Cargo release condition codes:** 334 added, 325 removed for ET13
-  ([Cargo Release Filing](/ace-filing/cargo-release.md)).
+- **Cargo release condition codes:** 334 added, 325 removed for ET13, and
+  from **2026-10-15** error **336 – INVOICE/MERCH DESC REQUIRED FOR ET13**,
+  which requires the commercial invoice description in the SE40 record
+  (CSMS # 70188060; [Cargo Release Filing](/ace-filing/cargo-release.md)).
 
 The PGA side also moved: the Appendix PGA and APHIS Core IG v6.4 left *Draft
 Chapters* for the production PGA section on 2026-09-22 (CSMS # 69988954).
@@ -146,3 +154,5 @@ Both share 11 core fields. Differences:
 [11] [CSMS # 69915001 — error dictionary v54 ET13 errors](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42ad179)
 [12] [CSMS # 69763204 — Cargo Release Condition Codes ET13 changes](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/4288084)
 [13] [CSMS # 69988954 — Appendix PGA / APHIS IG moved to production](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42bf25a)
+[14] [CSMS # 70076746 — ET13 live 2026-09-22; IGs moved to current chapters](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42d494a)
+[15] [CSMS # 70188060 — cargo release error 336 for ET13, PROD 2026-10-15](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42efc1c)

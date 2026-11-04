@@ -3,7 +3,7 @@ type: Reference
 title: Forced Labor Enforcement
 description: CBP's three forced-labor import authorities — 19 U.S.C. 1307, the UFLPA rebuttable presumption, and CAATSA — plus Withhold Release Orders and Findings, CBP's 2026 operational guidance, and the 2026-07-24 Section 301 forced-labor tariffs.
 tags: [forced-labor, uflpa, wro, caatsa, section-301, enforcement, supply-chain]
-timestamp: 2026-08-03T15:30:00Z
+timestamp: 2026-11-04T21:00:00Z
 ---
 
 Goods made wholly or in part with forced labor are **inadmissible** to the
@@ -30,7 +30,13 @@ theoretical one.
   immediately. Example: on **2026-06-23** CBP issued WROs against garments
   from **Needle Craft Ltd.** and **Casual Wear Apparel L.L.C.** in Jordan
   (CSMS # 69031301) — the kind of apparel-sector action that reaches
-  ecommerce supply chains.
+  ecommerce supply chains. On **2026-09-29** two more followed, against
+  **palm oil and its derivative products** from the Indonesian plantations
+  **Mitra Aneka Rezeki** and **Hardaya Inti Plantation** (CSMS # 70061795).
+  Palm-oil derivatives reach consumer goods such as cosmetics, soaps and
+  food, so supplier traceability matters well beyond bulk oil.
+- Scale, as of 2026-09-29: CBP enforces **60 WROs and eight Findings** under
+  19 U.S.C. 1307 (CSMS # 70061795).
 
 # Now Also a Tariff Lever (from 2026-07-24)
 
@@ -80,3 +86,4 @@ Importers are expected to conduct supplier due diligence **before** importing.
 [3] [EO 14411 — Strengthening Customs Enforcement](/enforcement/eo-14411-enforcement.md)
 [4] [Section 301 Forced Labor Guidance + HTS List (CSMS # 69326983)](/sources/csms-section-301-forced-labor.md)
 [5] [Tariff Actions 2025–2026](/tariff/tariff-actions-2025-2026.md)
+[6] [CSMS # 70061795 — WROs on Indonesian palm oil (Mitra Aneka Rezeki, Hardaya Inti Plantation)](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42d0ee3)
