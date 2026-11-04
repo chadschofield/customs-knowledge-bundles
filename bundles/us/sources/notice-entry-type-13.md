@@ -4,12 +4,14 @@ title: General Notice — Test of the New Electronic Informal Entry Process for 
 description: CBP general notice (FR Doc 2026-12668, published 2026-06-24) announcing the voluntary ACE Entry Type 13 informal mail entry test beginning 2026-09-22.
 resource: https://www.federalregister.gov/d/2026-12668
 tags: [source, general-notice, et13, postal, ace]
-timestamp: 2026-07-03T19:00:00Z
+timestamp: 2026-11-04T21:00:00Z
 ---
 
 Federal Register general notice (CBP test program under 19 CFR 101.9(a)).
 **FR Doc 2026-12668**, published 2026-06-24 (Vol. 91 No. 121). Test commences
-2026-09-22 and runs until concluded by FR notice.
+2026-09-22 and runs until concluded by FR notice. It began on schedule and
+was [modified 2026-10-22](notice-entry-type-13-modification.md) to accept
+filings without complete PGA data.
 
 Key content: Entry Type 13 electronic informal entry in ACE for mail ≤
 $2,500; 12 required data elements; participant eligibility (owners/purchasers,

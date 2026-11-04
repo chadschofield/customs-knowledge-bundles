@@ -3,7 +3,7 @@ type: Regulatory Change
 title: De Minimis Suspension
 description: The $800 duty-free de minimis exemption is suspended for all modes and countries, with statutory repeal effective 2027-07-01 — status, timeline, and surviving exemptions.
 tags: [de-minimis, section-321, postal, ecommerce, regulatory-change]
-timestamp: 2026-07-03T19:00:00Z
+timestamp: 2026-11-04T21:00:00Z
 ---
 
 The administrative *de minimis* exemption (19 U.S.C. 1321(a)(2)(C)) allowed
@@ -34,8 +34,10 @@ open comment periods — verify dates before relying on them.
 | 2026-06-24 | **Twin IFRs published and effective**: suspension made indefinite for mail (FR 2026-12669) and all other modes (FR 2026-12670). ET86 and release-from-manifest eliminated. ET13 test announced (FR 2026-12668). |
 | 2026-07-24 | Postal IFR core takes effect: [IMDW process](/entry/postal-informal-entry-imdw.md) + mandatory bond; 120-day postal transition begins; Section 122 surcharge expires ~same day. |
 | 2026-09-22 | [Entry Type 13 test](/entry/entry-type-13-test.md) begins in ACE. |
-| 2026-10-22 | Postal compliance cliff: PGA / Ch. 98-99 / FTA mail must leave the IMDW for formal entry or ET13. |
+| 2026-10-08 | **[Low-Value Shipments NPRM](/sources/nprm-low-value-shipments.md)**, the proposed permanent regime: electronic, bonded ET11; ET13 replaces the IMDW; Ch. 99 goods informally enterable up to $2,500; blanket formal-entry authority. Comments close **2026-12-07**. |
+| 2026-10-22 | The postal compliance cliff was **extended to 2027-01-20** ([91 FR 66638](/sources/rule-postal-compliance-extension.md)) on the day it was due; ET13 temporarily accepts filings without complete PGA data ([91 FR 66707](/sources/notice-entry-type-13-modification.md)). |
 | 2026-11-30 | Foreign IORs barred from informal entries ([EO 14411](/enforcement/eo-14411-enforcement.md), 180-day deadline). |
+| 2027-01-20 | Postal compliance cliff: PGA / Ch. 98-99 / FTA mail must leave the IMDW for formal entry or ET13. |
 | 2027-07-01 | **Statutory repeal effective** — de minimis terminated by law. |
 
 # What Survives
@@ -72,3 +74,6 @@ Type 11 filing (express carriers may decline to offer this due to cost), and
 [2] [IFR — mail de minimis suspension & postal informal entry (FR 2026-12669)](/sources/ifr-mail-de-minimis.md)
 [3] [IFR — non-postal de minimis suspension (FR 2026-12670)](/sources/ifr-non-postal-de-minimis.md)
 [4] [Internal report — US Customs Shipment Regulation Changes](/sources/report-regulation-changes.md)
+[5] [Final rule — postal compliance date extended to 2027-01-20 (FR 2026-21600)](/sources/rule-postal-compliance-extension.md)
+[6] [NPRM — Low-Value Shipments (FR 2026-20650)](/sources/nprm-low-value-shipments.md)
+[7] [Notice — ET13 test modified to accept incomplete PGA data (FR 2026-21570)](/sources/notice-entry-type-13-modification.md)

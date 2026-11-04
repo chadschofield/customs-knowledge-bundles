@@ -19,8 +19,8 @@ Register before relying on them.
 # Entry
 
 * [Entry Types & Pathways](entry/entry-types.md) - Formal vs informal entry and the entry-type codes that matter for low-value shipments.
-* [De Minimis Suspension](entry/de-minimis-suspension.md) - Status, full timeline, surviving exemptions, and the road to statutory repeal on 2027-07-01.
-* [Postal Informal Entry (IMDW)](entry/postal-informal-entry-imdw.md) - The mandatory mail entry process effective 2026-07-24: 14-field worksheet, broker filing, bonds, deadlines.
+* [De Minimis Suspension](entry/de-minimis-suspension.md) - Status, full timeline, surviving exemptions, the proposed permanent regime (NPRM, comments close 2026-12-07), and the road to statutory repeal on 2027-07-01.
+* [Postal Informal Entry (IMDW)](entry/postal-informal-entry-imdw.md) - The mandatory mail entry process effective 2026-07-24: 14-field worksheet, broker filing, bonds, deadlines (PGA/Ch. 98-99 cliff now 2027-01-20).
 * [Entry Type 13 Test](entry/entry-type-13-test.md) - Voluntary electronic informal mail entry in ACE, live since 2026-09-22.
 * [Entry Summary in ACE](entry/entry-summary-ace.md) - CBP Form 7501 data filed in ACE: business process, corrections, liquidation.
 * [Right to Make Entry](entry/right-to-make-entry.md) - Who may file entry (owner, purchaser, licensed broker) and importer-of-record rules.

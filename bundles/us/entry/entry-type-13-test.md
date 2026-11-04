@@ -21,7 +21,19 @@ CBP concludes it by Federal Register notice.
 - **Unlocks restricted goods**: waives the formal-entry requirement for mail
   subject to **PGA data requirements** (19 CFR 145.12(a)(2)(v)) and **HTSUS
   Chapter 98/99 duties** (19 CFR 145.12(a)(2)(vi)) — the goods that fall off
-  the IMDW at the 2026-10-22 compliance cliff.
+  the IMDW at the compliance cliff, now **2027-01-20** (extended from
+  2026-10-22 by [91 FR 66638](/sources/rule-postal-compliance-extension.md)).
+- **PGA data temporarily optional** (from 2026-10-22,
+  [91 FR 66707](/sources/notice-entry-type-13-modification.md)): an ET13
+  entry is accepted with or without complete electronic PGA data, so filers
+  can switch before their PGA feeds are ready. CBP will end this by a later
+  Federal Register notice.
+- **Likely to become permanent**: the
+  [Low-Value Shipments NPRM](/sources/nprm-low-value-shipments.md) proposes
+  electronic entry for all mail of $2,500 or less, replacing the IMDW
+  worksheet. It would also require the UPU S10 tracking number on carrier
+  manifests and treat mail not entered within 15 days as abandoned. Comments
+  close 2026-12-07.
 - **Still excluded**: AD/CVD and quota merchandise must use formal entry
   (19 CFR 145.12(a)). No waiver.
 
@@ -156,3 +168,6 @@ Both share 11 core fields. Differences:
 [13] [CSMS # 69988954 — Appendix PGA / APHIS IG moved to production](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42bf25a)
 [14] [CSMS # 70076746 — ET13 live 2026-09-22; IGs moved to current chapters](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42d494a)
 [15] [CSMS # 70188060 — cargo release error 336 for ET13, PROD 2026-10-15](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42efc1c)
+[16] [Notice — ET13 test modified: PGA data temporarily optional (FR 2026-21570)](/sources/notice-entry-type-13-modification.md)
+[17] [Final rule — postal compliance date extended to 2027-01-20 (FR 2026-21600)](/sources/rule-postal-compliance-extension.md)
+[18] [NPRM — Low-Value Shipments (FR 2026-20650)](/sources/nprm-low-value-shipments.md)

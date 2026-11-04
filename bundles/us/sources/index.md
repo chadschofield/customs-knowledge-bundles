@@ -12,6 +12,9 @@ live in git history and [source-state.json](source-state.json).
 * [IFR — Mail De Minimis Suspension & Postal Informal Entry](ifr-mail-de-minimis.md) - FR Doc 2026-12669, published 2026-06-24.
 * [IFR — Non-Postal De Minimis Suspension](ifr-non-postal-de-minimis.md) - FR Doc 2026-12670, published & effective 2026-06-24.
 * [General Notice — Entry Type 13 Test](notice-entry-type-13.md) - FR Doc 2026-12668, published 2026-06-24; test from 2026-09-22.
+* [General Notice — Entry Type 13 Test Modification](notice-entry-type-13-modification.md) - FR Doc 2026-21570 (91 FR 66707), effective 2026-10-22: ET13 accepts filings without complete PGA data, temporarily.
+* [Final Rule — Postal Compliance Date Extension](rule-postal-compliance-extension.md) - FR Doc 2026-21600 (91 FR 66638), 2026-10-22: PGA / Ch. 98-99 / FTA mail formal-entry compliance moved to 2027-01-20.
+* [NPRM — Low-Value Shipments](nprm-low-value-shipments.md) - FR Doc 2026-20650 (91 FR 64532), 2026-10-08: proposed permanent electronic, bonded informal-entry regime for ET11 and mail; comments close 2026-12-07.
 
 # CBP Operational Guidance
 

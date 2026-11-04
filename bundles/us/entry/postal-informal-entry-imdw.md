@@ -3,7 +3,7 @@ type: Process
 title: Postal Informal Entry (IMDW)
 description: The mandatory postal informal entry process effective 2026-07-24 — broker-filed 14-field International Mail Duty Worksheet, bonds, monthly email filing, and Pay.gov payment.
 tags: [postal, mail, imdw, informal-entry, process]
-timestamp: 2026-07-12T19:30:00Z
+timestamp: 2026-11-04T21:00:00Z
 ---
 
 From **2026-07-24**, international mail shipments valued at **$2,500 or less**
@@ -13,7 +13,11 @@ Part 145; new § 145.15): a licensed US customs broker files a monthly Excel
 Pay.gov, and every shipment must be bonded. This replaces the EO 14324 interim
 "Qualified Party" spreadsheet and achieves full duty parity with commercial
 entries. CBP intends to replace it in turn with the electronic
-[Entry Type 13](/entry/entry-type-13-test.md).
+[Entry Type 13](/entry/entry-type-13-test.md). The
+[Low-Value Shipments NPRM](/sources/nprm-low-value-shipments.md) (comments
+close 2026-12-07) would make that replacement permanent: electronic entry
+for all mail of $2,500 or less, filed on or before importation, with
+unentered mail deemed abandoned after 15 days.
 
 # The Four Phases of the Postal Transition
 
@@ -22,7 +26,7 @@ entries. CBP intends to replace it in turn with the electronic
 | 0 | 2025-08-29 → 2026-07-23 | EO 14324 QP spreadsheet, 9 fields, Qualified Party (broker not required) | Method A ad valorem (Method B per-item tiers ended 2026-02-28); in practice only the Section 122 surcharge |
 | 1 | 2026-07-24 → | **IMDW**, 14 fields, licensed broker only, bond mandatory | **All applicable duties, taxes, and fees** |
 | 2 | 2026-09-22 → (voluntary) | [Entry Type 13](/entry/entry-type-13-test.md) in ACE, 12 elements | All applicable duties, taxes, and fees |
-| 3 | 2026-10-22 → | Compliance cliff: PGA / Ch. 98-99 / FTA mail must use formal entry or ET13 | — |
+| 3 | **2027-01-20** → (was 2026-10-22) | Compliance cliff: PGA / Ch. 98-99 / FTA mail must use formal entry or ET13. The date was extended by [91 FR 66638](/sources/rule-postal-compliance-extension.md) on the day the original deadline fell | — |
 
 # Eligibility & Exclusions
 
@@ -30,8 +34,8 @@ entries. CBP intends to replace it in turn with the electronic
 |---|---|---|---|
 | Value ≤ $2,500, HTSUS Ch. 1–97 | ✅ | ✅ | ✅ |
 | Value > $2,500 | ❌ | ❌ | ✅ required |
-| PGA data requirements (FDA/EPA/FCC…) | ⚠️ only until 2026-10-22 | ✅ (waived) | ✅ |
-| HTSUS Ch. 98/99 duties, or Ch. 98/FTA duty-free claim | ⚠️ only until 2026-10-22 | ✅ (waived; FTA claims → formal) | ✅ |
+| PGA data requirements (FDA/EPA/FCC…) | ⚠️ only until 2027-01-20 | ✅ (waived; complete PGA data temporarily optional) | ✅ |
+| HTSUS Ch. 98/99 duties, or Ch. 98/FTA duty-free claim | ⚠️ only until 2027-01-20 | ✅ (waived; FTA claims → formal) | ✅ |
 | AD/CVD orders | ❌ | ❌ | ✅ required |
 | Absolute or tariff-rate quota | ❌ | ❌ | ✅ required |
 | Alcohol; tobacco products (cigars, cigarettes, papers/tubes, snuff…) | ❌ | ❌ | ✅ required |
@@ -84,3 +88,5 @@ CBP may require formal entry of **any** mail shipment regardless of value.
 [1] [IFR — mail de minimis suspension & postal informal entry (FR 2026-12669)](/sources/ifr-mail-de-minimis.md)
 [2] [EO 14324 — original interim postal process](/sources/eo-14324.md)
 [3] [CBP Global Guidance for International Mail + official IMDW template (CSMS # 69183472)](/sources/cbp-global-guidance-international-mail.md)
+[4] [Final rule — postal formal-entry compliance date extended to 2027-01-20 (FR 2026-21600)](/sources/rule-postal-compliance-extension.md)
+[5] [NPRM — Low-Value Shipments (FR 2026-20650)](/sources/nprm-low-value-shipments.md)

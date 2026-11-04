@@ -39,6 +39,13 @@ bonds on file (§123.93(c)(4)). An importer's existing basic bond therefore
 also secures any export manifest filing it chooses to make. Text in the
 local [19 CFR copy](/sources/ecfr-title-19.md).
 
+**Proposed** ([Low-Value Shipments NPRM](/sources/nprm-low-value-shipments.md),
+comments close 2026-12-07): a §113.62 bond would be required to release
+any Entry Type 11 or 13 shipment (new §143.29, revised §145.15). Default
+on an informal-entry bond would cost the merchandise value or **$1,000,
+whichever is greater**, or three times that for restricted goods or
+alcohol (new §113.62(n)(6)).
+
 Cash in lieu of surety is possible (19 CFR 113.40). Bond data is transmitted
 via **eBond** to ACE — record formats in
 [eBond Filing (CB/CX)](/ace-filing/ebond-filing.md) — or filed with CBP's
@@ -67,3 +74,4 @@ Expect rulemaking that changes bond sufficiency math for foreign shippers.
 [4] [EO 14411 — Strengthening Customs Enforcement](/sources/eo-14411.md)
 [5] [Customs eBond Create/Update (CB/CX) CATAIR chapter, v1.9](/sources/catair-ebond-cb-cx.md)
 [6] [19 CFR full text — §§113.62–113.64 and 123.93 as amended by CBP Dec. 26-15](/sources/ecfr-title-19.md)
+[7] [NPRM — Low-Value Shipments (FR 2026-20650)](/sources/nprm-low-value-shipments.md)

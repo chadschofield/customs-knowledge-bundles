@@ -16,6 +16,32 @@ bulletin.
 
 # Watch List
 
+## 2026-10-22 → 2027-01-20 — Postal compliance cliff extended; ET13 PGA data optional; permanent regime proposed
+
+Three Federal Register actions that never appeared in CSMS (caught by the
+new Federal Register poll, 2026-11-04):
+
+- **Compliance date extended** ([91 FR 66638](/sources/rule-postal-compliance-extension.md),
+  2026-10-22): mail subject to PGA requirements or Ch. 98/99 duties, or
+  claiming Ch. 98/FTA duty-free treatment, can stay on the IMDW until
+  **2027-01-20** (was 2026-10-22).
+- **ET13 accepts incomplete PGA data** ([91 FR 66707](/sources/notice-entry-type-13-modification.md),
+  effective 2026-10-22). This is temporary, and its end will be announced
+  in the Federal Register.
+- **Low-Value Shipments NPRM** ([91 FR 64532](/sources/nprm-low-value-shipments.md),
+  2026-10-08): the permanent regime. It covers electronic, bonded ET11; ET13
+  replacing the IMDW; Ch. 99 goods informally enterable up to $2,500;
+  blanket formal-entry authority; S10 tracking number on manifests;
+  15-day abandonment of unentered mail; and $1,000 minimum bond damages.
+  **Comments close 2026-12-07.**
+
+Reflected in [Postal Informal Entry](/entry/postal-informal-entry-imdw.md),
+[De Minimis Suspension](/entry/de-minimis-suspension.md),
+[Entry Type 13 Test](/entry/entry-type-13-test.md) and
+[Customs Bonds](/entry/bonds.md). Status: **absorbed**. Watch the 12-07
+comment deadline, the final rule, the notice ending the PGA allowance, and
+any further extension before 2027-01-20.
+
 ## 2026-10-26 — Bond conditions gain an outbound-data clause (CBP Dec. 26-15)
 
 The rail export manifest final rule (91 FR 55224 / 55227, published
