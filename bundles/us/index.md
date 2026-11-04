@@ -53,7 +53,7 @@ Register before relying on them.
 
 # Enforcement
 
-* [EO 14411 Customs Enforcement Overhaul](enforcement/eo-14411-enforcement.md) - Foreign-IOR restrictions, penalty floors, disclosure mandates, and implementation deadlines.
+* [EO 14411 Customs Enforcement Overhaul](enforcement/eo-14411-enforcement.md) - Foreign-IOR restrictions, penalty floors, disclosure mandates, deadlines, and implementation so far (IOR-data voiding, supply-chain ANPRM).
 * [Forced Labor Enforcement](enforcement/forced-labor.md) - 19 U.S.C. 1307, UFLPA, CAATSA, Withhold Release Orders, and CBP's 2026 operational guidance.
 
 # Regulations

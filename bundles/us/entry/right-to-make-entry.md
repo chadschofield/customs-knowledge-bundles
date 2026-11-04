@@ -3,7 +3,7 @@ type: Reference
 title: Right to Make Entry
 description: Only the owner, purchaser, or a licensed customs broker may file entry (19 U.S.C. 1484) — nominal consignees must appoint brokers, and foreign IORs face new restrictions.
 tags: [right-to-make-entry, importer-of-record, broker, section-484]
-timestamp: 2026-07-18T20:15:00Z
+timestamp: 2026-11-04T21:00:00Z
 ---
 
 Section 484 of the Tariff Act (19 U.S.C. 1484) restricts who may make entry:
@@ -59,6 +59,15 @@ Dormant-account sellers should reactivate **before** a shipment is in motion
 to avoid release delays — with automation live, any account quiet for a year
 should be presumed inactive until checked.
 
+**Voiding for inaccurate data (from 2026-09-18).** Separate from dormancy,
+CBP now **voids** IOR numbers whose 5106 data is inaccurate. A void, unlike
+an inactive status, makes the number unusable for anything. The IOR's
+address, email, phone and EIN must be its own. A broker filing the 5106
+needs a POA executed directly with the IOR, not one obtained through a
+forwarder. Reestablishment goes through IORProgram@cbp.dhs.gov
+([91 FR 53627](/sources/notice-ior-data-accuracy.md); detail in
+[EO 14411](/enforcement/eo-14411-enforcement.md)).
+
 # Citations
 
 [1] [Customs Directive 3530-002A — Right to Make Entry](/sources/customs-directive-3530-002a.md)
@@ -66,3 +75,4 @@ should be presumed inactive until checked.
 [3] [EO 14411 — Strengthening Customs Enforcement](/sources/eo-14411.md)
 [4] [CSMS # 69056621 — reactivating a deactivated IOR in ACE](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/41db86d)
 [5] [CSMS # 69241265 — "Inactive for Entry Purposes" status live 2026-07-16](https://content.govdelivery.com/accounts/USDHSCBP/bulletins/42089b1)
+[6] [Notice — Accuracy of IOR data submitted to CBP (FR 2026-16911)](/sources/notice-ior-data-accuracy.md)

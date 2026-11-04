@@ -15,6 +15,8 @@ live in git history and [source-state.json](source-state.json).
 * [General Notice — Entry Type 13 Test Modification](notice-entry-type-13-modification.md) - FR Doc 2026-21570 (91 FR 66707), effective 2026-10-22: ET13 accepts filings without complete PGA data, temporarily.
 * [Final Rule — Postal Compliance Date Extension](rule-postal-compliance-extension.md) - FR Doc 2026-21600 (91 FR 66638), 2026-10-22: PGA / Ch. 98-99 / FTA mail formal-entry compliance moved to 2027-01-20.
 * [NPRM — Low-Value Shipments](nprm-low-value-shipments.md) - FR Doc 2026-20650 (91 FR 64532), 2026-10-08: proposed permanent electronic, bonded informal-entry regime for ET11 and mail; comments close 2026-12-07.
+* [Notice — Accuracy of IOR Data](notice-ior-data-accuracy.md) - FR Doc 2026-16911 (91 FR 53627), 2026-08-19: EO 14411 — IOR numbers with inaccurate 5106 data voided from 2026-09-18.
+* [ANPRM — Heightened Import Disclosures for Supply Chain Visibility](anprm-supply-chain-visibility.md) - FR Doc 2026-17926 (91 FR 56408), 2026-09-02: EO 14411 §3 — foreign export documents, MID/GBI party identity, tracing; comments close 2026-12-01.
 
 # CBP Operational Guidance
 

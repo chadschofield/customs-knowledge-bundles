@@ -16,6 +16,31 @@ bulletin.
 
 # Watch List
 
+## 2026-09-18 → 12-01 → 11-30 — EO 14411 implementation: IOR voiding live, disclosure ANPRM open, foreign-IOR rule pending
+
+Caught by the Federal Register backfill. Neither item appeared in CSMS:
+
+- **IOR numbers voided for inaccurate 5106 data, from 2026-09-18**
+  ([91 FR 53627](/sources/notice-ior-data-accuracy.md)). The address,
+  email, phone and EIN must be the IOR's own, and brokers need a POA
+  executed directly with the IOR. CBP is reviewing every IOR record on
+  file.
+- **Supply-chain disclosure ANPRM, comments close 2026-12-01**
+  ([91 FR 56408](/sources/anprm-supply-chain-visibility.md)). It covers
+  foreign export documentation, replacing the MID or mandating GBIs,
+  foreign tax IDs, marketplace and final-delivery-party identification,
+  and earlier entry filing.
+- **Still pending:** the EO's **2026-11-30** deadline to bar foreign IORs
+  from informal entry, require CTPAT or a CTPAT broker, and set
+  asset/bonding minimums. No implementing document had appeared as of
+  2026-11-04.
+
+Reflected in [EO 14411](/enforcement/eo-14411-enforcement.md),
+[Right to Make Entry](/entry/right-to-make-entry.md) and
+[5106 / MID](/ace-filing/importer-manufacturer-ids.md). Status: **watch**.
+Watch for the foreign-IOR rule around 11-30, the ANPRM's follow-on NPRM,
+and any voiding-related CSMS.
+
 ## 2026-10-22 → 2027-01-20 — Postal compliance cliff extended; ET13 PGA data optional; permanent regime proposed
 
 Three Federal Register actions that never appeared in CSMS (caught by the
@@ -71,7 +96,7 @@ importations from **2026-10-01**, as carried in Entry Summary CATAIR rev 110
 (CSMS # 69915041): informal MPF (automated) **$2.77**, formal MPF
 **$34.58–$670.86**, **Dutiable Mail Fee $7.61**, and manual surcharge $4.15.
 The broker permit user fee goes from $185.38 to **$190.88**
-(CSMS # 69847323). Reflected in
+(CSMS # 69847323), payable for 2027 by **2027-01-29** (91 FR 67594). Reflected in
 [Entry Summary Filing](/ace-filing/entry-summary-filing.md). Status:
 **absorbed**. The new amounts are live from 2026-10-01, and ES CATAIR with them is in Current Capabilities (CSMS # 70086122). The FY28 adjustment will land around 2027-07/08.
 

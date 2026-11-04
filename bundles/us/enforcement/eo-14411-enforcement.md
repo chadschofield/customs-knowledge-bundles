@@ -3,7 +3,7 @@ type: Regulatory Change
 title: EO 14411 — Customs Enforcement Overhaul
 description: Executive Order 14411 (signed 2026-06-03) tightens importer-of-record eligibility, bars foreign IORs from informal entry, sets a 50% penalty floor, and mandates supply-chain disclosure on a 45/90/180-day clock.
 tags: [enforcement, eo-14411, importer-of-record, penalties, ctpat, regulatory-change]
-timestamp: 2026-07-03T19:00:00Z
+timestamp: 2026-11-04T21:00:00Z
 ---
 
 **Executive Order 14411 — "Strengthening Customs Enforcement"** (signed
@@ -40,6 +40,40 @@ arrives via rulemakings to watch for.
 - **"Good standing" rule**: importers found to have imported fentanyl,
   nitazenes, or precursor chemicals are barred from importing.
 
+# Implementation So Far (as of 2026-11-04)
+
+The deadlines above are directives to the agencies, not self-executing
+rules. What has reached the Federal Register:
+
+- **IOR data accuracy (live 2026-09-18).** CBP voids any IOR number whose
+  CBP Form 5106 data is inaccurate or incomplete, and is reviewing all
+  records on file. The address, email, phone and EIN must be the IOR's own:
+  no broker, forwarder, registered-agent or P.O. box addresses, and no
+  broker contact details standing in for the IOR. Brokers need a POA signed
+  **directly** with the IOR. Exposure includes 18 U.S.C. 1001, the False
+  Claims Act, and broker penalties
+  ([91 FR 53627](/sources/notice-ior-data-accuracy.md)). For parcel models
+  this hits a common shortcut: a broker that creates IOR records for
+  foreign sellers using its own address or contact details.
+- **Supply-chain disclosure ANPRM (comments close 2026-12-01).** This is the
+  §3 track (the 90-day disclosure items below). It covers foreign export
+  documentation, replacing the MID with full party identity or mandatory
+  Global Business Identifiers, foreign tax IDs, identifying the online
+  marketplace and final delivery party, earlier entry filing, and tracing
+  technology ([91 FR 56408](/sources/anprm-supply-chain-visibility.md)).
+  Entry Summary CATAIR [rev 111](/sources/catair-entry-summary-ae-ax-rev-111.md)
+  already carries Final Delivered To Party records (for ET13), and rev 109
+  added the Altana GBI qualifier, so the data plumbing is partly in place.
+- **Low-value entry.** The
+  [Low-Value Shipments NPRM](/sources/nprm-low-value-shipments.md) would
+  require bonds for informal entries and give CBP blanket authority to
+  require formal entry by IOR, manufacturer or category, in line with the
+  §2 IOR-vetting goals.
+- **Not yet seen:** a rule barring **foreign IORs from informal entry** by
+  the **2026-11-30** deadline, a penalty-floor rule, or a CTPAT mandate. No
+  Federal Register document had appeared by 2026-11-04. The weekly Federal
+  Register poll should catch one when it lands.
+
 # Already in Effect
 
 - **IOR deactivation (2026):** CBP deactivates dormant IOR numbers, and since
@@ -67,3 +101,6 @@ arrives via rulemakings to watch for.
 
 [1] [EO 14411 — Strengthening Customs Enforcement (FR 2026-11595)](/sources/eo-14411.md)
 [2] [IFR — non-postal de minimis suspension (no new data elements)](/sources/ifr-non-postal-de-minimis.md)
+[3] [Notice — Accuracy of IOR data submitted to CBP (FR 2026-16911)](/sources/notice-ior-data-accuracy.md)
+[4] [ANPRM — Heightened Import Disclosures for Supply Chain Visibility (FR 2026-17926)](/sources/anprm-supply-chain-visibility.md)
+[5] [NPRM — Low-Value Shipments (FR 2026-20650)](/sources/nprm-low-value-shipments.md)
