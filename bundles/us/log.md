@@ -1,5 +1,9 @@
 # US Bundle Update Log
 
+## 2026-11-09
+
+* **Update**: Auto-refreshed the eCFR Title 19 XML to point-in-time 2026-11-05 (latest amendment 2026-10-29).
+
 ## 2026-11-04
 
 * **Correction**: The bundle still said the postal formal-entry compliance cliff was **2026-10-22**. CBP extended it to **2027-01-20** that same day ([91 FR 66638](/sources/rule-postal-compliance-extension.md)) and simultaneously made complete PGA data optional on ET13 filings ([91 FR 66707](/sources/notice-entry-type-13-modification.md)). Neither was announced in CSMS, so the triage feed missed both. The fix is in [Postal Informal Entry](/entry/postal-informal-entry-imdw.md), [De Minimis Suspension](/entry/de-minimis-suspension.md), [Entry Type 13](/entry/entry-type-13-test.md), and the IFR and ET13 notice stubs.
