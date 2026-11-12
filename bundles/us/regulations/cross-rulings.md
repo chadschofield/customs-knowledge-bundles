@@ -4,7 +4,7 @@ title: CROSS — Customs Rulings
 description: CBP's database of binding ruling letters (classification, valuation, origin) — legal force, the JSON search API, search strategy, and the citation convention this bundle enforces.
 resource: https://rulings.cbp.gov/
 tags: [rulings, cross, classification, valuation, origin, precedent]
-timestamp: 2026-07-03T21:00:00Z
+timestamp: 2026-11-12T17:00:00Z
 ---
 
 **CROSS** (Customs Rulings Online Search System, [rulings.cbp.gov](https://rulings.cbp.gov/))
@@ -34,23 +34,39 @@ often the fastest authoritative resolution.
 | **NY** (e.g. N360170) | National Commodity Specialist Division, New York | Prospective classification, origin, marking — the everyday workhorse; requested via [eRulings](https://erulings.cbp.gov/), ~30-day turnaround |
 | **HQ** (e.g. H336180) | Regulations & Rulings, Headquarters | Valuation, carrier matters, complex/policy questions, internal advice, protest further review, and the modification/revocation of earlier rulings |
 
-# The API (verified 2026-07-03, undocumented — may change)
+# The API (undocumented — may change; access re-verified 2026-11-12)
 
-| Endpoint | Returns |
-|----------|---------|
-| `https://rulings.cbp.gov/api/search?term=<urlencoded>&collection=ALL&pageSize=30&page=1&sortBy=DATE_DESC` | `{rulings: […], totalHits: N}` — each record: `rulingNumber`, `subject`, `categories`, `rulingDate`, `collection` (ny/hq), `tariffs`, `relatedRulings`, `modifies`/`modifiedBy`, `revokes`/`revokedBy`, `operationallyRevoked` |
-| `https://rulings.cbp.gov/api/ruling/<number>` | The full ruling: same metadata plus `text` |
-| `https://rulings.cbp.gov/ruling/<number>` | Human-readable UI page — **the citation link form** |
+| Endpoint | Anonymous access (as of 2026-11-12) | Returns |
+|----------|-------------------------------------|---------|
+| `https://rulings.cbp.gov/api/search?term=<urlencoded>&collection=ALL&pageSize=30&page=1&sortBy=DATE_DESC` | **Gated** — HTTP 403 `Security parameters are missing from this request context.` | `{rulings: […], totalHits: N}` — each record: `rulingNumber`, `subject`, `categories`, `rulingDate`, `collection` (ny/hq), `tariffs`, `relatedRulings`, `modifies`/`modifiedBy`, `revokes`/`revokedBy`, `operationallyRevoked` |
+| `https://rulings.cbp.gov/api/ruling/<number>` | Open (404 if no such ruling) | The full ruling: same metadata plus `text` and a short-lived PDF `url`; the link fields (`revokes`, `revokedBy`, `modifies`, `modifiedBy`, `relatedRulings`) come back null |
+| `https://rulings.cbp.gov/ruling/<number>` | Open | Human-readable UI page — **the citation link form** |
 
-`collection` accepts `ALL`, `NY`, `HQ`. Quote multi-word terms
-(`term=%22de%20minimis%22`) for phrase search.
+**Search requires reCAPTCHA (since 2026-11-12).** The web UI loads
+`/api/app-config`, which now carries a Google reCAPTCHA `siteKey`, and the
+search page's own API calls succeed while direct calls get the 403 above.
+Search is therefore usable only through the
+[web UI](https://rulings.cbp.gov/search) in a browser; scripts and agents
+should not try to obtain or replay reCAPTCHA tokens. Single-ruling lookups
+still work without a token.
 
-**API quirk that matters:** revocation links are only populated in the
-*forward* direction — the revoking ruling lists its targets in `revokes`,
-while the revoked ruling's own `revokedBy` stays empty. To test whether a
-ruling is still good law, search its number as a quoted term and scan the
-*other* results for one that `revokes` or `modifies` it (a revoking ruling
-always cites its target). `scripts/check_rulings.py` implements exactly this.
+In the UI's search, `collection` accepts `ALL`, `NY`, `HQ`. Quote
+multi-word terms (`"de minimis"`) for phrase search.
+
+**Revocation status needs search.** The single-ruling endpoint's link fields
+are null even for revoked rulings — e.g. NY N334409 comes back with no
+`revokedBy`, though HQ H336180 revokes it (both left unlinked here on
+purpose, since N334409 is not good law) — and in search results links were only ever populated in the
+*forward* direction (the revoking ruling lists its targets in `revokes`). To
+test whether a ruling is still good law, search its number as a quoted term
+in the web UI and check the *other* results for one that revokes or modifies
+it (a revoking ruling always cites its target).
+
+`scripts/check_rulings.py` tries the search API first and does that reverse
+scan automatically if search answers. On a 403 it falls back to the
+single-ruling endpoint: a missing ruling is still an ERROR, but an existing
+one is reported as a WARN ("revocation status unverified") with a search
+link to check by hand.
 
 # Search Strategy
 
@@ -73,7 +89,8 @@ Cite rulings in concepts as links using the UI form:
 sentence stating what the ruling held. That exact URL pattern is what
 `scripts/check_rulings.py` scans — the weekly `update-sources` workflow
 re-verifies every cited ruling against CROSS and **fails on revoked or
-missing rulings** and warns on modified ones. Bare ruling numbers in prose
+missing rulings** and warns on modified ones (while search is gated, it can
+only confirm existence and warns on every found ruling — see above). Bare ruling numbers in prose
 are not scanned; use the link form.
 
 Archive a ruling as a bundle source (stub + file) only when it governs a
