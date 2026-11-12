@@ -1,9 +1,9 @@
 ---
 type: Reference
 title: CROSS — Customs Rulings
-description: CBP's database of binding ruling letters (classification, valuation, origin) — legal force, the JSON search API, search strategy, and the citation convention this bundle enforces.
+description: CBP's database of binding ruling letters (classification, valuation, origin) — legal force, the CROSS API and its reCAPTCHA-gated search, the AMCROSS mirror for programmatic search, search strategy, and the citation convention this bundle enforces.
 resource: https://rulings.cbp.gov/
-tags: [rulings, cross, classification, valuation, origin, precedent]
+tags: [rulings, cross, amcross, classification, valuation, origin, precedent]
 timestamp: 2026-11-12T17:00:00Z
 ---
 
@@ -34,7 +34,7 @@ often the fastest authoritative resolution.
 | **NY** (e.g. N360170) | National Commodity Specialist Division, New York | Prospective classification, origin, marking — the everyday workhorse; requested via [eRulings](https://erulings.cbp.gov/), ~30-day turnaround |
 | **HQ** (e.g. H336180) | Regulations & Rulings, Headquarters | Valuation, carrier matters, complex/policy questions, internal advice, protest further review, and the modification/revocation of earlier rulings |
 
-# The API (undocumented — may change; access re-verified 2026-11-12)
+# The CBP API (undocumented — may change; access re-verified 2026-11-12)
 
 | Endpoint | Anonymous access (as of 2026-11-12) | Returns |
 |----------|-------------------------------------|---------|
@@ -45,39 +45,71 @@ often the fastest authoritative resolution.
 **Search requires reCAPTCHA (since 2026-11-12).** The web UI loads
 `/api/app-config`, which now carries a Google reCAPTCHA `siteKey`, and the
 search page's own API calls succeed while direct calls get the 403 above.
-Search is therefore usable only through the
-[web UI](https://rulings.cbp.gov/search) in a browser; scripts and agents
-should not try to obtain or replay reCAPTCHA tokens. Single-ruling lookups
-still work without a token.
+Scripts and agents should not try to obtain or replay reCAPTCHA tokens:
+search programmatically through AMCROSS (next section)
+instead, or use the [CROSS web UI](https://rulings.cbp.gov/search) in a
+browser. Single-ruling lookups still work without a token, so CROSS stays
+the place to confirm a ruling exists and to read the authoritative text.
 
-In the UI's search, `collection` accepts `ALL`, `NY`, `HQ`. Quote
-multi-word terms (`"de minimis"`) for phrase search.
+# AMCROSS — Searchable Mirror
 
-**Revocation status needs search.** The single-ruling endpoint's link fields
-are null even for revoked rulings — e.g. NY N334409 comes back with no
-`revokedBy`, though HQ H336180 revokes it (both left unlinked here on
-purpose, since N334409 is not good law) — and in search results links were only ever populated in the
-*forward* direction (the revoking ruling lists its targets in `revokes`). To
-test whether a ruling is still good law, search its number as a quoted term
-in the web UI and check the *other* results for one that revokes or modifies
-it (a revoking ruling always cites its target).
+[AMCROSS](https://amcross.us/) is a search service over the same NY and HQ
+ruling letters, built and operated by MetaPhase — **not a CBP or DHS
+system**. It reloads from CROSS regularly, reproduces ruling text verbatim
+under `text`, and publishes a documented, keyless JSON API
+([OpenAPI](https://amcross.us/openapi.yaml)):
 
-`scripts/check_rulings.py` tries the search API first and does that reverse
-scan automatically if search answers. On a 403 it falls back to the
-single-ruling endpoint: a missing ruling is still an ERROR, but an existing
-one is reported as a WARN ("revocation status unverified") with a search
-link to check by hand.
+| Endpoint (`https://amcross.us/api/v1/…`) | Returns |
+|------------------------------------------|---------|
+| `search?q=<text>&sort=date_desc` | `{total, results: […]}` — each result: `rulingNumber`, `collection`, `subject`, `category`, `rulingDate`, `status`, `htsCodes`, `sourceUrl`. Filters: `collection` (`ny`/`hq`), `hts-chapter`, `hts-heading`, `hts-code`, `country`, `authority` (e.g. `19 CFR 102.11`), `status`, `program`, `date-from`/`date-to`; `page`, `limit` (≤100) |
+| `rulings/<number>` | One ruling: metadata, `htsCodes`, cited `authorities`, its own outbound `relationships`, `text`, and `source` (the CROSS URL it came from) |
+| `rulings/<number>/related` | The relationship graph two hops out: `nodes` and `edges` (`from`, `to`, `kind` = `references`/`modifies`/`modified_by`/`revokes`/`revoked_by`, `depth`) |
+| `stats` | `rulingCount`, `cbpReportedCount`, `reconciled`, `mostRecentRulingDate`, `lastIngestedAt` |
+| `export?…`, `bulk` | Any search as CSV/JSON/XLSX; whole-dataset JSON Lines/CSV |
+
+`q` takes ruling numbers, HTS codes, citations, quoted phrases, and Boolean
+in capitals (`OR`, `AND NOT`, leading `-`). Requests are rate-limited per
+address — pace scripted calls and back off on HTTP 429.
+
+**Use it with these checks:**
+
+- **Revocation status lives in `/related`, not on the ruling.** As in CROSS,
+  relationships are recorded on the revoking ruling: NY N334409's own
+  AMCROSS record shows `status: active` and no relationships, while its
+  `/related` graph has the edge `H336180 → N334409 revokes` (both left
+  unlinked here on purpose, since N334409 is not good law). Look for
+  `revokes`/`modifies` edges whose `to` is the ruling.
+- **Edges are only as complete as CBP's metadata.** H336180's subject line
+  says it revokes NY 817807, but the published edge is only `references`.
+  Read the subject and text of any ruling that points at yours.
+- **Check freshness.** `stats` reports whether AMCROSS's count matches what
+  CBP publishes; on 2026-11-12 it held 222,339 rulings against CBP's 222,344
+  (`reconciled: false`). A ruling missing from AMCROSS may still exist in
+  CROSS.
+- **Confirm in CROSS and cite CROSS.** Before relying on a ruling found
+  through AMCROSS, open it at `rulings.cbp.gov/ruling/<number>`, and cite
+  that link (see below) — not the AMCROSS page.
+- **Ignore generated text.** AMCROSS shows labelled AI overviews and
+  "insights"; only the ruling's `text` is CBP's.
+
+`scripts/check_rulings.py` combines the two: CROSS's single-ruling endpoint
+for existence (a missing ruling is an ERROR), AMCROSS's `/related` graph for
+revocations (ERROR) and modifications (WARN). A ruling AMCROSS does not hold,
+or a run where AMCROSS is unreachable, is a WARN ("revocation status
+unverified") with a CROSS search link to check by hand.
 
 # Search Strategy
 
-- Combine a product term with an HTS heading (`"lithium battery" 8507`) to
-  cut noise; the `tariffs` field confirms what a ruling actually classified.
+- Combine a product term with an HTS filter (AMCROSS:
+  `q="lithium battery"&hts-heading=8507`) to cut noise; `htsCodes`
+  (`tariffs` in CROSS) confirms what a ruling actually classified.
 - Beware term collisions: "de minimis" in CROSS usually means the **textile
   rules-of-origin tolerance** (19 CFR 102.21) or minor-ingredient doctrines —
   not the Section 321 $800 exemption covered in
   [De Minimis Suspension](/entry/de-minimis-suspension.md).
-- Before relying on any ruling, confirm validity (see the quirk above) and
-  check `modifies`/`relatedRulings` for the fuller precedent chain.
+- Before relying on any ruling, confirm validity through AMCROSS's
+  `/related` graph (see the checks above), which also gives the fuller
+  precedent chain.
 - For valuation fact patterns, start with the
   [Valuation Encyclopedia](/valuation/customs-valuation.md), which digests
   rulings by topic, then pull the current text from CROSS.
@@ -88,10 +120,9 @@ Cite rulings in concepts as links using the UI form:
 `[N-number or H-number](https://rulings.cbp.gov/ruling/<number>)` inside a
 sentence stating what the ruling held. That exact URL pattern is what
 `scripts/check_rulings.py` scans — the weekly `update-sources` workflow
-re-verifies every cited ruling against CROSS and **fails on revoked or
-missing rulings** and warns on modified ones (while search is gated, it can
-only confirm existence and warns on every found ruling — see above). Bare ruling numbers in prose
-are not scanned; use the link form.
+re-verifies every cited ruling against CROSS and AMCROSS and **fails on
+revoked or missing rulings** and warns on modified or unverified ones. Bare
+ruling numbers in prose are not scanned; use the link form.
 
 Archive a ruling as a bundle source (stub + file) only when it governs a
 recurring BoxC fact pattern; otherwise cite by link — CROSS is the system of
@@ -102,3 +133,4 @@ record.
 [1] [CROSS](https://rulings.cbp.gov/)
 [2] [19 CFR Part 177 — in the local Title 19 copy](/regulations/cfr-title-19.md)
 [3] [CBP Valuation Encyclopedia](/sources/valuation-encyclopedia.md)
+[4] [AMCROSS](https://amcross.us/) — MetaPhase's mirror of CROSS; API documented at [amcross.us/api](https://amcross.us/api)

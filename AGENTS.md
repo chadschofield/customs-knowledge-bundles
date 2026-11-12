@@ -54,9 +54,11 @@ GitHub issues.
      prefix.
 4. **For binding-ruling questions** (classification, valuation, origin),
    read `bundles/us/regulations/cross-rulings.md` first — it documents CBP's
-   CROSS rulings JSON API, how to confirm a ruling is still good law (the
-   revocation metadata is only populated on the *revoking* ruling — the
-   concept explains the reverse lookup), and known search pitfalls.
+   CROSS rulings API (search is reCAPTCHA-gated; single-ruling lookups are
+   open), the AMCROSS mirror's API for programmatic search, how to confirm a
+   ruling is still good law (the revocation metadata is only recorded on the
+   *revoking* ruling — the concept explains the lookup), and known search
+   pitfalls.
 5. **Time-check everything volatile.** Compare concept `timestamp`s and
    in-text "as of" dates to today; check `bundles/us/log.md` for the last
    refreshes and `bundles/us/sources/source-state.json` for exact source
