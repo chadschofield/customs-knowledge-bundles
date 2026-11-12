@@ -24,4 +24,5 @@ voluntary carrier manifest tracking-number element; bond requirement
 **Local file:** [files/notice-entry-type-13-fr-2026-12668.pdf](files/notice-entry-type-13-fr-2026-12668.pdf)
 
 **Distilled into:** [Entry Type 13 Test](/entry/entry-type-13-test.md),
-[Right to Make Entry](/entry/right-to-make-entry.md)
+[Right to Make Entry](/entry/right-to-make-entry.md),
+[Postal Returns, Refunds & Drawback](/entry/postal-returns-refunds-drawback.md)

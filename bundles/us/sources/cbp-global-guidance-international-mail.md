@@ -23,4 +23,5 @@ bond and payment requirements, and deadlines.
   the **official International Mail Duty Worksheet (IMDW) template** filers
   complete and email to CBPDM@cbp.dhs.gov monthly.
 
-**Distilled into:** [Postal Informal Entry (IMDW)](/entry/postal-informal-entry-imdw.md)
+**Distilled into:** [Postal Informal Entry (IMDW)](/entry/postal-informal-entry-imdw.md),
+[Postal Returns, Refunds & Drawback](/entry/postal-returns-refunds-drawback.md)

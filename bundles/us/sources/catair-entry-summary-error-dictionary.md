@@ -31,4 +31,5 @@ revises it frequently; the 2026 run of changes tracked through CSMS:
 
 Pending at the time of writing: **886 – HTS PROHIBITED FOR CO**, announced for the 2026-09-29 Canada import exclusion (CSMS # 70050970) and not yet in v54.
 
-**Distilled into:** [Entry Summary Filing (AE/AX)](/ace-filing/entry-summary-filing.md), [Entry Type 13 Test](/entry/entry-type-13-test.md)
+**Distilled into:** [Entry Summary Filing (AE/AX)](/ace-filing/entry-summary-filing.md), [Entry Type 13 Test](/entry/entry-type-13-test.md),
+[Postal Returns, Refunds & Drawback](/entry/postal-returns-refunds-drawback.md)

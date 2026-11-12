@@ -27,4 +27,5 @@ and the [bundle log](/log.md) are maintained by `scripts/update_sources.py`
 
 **Local file:** [files/ecfr-title-19.xml](files/ecfr-title-19.xml)
 
-**Distilled into:** [19 CFR — Customs Duties](/regulations/cfr-title-19.md)
+**Distilled into:** [19 CFR — Customs Duties](/regulations/cfr-title-19.md),
+[Postal Returns, Refunds & Drawback](/entry/postal-returns-refunds-drawback.md)

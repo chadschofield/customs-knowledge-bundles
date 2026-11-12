@@ -3,7 +3,7 @@ type: Process
 title: Entry Type 13 Test (Informal Mail Entry in ACE)
 description: Voluntary CBP test, live in ACE since 2026-09-22, of electronic informal entry for international mail — 12 data elements, PGA and Chapter 98/99 waivers, broker-as-IOR model, production record/error specs.
 tags: [postal, mail, et13, ace, informal-entry, test-program]
-timestamp: 2026-11-04T21:00:00Z
+timestamp: 2026-11-12T17:00:00Z
 ---
 
 CBP is testing **Entry Type 13 — Informal Mail Entry**, an electronic informal
@@ -132,7 +132,9 @@ What a filer has to get right:
   (FY27; see [Entry Summary Filing](/ace-filing/entry-summary-filing.md)).
 - **No post-summary corrections:** B49 now reads "PSC NOT ALLOWED – CANNOT BE
   INFORMAL/MAIL" and covers entry types 11, 12 and 13. Fix errors before
-  the summary is accepted.
+  the summary is accepted. This also leaves no published way to back out
+  the duty on a parcel refused after entry — see
+  [Postal Returns, Refunds & Drawback](/entry/postal-returns-refunds-drawback.md).
 - **Cargo release condition codes:** 334 added, 325 removed for ET13, and
   from **2026-10-15** error **336 – INVOICE/MERCH DESC REQUIRED FOR ET13**,
   which requires the commercial invoice description in the SE40 record

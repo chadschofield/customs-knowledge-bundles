@@ -1,5 +1,9 @@
 # US Bundle Update Log
 
+## 2026-11-12
+
+* **Addition**: An agent asked about duty drawback for postal and Type 13 entries found nothing. The regulations were in the eCFR copy, but no concept covered returns. New concept [Postal Returns, Refunds & Drawback](/entry/postal-returns-refunds-drawback.md) distills the custody line (19 U.S.C. 1558, § 158.45), undeliverable mail (§§ 145.5, 145.71), and Part 190 drawback (rejected, returned retail, and unused merchandise; proof of export by mail, § 190.74). It flags that no published procedure covers cancelling a broker-filed IMDW or ET13 entry for a parcel refused before delivery. [19 CFR](/regulations/cfr-title-19.md) gains Parts 158 and 190 in its table, and the IMDW and ET13 concepts link to the new page. Note: the CROSS search API now requires a reCAPTCHA token on every request ("Security parameters are missing"), so rulings precedent was not checked. The single-ruling endpoint still answers without one.
+
 ## 2026-11-09
 
 * **Update**: Auto-refreshed the eCFR Title 19 XML to point-in-time 2026-11-05 (latest amendment 2026-10-29).

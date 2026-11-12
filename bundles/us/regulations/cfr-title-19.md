@@ -4,7 +4,7 @@ title: 19 CFR — Customs Duties
 description: Title 19 of the Code of Federal Regulations — structure, the parts that matter for parcel logistics, and the bundle's full-text XML copy refreshed from the eCFR API.
 resource: https://www.ecfr.gov/current/title-19
 tags: [regulations, cfr, ecfr, title-19]
-timestamp: 2026-07-03T19:00:00Z
+timestamp: 2026-11-12T17:00:00Z
 ---
 
 **Title 19 CFR ("Customs Duties")** contains the implementing regulations for
@@ -36,12 +36,14 @@ covering the twin de minimis IFRs; auto-refreshed weekly).
 | 128 | Express consignments | Courier hub clearance |
 | 141–142 | Entry of merchandise / entry process | Entry, release, § 141.68 time-of-entry |
 | 143 | Special entry procedures (incl. ABI) | Subpart C informal entry; § 143.23(j)(3) manifest release (now unavailable for low-value) |
-| 145 | **Mail importations** | § 145.12 formal-entry triggers, new § 145.15 bond, § 145.31 de minimis suspension — see [Postal Informal Entry](/entry/postal-informal-entry-imdw.md) |
+| 145 | **Mail importations** | § 145.12 formal-entry triggers, new § 145.15 bond, § 145.31 de minimis suspension — see [Postal Informal Entry](/entry/postal-informal-entry-imdw.md); § 145.5 undeliverable mail, § 145.71 export from continuous custody — see [Postal Returns, Refunds & Drawback](/entry/postal-returns-refunds-drawback.md) |
 | 146 | Foreign trade zones | FTZ operations |
 | 152 | Classification & appraisement | [Customs Valuation](/valuation/customs-valuation.md) |
+| 158 | Relief from duties (lost, damaged, abandoned, exported) | § 158.45: duty refund on export from custody vs drawback after release — see [Postal Returns, Refunds & Drawback](/entry/postal-returns-refunds-drawback.md) |
 | 159 | Liquidation | Final duty determination |
 | 163 | Recordkeeping | (a)(1)(A) list, 5-year retention |
 | 165 | EAPA investigations | Evasion allegations |
+| 190 | Modernized drawback | Rejected/returned retail/unused merchandise drawback, proof of export by mail (§ 190.74); Part 191 is the legacy regime, closed to claims since 2019-02-23 |
 
 # Local Copy & How to Refresh
 

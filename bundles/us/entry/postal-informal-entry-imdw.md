@@ -3,7 +3,7 @@ type: Process
 title: Postal Informal Entry (IMDW)
 description: The mandatory postal informal entry process effective 2026-07-24 — broker-filed 14-field International Mail Duty Worksheet, bonds, monthly email filing, and Pay.gov payment.
 tags: [postal, mail, imdw, informal-entry, process]
-timestamp: 2026-11-04T21:00:00Z
+timestamp: 2026-11-12T17:00:00Z
 ---
 
 From **2026-07-24**, international mail shipments valued at **$2,500 or less**
@@ -82,6 +82,10 @@ CBP may require formal entry of **any** mail shipment regardless of value.
   i.e. when properly transmitted to CBP (19 U.S.C. 1315(a)(1); 19 CFR
   141.68(h)) — significant while tariff schedules are in flux
   ([Tariff Actions](/tariff/tariff-actions-2025-2026.md)).
+- **Refused or returned parcels**: mail returned abroad from custody owes no
+  duty; after release, recovery is by drawback. How to cancel an IMDW line
+  for a parcel refused after filing is not published — see
+  [Postal Returns, Refunds & Drawback](/entry/postal-returns-refunds-drawback.md).
 
 # Citations
 
